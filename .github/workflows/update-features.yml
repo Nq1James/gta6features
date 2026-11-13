@@ -1,0 +1,35 @@
+name: GTA VI Living Feature Research
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: gta6-feature-research
+  cancel-in-progress: false
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Search sources and classify topic updates
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: gpt-4.1-mini
+        run: python scripts/update_features.py
+      - name: Publish researched updates
+        run: |
+          git add feature-updates.json
+          if git diff --cached --quiet; then
+            echo "No feature research changes"
+            exit 0
+          fi
+          git config user.name "LEONIDA Research Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh GTA VI feature research and source links"
+          git pull --rebase
+          git push
