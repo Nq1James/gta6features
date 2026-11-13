@@ -1,0 +1,25 @@
+{
+  "id": "/gta6features/",
+  "name": "LEONIDA / FILES — GTA VI Fan Guide",
+  "short_name": "LEONIDA FILES",
+  "description": "Explore the world, regions, images, news and feature guides for GTA VI. An independent fan project by Anton James.",
+  "start_url": "/gta6features/",
+  "scope": "/gta6features/",
+  "display": "standalone",
+  "background_color": "#090c17",
+  "theme_color": "#090c17",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": [
+    "entertainment",
+    "games"
+  ],
+  "lang": "en"
+}
