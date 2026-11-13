@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13 04:13 UTC",
+  "updated": "2026-11-13 04:19 UTC",
   "articles": [
     {
       "title": "Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19 - XBOX Wire",
@@ -74,12 +74,6 @@
       "published": "2026-11-11"
     },
     {
-      "title": "GTA 6 Guardian Interview Reveals New Gameplay Details - VICE",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUTRiQ0lGM2pyN09yNjJxOFpyR2tMWHV3dGhLbHlHZkc5elplMXN3WElNTGRUWUxlaG5SMmJ3c3M3Q2RnQ1owOE9VX05sTzZHak1ZdlpUdnc4YVJSdkcwbktHYkNkV3pEMEg2bzN6Q1JQNE9OaHZKWmFkOXZPanlYRzVUbU84VUNIcU5V?oc=5",
-      "source": "VICE",
-      "published": "2026-11-11"
-    },
-    {
       "title": "Rockstar Shares 39 New GTA 6 Screenshots Two Weeks Before Launch - 80 Level",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNS1UtelVnSmFCbnhTLUtOR1FIdE9zUnN5YU5yQUdHWEw2bEdDMjJnSVpmcFdpaE5MaXcxNHphTkRyeGVvd1NHMWxLenlGbzBfUkFyUnliZHFya0RnT0ZKRTE4ZTd4cEJ6a1Fmc1JLcVJ4WlNQVlJvLTlZaXdaaWtQLWNKblBEYnhMTDZodG5wMDg?oc=5",
       "source": "80 Level",
@@ -90,6 +84,12 @@
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aeFpjZ1Z2Rm5QMnhNOWJTdXJkN001UVhWMFFXWjU3NjRCM05jcXBCMWdKalJvNm1zU19LNzNVMVVQTHNNOVc4YlRVTzQzTHpISDJzX0p3aDVnel96dEs2Mkg1R1d0SGp4ZVlFQTZYWWU2ZjVTaU9MNU8wX1cwQlE?oc=5",
       "source": "BGR",
       "published": "2026-11-12"
+    },
+    {
+      "title": "GTA 6 Guardian Interview Reveals New Gameplay Details - VICE",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUTRiQ0lGM2pyN09yNjJxOFpyR2tMWHV3dGhLbHlHZkc5elplMXN3WElNTGRUWUxlaG5SMmJ3c3M3Q2RnQ1owOE9VX05sTzZHak1ZdlpUdnc4YVJSdkcwbktHYkNkV3pEMEg2bzN6Q1JQNE9OaHZKWmFkOXZPanlYRzVUbU84VUNIcU5V?oc=5",
+      "source": "VICE",
+      "published": "2026-11-11"
     },
     {
       "title": "Rockstar Games and PlayStation Announce 'Grand Theft Auto VI: The Festival' in Miami - Hypebeast",
@@ -110,16 +110,22 @@
       "published": "2026-11-12"
     },
     {
-      "title": "GTA 6 poised to break Rockstar sales record, but there's one game it'll never defeat - GAMINGbible",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTkhtX2todzZNYUlfMTZwWHExS0t3dDBsa19EZjBkbVdLWWtiTVJ4VG9jQkRySE5yLXk0S3JUV3VJdnVSbW5SbU5KbkZxV1A4Y0JFUzI2ZFk3bEpoQUVVelE4U2Jld2pnWHlBZWxzdzF2WW8xRlNyTVJYM3JWQXAwbV94ejFfdHdEWHc?oc=5",
-      "source": "GAMINGbible",
-      "published": "2026-11-11"
+      "title": "Pre-Load Grand Theft Auto VI Now - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG4tVTJzUTcxU1NpT05mZVpHTXlRX285MWI5VzVwc2k1UnZiQ01HbGhBOWltLVlIRm9Rb2dUM1lfTmhYcDZXbVdsWHQwdEo0NmdCbTZ4bk9qRE5MOXVfcDNGNE9oWjl6LXoxQ05TdE9zaHA3WlBNVzZxMVY3c2F3R3dVa25wdHdWOFUzcEs4WFU3cXNXaVZTRWpR?oc=5",
+      "source": "Rockstar Games",
+      "published": "2026-11-10"
     },
     {
       "title": "Grand Theft Auto VI: Pre-Load Now - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DTFNaYTVUeVZJLXlveVBvTl9kS1lpSnNHYU0xMWxJQzI2VjF5ZnpKMlRkT1RtVm1ud0ZwMmdNYlBqV0F6MTNXZkVnT2xpblZXSUp6VkpHbmw?oc=5",
       "source": "Rockstar Games",
       "published": "2026-11-10"
+    },
+    {
+      "title": "GTA 6 poised to break Rockstar sales record, but there's one game it'll never defeat - GAMINGbible",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTkhtX2todzZNYUlfMTZwWHExS0t3dDBsa19EZjBkbVdLWWtiTVJ4VG9jQkRySE5yLXk0S3JUV3VJdnVSbW5SbU5KbkZxV1A4Y0JFUzI2ZFk3bEpoQUVVelE4U2Jld2pnWHlBZWxzdzF2WW8xRlNyTVJYM3JWQXAwbV94ejFfdHdEWHc?oc=5",
+      "source": "GAMINGbible",
+      "published": "2026-11-11"
     },
     {
       "title": "'Grand Theft Auto VI' drops Nov. 19 — and a Massachusetts team helped make it possible - MassLive",
@@ -174,12 +180,6 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaWNrV2h3TmJmT01GeE1VT2dqUXFuZ0FnbVBGakJxc1VQREVMLXlkaDBPTTZsUUw2c1lTR0QtUzBGMXVTWkU5M1VCS1FoRmxnS3VuQTZjbDFtSVU0ZXFKUVRRbTVyMU85Tk52RlJPMnBMZGthYk1tVnNuM0ZnTlhpeDJ2bW0?oc=5",
       "source": "Polygon.com",
       "published": "2026-11-10"
-    },
-    {
-      "title": "GTA 6: The Festival Officially Announced by Rockstar - Polygon.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BdXFMaGpJc2s0Zm1uaW55VUdJdWRobXZybGo5X0lQRVZGZTQ3bWxIMm9RVFl0bUxvZnVoN1BRSWM2T19KNFNfNWJjc3NLWFZzdWtQWGEzTGw4eGJLSTVuVGQ2NWFnOWhfN3F0YQ?oc=5",
-      "source": "Polygon.com",
-      "published": "2026-11-09"
     }
   ]
 }
