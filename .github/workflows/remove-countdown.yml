@@ -1,0 +1,49 @@
+name: Remove GTA VI launch countdown after release
+on:
+  schedule:
+    - cron: '17 15 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Remove countdown after all local launch windows
+        id: cleanup
+        run: |
+          python3 - <<'PY'
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import os
+          if datetime.now(timezone.utc) < datetime(2026, 11, 20, 12, 0, tzinfo=timezone.utc):
+              print("Release window not finished. No changes.")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+                  out.write("changed=false\n")
+              raise SystemExit(0)
+          path = Path("index.html")
+          text = path.read_text(encoding="utf-8")
+          original = text
+          for name in ("STYLE", "MARKUP", "SCRIPT"):
+              start = "<!-- GTA6_COUNTDOWN_" + name + "_START -->"
+              end = "<!-- GTA6_COUNTDOWN_" + name + "_END -->"
+              if start in text and end in text:
+                  a = text.index(start)
+                  b = text.index(end, a) + len(end)
+                  text = text[:a] + text[b:]
+          if text != original:
+              path.write_text(text, encoding="utf-8")
+          with open(os.environ["GITHUB_OUTPUT"], "a") as out:
+              out.write("changed=" + ("true" if text != original else "false") + "\n")
+          PY
+      - name: Commit and publish countdown cleanup
+        if: steps.cleanup.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Automatically remove expired GTA VI launch countdown"
+          git push
