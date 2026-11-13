@@ -3,5 +3,5 @@
   "mode": "source-monitoring",
   "updates": [],
   "sources": [],
-  "notice": "Sources are monitored automatically. AI summaries require a private API key. All claims should be checked against their original source."
+  "notice": "Automatic RSS headline monitoring requires no API keys. Headlines are not independently verified gameplay facts; follow original sources."
 }
