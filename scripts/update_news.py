@@ -1,5 +1,10 @@
 
-"""Update GTA VI news headlines and optional article images using Python stdlib."""
+"""Update LEONIDA GTA VI news with article images when available.
+
+Uses Python's standard library only.
+Missing images are normal; headlines still work without them.
+"""
+
 import datetime as dt
 import email.utils
 import html
@@ -12,211 +17,378 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / 'news.json'
-QUERY = '"Grand Theft Auto VI" OR "GTA 6" Rockstar when:7d'
-URL = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({
-    'q': QUERY,
-    'hl': 'en-US',
-    'gl': 'US',
-    'ceid': 'US:en'
-})
+OUTPUT = ROOT / "news.json"
+
+QUERY = '"Grand Theft Auto VI" OR "GTA 6" Rockstar'
+MAX_ITEMS = 30
+MAX_IMAGE_CHECKS = 20
+
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (compatible; LeonidaFilesNewsBot/1.1)'
+    "User-Agent": "Mozilla/5.0 (compatible; LeonidaFilesNewsBot/3.0)",
+    "Accept": "text/html,application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
 }
+
+FEEDS = [
+    "https://www.bing.com/news/search?"
+    + urllib.parse.urlencode({"q": QUERY, "format": "rss"}),
+
+    "https://news.google.com/rss/search?"
+    + urllib.parse.urlencode({
+        "q": QUERY + " when:7d",
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en",
+    }),
+]
+
+
+def fetch(url, timeout=10, limit=900_000):
+    request = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return (
+            response.read(limit),
+            response.geturl(),
+            response.headers.get("Content-Type", ""),
+        )
+
+
+def valid_url(url):
+    try:
+        parsed = urllib.parse.urlsplit(url)
+        return (
+            parsed.scheme == "https"
+            and bool(parsed.hostname)
+            and not parsed.username
+            and not parsed.password
+        )
+    except ValueError:
+        return False
+
+
+def normalize_url(url):
+    url = html.unescape(str(url or "").strip())
+
+    if url.startswith("//"):
+        url = "https:" + url
+
+    if not valid_url(url):
+        return ""
+
+    parsed = urllib.parse.urlsplit(url)
+
+    if parsed.hostname and parsed.hostname.endswith(".bing.com"):
+        parameters = urllib.parse.parse_qs(parsed.query)
+
+        for key in ("url", "u", "r"):
+            for candidate in parameters.get(key, []):
+                if valid_url(candidate):
+                    return candidate
+
+    return url
 
 
 class ImageParser(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.image = ''
+        self.images = []
 
     def handle_starttag(self, tag, attrs):
-        if tag != 'meta':
+        if tag.lower() != "meta":
             return
 
-        a = dict(attrs)
-        if (
-            a.get('property', '').lower() in (
-                'og:image', 'og:image:url', 'og:image:secure_url'
-            )
-            or a.get('name', '').lower() in (
-                'twitter:image', 'twitter:image:src'
-            )
-        ):
-            candidate = html.unescape(
-                a.get('content', '')
-            ).strip()
+        attributes = dict(attrs)
+        name = (
+            attributes.get("property")
+            or attributes.get("name")
+            or ""
+        ).lower()
 
-            if not self.image and candidate.startswith('https://'):
-                self.image = candidate
-
-
-def request(url, limit=2_000_000, timeout=12):
-    req = urllib.request.Request(url, headers=HEADERS)
-
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        return response.read(limit), response.geturl()
+        if name in {
+            "og:image",
+            "og:image:url",
+            "og:image:secure_url",
+            "twitter:image",
+            "twitter:image:src",
+        }:
+            image = attributes.get("content", "")
+            if image:
+                self.images.append(image)
 
 
-def image_from_item(item):
-    # Look for images in RSS metadata.
-    for child in item.iter():
-        tag = child.tag.lower().split('}')[-1]
+def image_from_feed(item):
+    # Try RSS media thumbnails, content and image enclosures.
+    for element in item.iter():
+        tag = element.tag.lower().split("}")[-1]
 
-        if tag in ('thumbnail', 'content', 'enclosure'):
-            candidate = child.attrib.get('url', '')
+        if tag in ("thumbnail", "content", "enclosure"):
+            url = normalize_url(element.attrib.get("url", ""))
+            kind = element.attrib.get("type", "").lower()
 
-            if (
-                candidate.startswith('https://')
-                and (
-                    tag != 'enclosure'
-                    or child.attrib.get('type', '').startswith('image/')
-                )
-            ):
-                return candidate
+            if not url:
+                continue
 
-    # Look for images inside the RSS description.
-    desc = html.unescape(item.findtext('description') or '')
+            if tag == "enclosure" and not kind.startswith("image/"):
+                continue
 
-    m = re.search(
-        r'<img\b[^>]*\bsrc=["\'](https://[^"\']+)',
-        desc,
-        re.I
+            if url.lower().split("?")[0].endswith((".svg", ".gif")):
+                continue
+
+            return url
+
+    # Some RSS feeds include an image in the description.
+    description = html.unescape(
+        item.findtext("description") or ""
     )
 
-    return html.unescape(m.group(1)) if m else ''
+    match = re.search(
+        r'<img\b[^>]*\bsrc\s*=\s*["\']([^"\']+)',
+        description,
+        re.IGNORECASE,
+    )
+
+    if match:
+        return normalize_url(match.group(1))
+
+    return ""
 
 
 def image_from_article(url):
-    # Some Google News links cannot be resolved.
+    if not valid_url(url):
+        return ""
+
+    # Google News RSS URLs usually do not expose publisher images.
+    hostname = urllib.parse.urlsplit(url).hostname or ""
+
+    if hostname == "news.google.com":
+        return ""
+
     try:
-        raw, final_url = request(url, 400_000, 8)
+        raw, final_url, content_type = fetch(
+            url,
+            timeout=6,
+            limit=500_000,
+        )
+
+        if (
+            "html" not in content_type.lower()
+            and not raw.lstrip().lower().startswith(
+                (b"<!doctype", b"<html")
+            )
+        ):
+            return ""
 
         parser = ImageParser()
-        parser.feed(raw.decode('utf-8', 'replace'))
+        parser.feed(raw.decode("utf-8", errors="replace"))
 
-        return parser.image
+        for candidate in parser.images:
+            candidate = normalize_url(
+                urllib.parse.urljoin(final_url, candidate)
+            )
 
-    except (OSError, ValueError, UnicodeError, TimeoutError):
-        return ''
+            if not candidate:
+                continue
 
+            if candidate.lower().split("?")[0].endswith(
+                (".svg", ".gif")
+            ):
+                continue
 
-raw, _ = request(URL, timeout=30)
-channel = ET.fromstring(raw)
+            return candidate
 
-existing = {'articles': []}
-
-if OUTPUT.exists():
-    try:
-        existing = json.loads(
-            OUTPUT.read_text(encoding='utf-8')
-        )
-    except (ValueError, OSError):
+    except (
+        OSError,
+        ValueError,
+        UnicodeError,
+        TimeoutError,
+        RuntimeError,
+    ):
         pass
 
-old_by_title = {
-    str(a.get('title', '')).casefold(): a
-    for a in existing.get('articles', [])
-    if isinstance(a, dict)
-}
+    return ""
 
-articles = []
-seen = set()
 
-for item in channel.findall('./channel/item'):
-    title = (item.findtext('title') or '').strip()
-    url = (item.findtext('link') or '').strip()
-    source = (
-        item.findtext('source') or 'News coverage'
-    ).strip()
-
-    if not title or not url.startswith('https://'):
-        continue
-
-    if not any(
-        word in title.lower()
-        for word in ('gta 6', 'gta vi', 'grand theft auto')
-    ):
-        continue
-
-    key = title.casefold()
-
-    if key in seen:
-        continue
-
-    seen.add(key)
-
+def read_existing():
     try:
-        published = email.utils.parsedate_to_datetime(
-            item.findtext('pubDate') or ''
-        ).date().isoformat()
-    except (TypeError, ValueError):
-        published = ''
+        data = json.loads(
+            OUTPUT.read_text(encoding="utf-8")
+        )
 
-    article = {
-        'title': title[:230],
-        'url': url,
-        'source': source[:90],
-        'published': published
+        if isinstance(data, dict) and isinstance(
+            data.get("articles"), list
+        ):
+            return data
+
+    except (OSError, ValueError):
+        pass
+
+    return {"articles": []}
+
+
+def read_feed(url):
+    try:
+        raw, _, _ = fetch(
+            url,
+            timeout=15,
+            limit=2_000_000,
+        )
+
+        root = ET.fromstring(raw)
+        return root.findall("./channel/item")
+
+    except (OSError, ValueError, ET.ParseError) as error:
+        print("Feed unavailable:", type(error).__name__)
+        return []
+
+
+def main():
+    existing = read_existing()
+
+    old_articles = [
+        article
+        for article in existing["articles"]
+        if isinstance(article, dict)
+    ]
+
+    old_by_title = {
+        str(article.get("title", "")).casefold(): article
+        for article in old_articles
     }
 
-    old = old_by_title.get(key, {})
+    articles = []
+    seen = set()
+    image_checks = 0
 
-    image = image_from_item(item) or old.get('image', '')
+    for feed_url in FEEDS:
+        items = read_feed(feed_url)
 
-    if not image:
-        image = image_from_article(url)
+        for item in items:
+            title = (item.findtext("title") or "").strip()
 
-    if isinstance(image, str) and image.startswith('https://'):
-        article['image'] = image
+            if not title:
+                continue
 
-    articles.append(article)
+            title_lower = title.casefold()
 
-    if len(articles) >= 30:
-        break
+            if not any(
+                phrase in title_lower
+                for phrase in (
+                    "gta 6",
+                    "gta vi",
+                    "grand theft auto",
+                )
+            ):
+                continue
 
+            if title_lower in seen:
+                continue
 
-for old in existing.get('articles', []):
-    if not isinstance(old, dict):
-        continue
+            url = normalize_url(
+                item.findtext("link") or ""
+            )
 
-    key = str(old.get('title', '')).casefold()
+            if not url:
+                continue
 
-    if (
-        key
-        and key not in seen
-        and str(old.get('url', '')).startswith('https://')
-    ):
-        articles.append(old)
-        seen.add(key)
+            source = (
+                item.findtext("source") or "News coverage"
+            ).strip()
 
-    if len(articles) >= 30:
-        break
+            try:
+                published = email.utils.parsedate_to_datetime(
+                    item.findtext("pubDate") or ""
+                ).date().isoformat()
+            except (ValueError, TypeError):
+                published = ""
 
+            article = {
+                "title": title[:230],
+                "url": url,
+                "source": source[:90],
+                "published": published,
+            }
 
-if articles == existing.get('articles', []):
-    print('No changes to publish')
+            old_article = old_by_title.get(title_lower, {})
 
-else:
+            image = (
+                image_from_feed(item)
+                or normalize_url(old_article.get("image", ""))
+            )
+
+            if not image and image_checks < MAX_IMAGE_CHECKS:
+                hostname = (
+                    urllib.parse.urlsplit(url).hostname or ""
+                )
+
+                if hostname != "news.google.com":
+                    image_checks += 1
+                    image = image_from_article(url)
+
+            if image:
+                article["image"] = image
+
+            articles.append(article)
+            seen.add(title_lower)
+
+            if len(articles) >= MAX_ITEMS:
+                break
+
+        if len(articles) >= MAX_ITEMS:
+            break
+
+    # Keep older headlines when the feeds return fewer stories.
+    for old_article in old_articles:
+        if len(articles) >= MAX_ITEMS:
+            break
+
+        title = str(old_article.get("title", ""))
+        key = title.casefold()
+
+        if (
+            key
+            and key not in seen
+            and normalize_url(old_article.get("url", ""))
+        ):
+            articles.append(old_article)
+            seen.add(key)
+
+    if not articles:
+        print("No articles found. Existing news.json preserved.")
+        return
+
+    image_count = sum(
+        bool(article.get("image"))
+        for article in articles
+    )
+
+    if articles == existing["articles"]:
+        print(
+            "No changes to publish",
+            "| headlines:", len(articles),
+            "| with images:", image_count,
+        )
+        return
+
     result = {
-        'updated': dt.datetime.now(
+        "updated": dt.datetime.now(
             dt.timezone.utc
-        ).strftime('%Y-%m-%d %H:%M UTC'),
-        'articles': articles
+        ).strftime("%Y-%m-%d %H:%M UTC"),
+        "articles": articles,
     }
 
     OUTPUT.write_text(
         json.dumps(
             result,
             indent=2,
-            ensure_ascii=False
-        ) + '\n',
-        encoding='utf-8'
+            ensure_ascii=False,
+        ) + "\n",
+        encoding="utf-8",
     )
 
     print(
-        'Updated headlines:',
-        len(articles),
-        '| with images:',
-        sum('image' in a for a in articles)
+        "Updated headlines:", len(articles),
+        "| with images:", image_count,
     )
+
+
+if __name__ == "__main__":
+    main()
