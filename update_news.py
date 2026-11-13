@@ -1,7 +1,10 @@
-"""Refresh LEONIDA GTA VI headlines and best-effort publisher images (stdlib only).
 
-Feeds can omit images or block scraping. Missing images are normal, not a failure.
+"""Update LEONIDA GTA VI news with article images when available.
+
+Uses Python's standard library only.
+Missing images are normal; headlines still work without them.
 """
+
 import datetime as dt
 import email.utils
 import html
@@ -13,181 +16,384 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
-SCRIPT_DIR = pathlib.Path(__file__).resolve().parent
-ROOT = SCRIPT_DIR.parent if SCRIPT_DIR.name == "scripts" else SCRIPT_DIR
+ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "news.json"
+
 QUERY = '"Grand Theft Auto VI" OR "GTA 6" Rockstar'
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; LeonidaFilesNewsBot/2.0)", "Accept": "text/html,application/rss+xml,application/xml;q=0.9,*/*;q=0.8"}
-BING = "https://www.bing.com/news/search?" + urllib.parse.urlencode({"q": QUERY, "format": "rss"})
-GOOGLE = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": QUERY + " when:7d", "hl": "en-US", "gl": "US", "ceid": "US:en"})
 MAX_ITEMS = 30
-MAX_IMAGE_CHECKS = 30
+MAX_IMAGE_CHECKS = 20
+PROMO_PAGE = "https://www.rockstargames.com/VI"
+
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; LeonidaFilesNewsBot/3.0)",
+    "Accept": "text/html,application/rss+xml,application/xml;q=0.9,*/*;q=0.8",
+}
+
+FEEDS = [
+    "https://www.bing.com/news/search?"
+    + urllib.parse.urlencode({"q": QUERY, "format": "rss"}),
+
+    "https://news.google.com/rss/search?"
+    + urllib.parse.urlencode({
+        "q": QUERY + " when:7d",
+        "hl": "en-US",
+        "gl": "US",
+        "ceid": "US:en",
+    }),
+]
 
 
-def fetch(url, timeout=8, limit=900_000):
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return resp.read(limit), resp.geturl(), resp.headers.get("Content-Type", "")
+def fetch(url, timeout=10, limit=900_000):
+    request = urllib.request.Request(url, headers=HEADERS)
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        return (
+            response.read(limit),
+            response.geturl(),
+            response.headers.get("Content-Type", ""),
+        )
 
 
-def valid_https(url):
+def valid_url(url):
     try:
-        p = urllib.parse.urlsplit(url)
-        return p.scheme == "https" and bool(p.netloc) and not p.username and not p.password
+        parsed = urllib.parse.urlsplit(url)
+        return (
+            parsed.scheme == "https"
+            and bool(parsed.hostname)
+            and not parsed.username
+            and not parsed.password
+        )
     except ValueError:
         return False
 
 
 def normalize_url(url):
-    url = html.unescape((url or "").strip())
+    url = html.unescape(str(url or "").strip())
+
     if url.startswith("//"):
         url = "https:" + url
-    # Bing RSS sometimes wraps publisher URLs in its own tracking redirect.
-    p = urllib.parse.urlsplit(url)
-    if p.netloc.endswith("bing.com"):
-        qs = urllib.parse.parse_qs(p.query)
+
+    if not valid_url(url):
+        return ""
+
+    parsed = urllib.parse.urlsplit(url)
+
+    if parsed.hostname and parsed.hostname.endswith(".bing.com"):
+        parameters = urllib.parse.parse_qs(parsed.query)
+
         for key in ("url", "u", "r"):
-            for value in qs.get(key, []):
-                if valid_https(value):
-                    return value
-    return url if valid_https(url) else ""
+            for candidate in parameters.get(key, []):
+                if valid_url(candidate):
+                    return candidate
+
+    return url
 
 
-class MetadataParser(HTMLParser):
+class ImageParser(HTMLParser):
     def __init__(self):
         super().__init__()
-        self.candidates = []
-        self.canonical = ""
+        self.images = []
 
     def handle_starttag(self, tag, attrs):
-        a = {str(k).lower(): (v or "") for k, v in attrs}
-        if tag == "meta":
-            kind = (a.get("property") or a.get("name") or "").lower()
-            if kind in {"og:image", "og:image:url", "og:image:secure_url", "twitter:image", "twitter:image:src"}:
-                self.candidates.append(a.get("content", ""))
-        elif tag == "link" and "canonical" in a.get("rel", "").lower():
-            self.canonical = a.get("href", "")
+        if tag.lower() != "meta":
+            return
+
+        attributes = dict(attrs)
+        name = (
+            attributes.get("property")
+            or attributes.get("name")
+            or ""
+        ).lower()
+
+        if name in {
+            "og:image",
+            "og:image:url",
+            "og:image:secure_url",
+            "twitter:image",
+            "twitter:image:src",
+        }:
+            image = attributes.get("content", "")
+            if image:
+                self.images.append(image)
 
 
-def image_from_rss(item):
-    for child in item.iter():
-        tag = child.tag.lower().split("}")[-1]
-        if tag in {"thumbnail", "content", "enclosure"}:
-            kind = child.attrib.get("type", "")
-            candidate = normalize_url(child.attrib.get("url", ""))
-            if candidate and (tag != "enclosure" or kind.startswith("image/")):
-                return candidate
-    description = html.unescape(item.findtext("description") or "")
-    # RSS descriptions may contain publisher thumbnails even when no media tag exists.
-    for pattern in (r'<img\b[^>]*\bsrc\s*=\s*["\']([^"\']+)',
-                    r'<img\b[^>]*\bsrc\s*=\s*([^\s>]+)'):
-        match = re.search(pattern, description, re.I)
-        if match:
-            candidate = normalize_url(match.group(1).strip('"\''))
-            if candidate:
-                return candidate
+def image_from_feed(item):
+    # Try RSS media thumbnails, content and image enclosures.
+    for element in item.iter():
+        tag = element.tag.lower().split("}")[-1]
+
+        if tag in ("thumbnail", "content", "enclosure"):
+            url = normalize_url(element.attrib.get("url", ""))
+            kind = element.attrib.get("type", "").lower()
+
+            if not url:
+                continue
+
+            if tag == "enclosure" and not kind.startswith("image/"):
+                continue
+
+            if url.lower().split("?")[0].endswith((".svg", ".gif")):
+                continue
+
+            return url
+
+    # Some RSS feeds include an image in the description.
+    description = html.unescape(
+        item.findtext("description") or ""
+    )
+
+    match = re.search(
+        r'<img\b[^>]*\bsrc\s*=\s*["\']([^"\']+)',
+        description,
+        re.IGNORECASE,
+    )
+
+    if match:
+        return normalize_url(match.group(1))
+
     return ""
 
 
-def image_from_publisher(url):
-    if not url or "news.google.com" in urllib.parse.urlsplit(url).netloc:
+def image_from_article(url):
+    if not valid_url(url):
         return ""
+
     try:
-        raw, final_url, content_type = fetch(url, timeout=6, limit=450_000)
-        if "html" not in content_type.lower() and not raw.lstrip().startswith((b"<!DOCTYPE", b"<html", b"<HTML")):
+        raw, final_url, content_type = fetch(
+            url,
+            timeout=6,
+            limit=500_000,
+        )
+
+        if (
+            "html" not in content_type.lower()
+            and not raw.lstrip().lower().startswith(
+                (b"<!doctype", b"<html")
+            )
+        ):
             return ""
-        parser = MetadataParser()
-        parser.feed(raw.decode("utf-8", "replace"))
-        for candidate in parser.candidates:
-            candidate = normalize_url(urllib.parse.urljoin(final_url, html.unescape(candidate)))
-            if candidate and not candidate.lower().endswith((".svg", ".gif")):
-                return candidate
-    except (OSError, ValueError, UnicodeError, TimeoutError, RuntimeError):
+
+        parser = ImageParser()
+        parser.feed(raw.decode("utf-8", errors="replace"))
+
+        for candidate in parser.images:
+            candidate = normalize_url(
+                urllib.parse.urljoin(final_url, candidate)
+            )
+
+            if not candidate:
+                continue
+
+            if candidate.lower().split("?")[0].endswith(
+                (".svg", ".gif")
+            ):
+                continue
+
+            return candidate
+
+    except (
+        OSError,
+        ValueError,
+        UnicodeError,
+        TimeoutError,
+        RuntimeError,
+    ):
         pass
+
     return ""
 
 
 def read_existing():
     try:
-        obj = json.loads(OUTPUT.read_text(encoding="utf-8"))
-        return obj if isinstance(obj, dict) and isinstance(obj.get("articles"), list) else {"articles": []}
+        data = json.loads(
+            OUTPUT.read_text(encoding="utf-8")
+        )
+
+        if isinstance(data, dict) and isinstance(
+            data.get("articles"), list
+        ):
+            return data
+
     except (OSError, ValueError):
-        return {"articles": []}
+        pass
+
+    return {"articles": []}
 
 
-def items_from_feed(feed_url):
+def read_feed(url):
     try:
-        raw, _, _ = fetch(feed_url, timeout=15, limit=2_000_000)
+        raw, _, _ = fetch(
+            url,
+            timeout=15,
+            limit=2_000_000,
+        )
+
         root = ET.fromstring(raw)
         return root.findall("./channel/item")
-    except (OSError, ET.ParseError, ValueError) as exc:
-        print("Feed unavailable:", type(exc).__name__)
+
+    except (OSError, ValueError, ET.ParseError) as error:
+        print("Feed unavailable:", type(error).__name__)
         return []
 
 
 def main():
     existing = read_existing()
-    old_by_title = {str(a.get("title", "")).casefold(): a for a in existing["articles"] if isinstance(a, dict)}
-    articles, seen = [], set()
-    checks = 0
-    feed_counts = {}
 
-    # Bing News often exposes publisher URLs directly; Google News is fallback.
-    for feed in (BING, GOOGLE):
-        feed_name = "Bing" if feed == BING else "Google"
-        feed_items = items_from_feed(feed)
-        feed_counts[feed_name] = len(feed_items)
-        for item in feed_items:
+    old_articles = [
+        article
+        for article in existing["articles"]
+        if isinstance(article, dict)
+    ]
+
+    old_by_title = {
+        str(article.get("title", "")).casefold(): article
+        for article in old_articles
+    }
+
+    articles = []
+    seen = set()
+    image_checks = 0
+    resolved = 0
+    # Rockstar promotional artwork is a clearly labeled fallback, not an
+    # illustration of the particular story. Fetch only once per update.
+    promotional_image = image_from_article(PROMO_PAGE)
+    print("Rockstar promotional image:", "found" if promotional_image else "unavailable")
+
+    for feed_url in FEEDS:
+        items = read_feed(feed_url)
+
+        for item in items:
             title = (item.findtext("title") or "").strip()
-            if not title or not any(x in title.casefold() for x in ("gta 6", "gta vi", "grand theft auto")):
+
+            if not title:
                 continue
-            key = title.casefold()
-            if key in seen:
+
+            title_lower = title.casefold()
+
+            if not any(
+                phrase in title_lower
+                for phrase in (
+                    "gta 6",
+                    "gta vi",
+                    "grand theft auto",
+                )
+            ):
                 continue
-            url = normalize_url(item.findtext("link") or "")
+
+            if title_lower in seen:
+                continue
+
+            url = normalize_url(
+                item.findtext("link") or ""
+            )
+
             if not url:
                 continue
-            source = (item.findtext("source") or "News coverage").strip()
+
+            source = (
+                item.findtext("source") or "News coverage"
+            ).strip()
+
             try:
-                published = email.utils.parsedate_to_datetime(item.findtext("pubDate") or "").date().isoformat()
+                published = email.utils.parsedate_to_datetime(
+                    item.findtext("pubDate") or ""
+                ).date().isoformat()
             except (ValueError, TypeError):
                 published = ""
-            article = {"title": title[:230], "url": url, "source": source[:90], "published": published}
-            old = old_by_title.get(key, {})
-            picture = image_from_rss(item) or normalize_url(old.get("image", ""))
-            if not picture and checks < MAX_IMAGE_CHECKS and "news.google.com" not in urllib.parse.urlsplit(url).netloc:
-                checks += 1
-                picture = image_from_publisher(url)
-            if picture:
-                article["image"] = picture
+
+            article = {
+                "title": title[:230],
+                "url": url,
+                "source": source[:90],
+                "published": published,
+            }
+
+            old_article = old_by_title.get(title_lower, {})
+
+            image = (
+                image_from_feed(item)
+                or normalize_url(old_article.get("image", ""))
+            )
+
+            if not image and image_checks < MAX_IMAGE_CHECKS:
+                hostname = (
+                    urllib.parse.urlsplit(url).hostname or ""
+                )
+
+                image_checks += 1
+                image = image_from_article(url)
+                if image:
+                    resolved += 1
+
+            if image:
+                article["image"] = image
+                article["image_type"] = "article"
+            elif promotional_image:
+                article["image"] = promotional_image
+                article["image_type"] = "GTA VI promotional artwork"
+
             articles.append(article)
-            seen.add(key)
+            seen.add(title_lower)
+
             if len(articles) >= MAX_ITEMS:
                 break
+
         if len(articles) >= MAX_ITEMS:
             break
 
-    # Retain older stories if the feeds return fewer than 30.
-    for old in existing["articles"]:
+    # Keep older headlines when the feeds return fewer stories.
+    for old_article in old_articles:
         if len(articles) >= MAX_ITEMS:
             break
-        if not isinstance(old, dict):
-            continue
-        key = str(old.get("title", "")).casefold()
-        if key and key not in seen and normalize_url(old.get("url", "")):
-            articles.append(old)
+
+        title = str(old_article.get("title", ""))
+        key = title.casefold()
+
+        if (
+            key
+            and key not in seen
+            and normalize_url(old_article.get("url", ""))
+        ):
+            articles.append(old_article)
             seen.add(key)
 
-    print("Feed items:", feed_counts, "| publisher image checks:", checks)
     if not articles:
-        print("No feed stories found; keeping existing news.json unchanged")
+        print("No articles found. Existing news.json preserved.")
         return
+
+    print("Publisher image checks:", image_checks, "| publisher images found:", resolved)
+    image_count = sum(
+        bool(article.get("image"))
+        for article in articles
+    )
+
     if articles == existing["articles"]:
-        print("No changes to publish | with images:", sum(bool(a.get("image")) for a in articles))
+        print(
+            "No changes to publish",
+            "| headlines:", len(articles),
+            "| with images:", image_count,
+        )
         return
-    result = {"updated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"), "articles": articles}
-    OUTPUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("Updated headlines:", len(articles), "| with images:", sum(bool(a.get("image")) for a in articles))
+
+    result = {
+        "updated": dt.datetime.now(
+            dt.timezone.utc
+        ).strftime("%Y-%m-%d %H:%M UTC"),
+        "articles": articles,
+    }
+
+    OUTPUT.write_text(
+        json.dumps(
+            result,
+            indent=2,
+            ensure_ascii=False,
+        ) + "\n",
+        encoding="utf-8",
+    )
+
+    print(
+        "Updated headlines:", len(articles),
+        "| with images:", image_count,
+    )
 
 
 if __name__ == "__main__":
