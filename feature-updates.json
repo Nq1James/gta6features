@@ -1,7 +1,215 @@
 {
-  "updated": null,
+  "updated": "2026-11-13T19:15:07+00:00",
   "mode": "source-monitoring",
-  "updates": [],
-  "sources": [],
-  "notice": "Automatic RSS headline monitoring requires no API keys. Headlines are not independently verified gameplay facts; follow original sources."
+  "updates": [
+    {
+      "topic": "technology",
+      "title": "You can see this NPCs calf muscles contracting while she’s running, that’s how far Rocksta",
+      "summary": "Headline reported by X: You can see this NPCs calf muscles contracting while she’s running, that’s how far Rockstar Games went with the details in GTA 6 This game is going to blow minds - X",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUREVCVEJJdVhCaVRNMmlyeHA1anBxZGZKbXEzekxjazRxdEVYbFh2aXlVU291WUN1MHVzS2p2X1dvZDVhWV9NRHRRWVI4Rzdha1o2T2VULS14Q3c?oc=5",
+      "source_title": "X: You can see this NPCs calf muscles contracting while she’s running, that’s how far Rockstar Games went with the details in GTA 6 This game is going to blow minds - X",
+      "published": "2026-11-12"
+    },
+    {
+      "topic": "story",
+      "title": "New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and",
+      "summary": "Headline reported by X: New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and online (later) being separate - Japanese version is missing a 1.37GB file - New Zealand and Australia ve",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53bDRPWFNxYldSQ3BrcjJ3MkhPYno5SS14UDRUS05hR2tMV2RHVVY5cWtSa3B0c0pjdlZJcm1NQmFLY2o2bkJzb21tTndac2hqM0hkRHJaNjVWeUtzSVVOc3l0UkF3enM?oc=5",
+      "source_title": "X: New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and online (later) being separate - Japanese version is missing a 1.37GB file - New Zealand and Australia versions are missing a 0.68",
+      "published": "2026-11-09"
+    },
+    {
+      "topic": "world",
+      "title": "Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X",
+      "summary": "Headline reported by Rockstar Games: Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X|S - Rockstar Games",
+      "status": "official",
+      "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDMyZzY3bVJNdzBWVmRwazV4UHZGczFERTAtT1JOLUxyS3A5MVNFT21zbDFtVXhUaV9Na1ZCYnV6c2xLUGJxVnBnaThieWNIOEdMMHJxVFVYT3FXRlNkX2lERjU5STJpMnNTcktiU1h5N1FyZUluTE9TbkY2VE5GcjFWSkU3UWRWb3FnblhNZmtqTXRodGg3WHRnaXdaazlPUEhGMS1mb3BUN3ZjNm1JTm1DT2VGRVQ2eDdxaElWSDRraGZnaVp1VXdxNjdjNHRpMndNLUJZQlQ3VnQ2bmlTSkE0d2s5WlpBOU51X1VITm04X2c?oc=5",
+      "source_title": "Rockstar Games: Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X|S - Rockstar Games",
+      "published": "2026-11-03"
+    },
+    {
+      "topic": "story",
+      "title": "Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character i",
+      "summary": "Headline reported by iXBT.games: Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character in a game real infidelity? - iXBT.games",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMXpZbXJjSnotSVZlNTI5eXhYZE83VlBvOHd1ZGRmODgzYnJQQlRiS1dRRzdETEx3OUxqb2t3ZVVMVUtpb1c1b19Sbnoya242Wng1aHI4Y2dQU2NsU0E4VFRLR0FMVXh1VkJkUWpOaXd1dl9LZ2lkbmlBNm5KMkRiU05tTGQ1T2lwMmVlWFVrMDdkaWhacVd2WlAtZ2ozaUZtSWtWWllmajg1bFVVUGZWTTV0SHZscW1YTUFhYUxudFlnN19Uc3l4Y3A2bEVGblBnSnd0eUpTWnRRSXpLeDZ2N1R0UnZoazBVdkp2Q1NZU0tfQdIB9wFBVV95cUxOVEN2aUNER2NjckxJeFRxWFJDTEEzUjk1Zzl2WklHc1JWcVFkeDBYR0RVM3hoMG5yeVFuNkpHdGh3MGVsSFRSM0pVaE9pUTZ6dXNMajQ3b1pLY19ad0NLWUxBZFc4Mkh5VjNEQ2RKWmNxaDZwTDlwalNVWFM1MGFCMDZOdjFMUGlaOFZnSzhnZkk4YjZOdnFDUHRCRFJIV3lMbW1ubzJPTzN3X2NTTnBLdVZnTTVFVjBQMEViNGl4RmpsWlBZTEpWdGp1RGtSV0llenc4dWFnWm9pWkJlQmlvWkRPSDBNanFmWnlSNlFTeTVia2p1ck9F?oc=5",
+      "source_title": "iXBT.games: Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character in a game real infidelity? - iXBT.games",
+      "published": "2026-10-19"
+    },
+    {
+      "topic": "story",
+      "title": "GTA 6 Lets Jason and Lucia Become Lovers or Just Friends, But Rockstar Won’t Let Players B",
+      "summary": "Headline reported by Wccftech: GTA 6 Lets Jason and Lucia Become Lovers or Just Friends, But Rockstar Won’t Let Players Break The Duo Up - Wccftech",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ0wxd21jTnRBOUVwczUzcVdNSmtyeXd0MVlYOC0yNGhDbl8yZHBUVDhSSHoyQUwtenhIbzd1SklYMFJpc2xlOXRFaVBLZGR0LXBXR0lNd3dHc2JnR1ZESFRrX281NlVBWkVPaWhaUlJGYVEwR0hhY2ZKeDdWSUJ6WGZ5VkPSAYoBQVVfeXFMT0ItVm1WcFFYNzdfNERrbENKQVRwS1VSb1Z6dHk4bjEwalBxNFZCVFg2YW10bnZxS3ZvQW5DTFlaWklzMFZ6WDBMOTdyNGl1VjBjcjNnbHp1T0FJdnlOeUhPcGItSWlqLWtJUHZMZ1BTVklWaDFEY2pDdlgzYTdaOVA1LWdBZDdHcTNn?oc=5",
+      "source_title": "Wccftech: GTA 6 Lets Jason and Lucia Become Lovers or Just Friends, But Rockstar Won’t Let Players Break The Duo Up - Wccftech",
+      "published": "2026-10-02"
+    }
+  ],
+  "sources": [
+    {
+      "title": "A new GTA 6 announcement is highly possible today, since it’s the last Thursday before launch. This is also our final GTA Online event before November 19th. Rockstar sent creators an email with the event details yesterda",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA1UDVBSHBhRTViN0dPQ3hkWDJ1TWstY1RSVzUwTUNRdEhKcC1ZaXcwVzJWQnpDUk9Qa3cwcW1IejA2QTE5dDlIczc0N0pycWNxeGw1Q3lVYkYzeC10cXFjNnd5OThCYUU?oc=5",
+      "publisher": "X",
+      "published": "2026-11-12",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "You can see this NPCs calf muscles contracting while she’s running, that’s how far Rockstar Games went with the details in GTA 6 This game is going to blow minds - X",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUREVCVEJJdVhCaVRNMmlyeHA1anBxZGZKbXEzekxjazRxdEVYbFh2aXlVU291WUN1MHVzS2p2X1dvZDVhWV9NRHRRWVI4Rzdha1o2T2VULS14Q3c?oc=5",
+      "publisher": "X",
+      "published": "2026-11-12",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "wrote up some thoughts on ai x gaming with @illscience and @Tocelot. read more below! https://t.co/zIs5TI8IRF - X",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fSExNcUN6OTN3VTFad0Z3MXpKTi1ybW9jdGx1MzY5OExObmJOUXZYR3ZYeXZQWElwUzZaelNCWmhKWnRpek5wVUFQbndaMTZxdG1qYXJuUTBQNEhDQTFJcFNhQQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-12",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "UK broadband provider Virgin Media has announced in a new press release Grand Theft Auto VI pre-loads drove a record-breaking day on its broadband network, setting new records for both peak traffic and daily data usage. ",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4R0tpRnc2Zm4wYjJMQmw2T2tLWm04QmEyX1JsOUVfdjYyQ1dTWHJ5eDJsekpiODlxYjBRR3diemwtblo1UWJfN1lHNUFvVFl5bVZiNUhvSDAwM25HdTlz?oc=5",
+      "publisher": "X",
+      "published": "2026-11-11",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Pre-Load Grand Theft Auto VI Now - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG4tVTJzUTcxU1NpT05mZVpHTXlRX285MWI5VzVwc2k1UnZiQ01HbGhBOWltLVlIRm9Rb2dUM1lfTmhYcDZXbVdsWHQwdEo0NmdCbTZ4bk9qRE5MOXVfcDNGNE9oWjl6LXoxQ05TdE9zaHA3WlBNVzZxMVY3c2F3R3dVa25wdHdWOFUzcEs4WFU3cXNXaVZTRWpR?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-10",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI - Pre-Load Now - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0ZUdDbm5kWGlMS2xrQTdaRDdZbko3NWFWeGNtaExDUDlBQnBCb2tQS3Z5ZElGWVRZa2lmWENaVzhfVG11RlV0TVg?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-10",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI: Pre-Load Now - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Jb2FGUDFuVS1zNVdJZlp6TkdHZGpDLVJPWFM0bE9ERnBIYkVfX1lraEZVZWJPYlQySElXVXJkSGwzZ0ZFaXp6UzZXbkdrRkdKeTBBOEpB?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-10",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "Grand Theft Auto VI - Features Trailer | PS5 Games - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGRFdkYmtYT3FIbTRnbGNIM1JFS0x5ZmR6SjdMU0hKYVRacjJuQS1xMnhGZzk4aHBMZlR6b3lzSkhELXUzX3FsZkQ4bk1QVW1fbS1mSktn?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-10",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "GTA 6 (Grand Theft Auto 6) - Official Pre Load Now Trailer - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DVnM5M1hUWWtBUk5yZHd5S0RTdTZ6bXF3ekVQMVhkRHF5RUV3OGpQaUJqdnFZdWtLSXNqc242V1JwRDFRQ2ZjOUtucGVaRFZ0R01ENVB3?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-10",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "GTA 6 (Grand Theft Auto 6) - Official PS5 Features Trailer - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52WFZfNzV0RFF0dkJpRTVNb01RdVBOTFU3SjNpTFFHdUZyTk9XMzNFdUFHZ0Ixc1NuVm9abmI0MzFJdkJvRFBWNHlXMmlzdzZPRFBkdnJB?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-10",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "\"Blood In Your Eyes\" by @ToveLo — featured in today's Pre-Load Now video and also on GTAVI: The Album. Available now on all major music streaming services: https://t.co/NlyeQEf4bo - X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10X0Q5UHhBbzg4a1JVaXg0NnJhSV81emdoMUkzZTRHMXBZamJ2YUt6TzY4bF81Q2QwbzhXMGYzUEY4VFNWdkRUVDRncnZqWG0xeHdfUG41NzlnZVc0b3J3NzBCdmo?oc=5",
+      "publisher": "X",
+      "published": "2026-11-10",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Issues installing Grand Theft Auto VI - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WX3M5UFFZeE5aMFJRLTI5djhQWGw0bUdyblFzSnRMaXdoQUZCZ1ZvNkpLMG16SHgwM3hza3ZjczRZRFI4UUs2czlEeWxabXU3OHA2NVR6SEZUeUcwMFAxMHNRSFdEaVVWNHR3Z0s5cl9pZ0E?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-09",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUTBFR05fRS1HNGlEckEwaXZVc1BxVlgtUVdFYmYtMDlkVzY3amRZV1JWSUEza0I4d0l4RkpxNmdWV1k0WEJzUVBGaWpYY0QtWExEd3RBdE5wTWJwM1hj?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-09",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI: The Festival, a special live event on November 21 at Mana Wynwood in Miami to celebrate the launch of GTAVI, featuring a star-studded lineup of artists from the game and the official soundtrack. More",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhS25VMXhWbDFhX2EyWkxSdFgySjgwVzlyWUxtSzZ4aDdQOUlLZk9nRUJsLTJvNGxpWlUwYVNWd2xmdEZhNnR3SS04eEhpa3NlWUpFdTQ3SmhxNVNYMGtuYllpclY?oc=5",
+      "publisher": "X",
+      "published": "2026-11-09",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and online (later) being separate - Japanese version is missing a 1.37GB file - New Zealand and Australia versions are missing a 0.68",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53bDRPWFNxYldSQ3BrcjJ3MkhPYno5SS14UDRUS05hR2tMV2RHVVY5cWtSa3B0c0pjdlZJcm1NQmFLY2o2bkJzb21tTndac2hqM0hkRHJaNjVWeUtzSVVOc3l0UkF3enM?oc=5",
+      "publisher": "X",
+      "published": "2026-11-09",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Rockstar Games and PlayStation announce special live event \"Grand Theft Auto VI: The Festival\" on November 21 in Miami, featuring Travis Scott, Cardi B, Justice, and more ➡️ https://t.co/WyndoETLJs - X",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oekE0TFN6NDhBSG1YNWpuUlc5T3k3NF91ZnNtZktLM0VRT082REFHZ3JjMGNsNEVZY29MMlZ1Q0VyTW5kaUtxLUc4YklkSThic0ZBdE1ldTA2X1JlYkFveg?oc=5",
+      "publisher": "X",
+      "published": "2026-11-09",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42WUhGNFVlZnJqaVlPbWIwT1h1M1puU1ByTzAzZm5kOVFUNmtGcWhaeC1MSVk0UHNBTGgwTzd1YnJyRnJjYmtwV2tVeWdpcDE5TXNORUtDQ2xwNUk?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-05",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPTVJDRzc3aUlBaUN6VVE1N3dkZ00wbXhYb1AtOUtleWtPVXFPTTVyUUszTWxySmw2bWYtWmhtUGZFTEhpUHVTX1RBdGpRSXhNYmQ5UVgyRmhYTkwwRmlTcUNtbXlsRW42c2xsQ1h2cHdJaWlaa0dfMEdCaTI0YWYzbERDWmN3X3FQYzRDQkJrbjhoLTE2NTc0cGU2djBzM2M3SEN2NURTOXY1MFJuTXEwc0RmMm00OWxTS202UkVrNDBFTGJIY3FsMG53cUJWanY0Slg5R1JGazUxQXp2U2QyQ29BZ3NHLVFoN0lET0ZRNEkyWGxHcnZvaXMyODQyVjkybmZ0NmlmYlBwX1JUQTB0MkxuYnJLaE01V3gzNmh5LUVjZVVsRnhKOWNIMFNMTDRicXB4MHdMUk12ZHpUelBLTFliZWMyMFFXb0pTSE1OS2ZRNUQxdEItbVpQVnU1ZE9WSklsUXZfdTVNLWRwVjR3NEJvNjdodHhzbVZzcTZHaVk3T29IblhfYVVGbGhIakJ0Vlo1bA?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-03",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X|S - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDMyZzY3bVJNdzBWVmRwazV4UHZGczFERTAtT1JOLUxyS3A5MVNFT21zbDFtVXhUaV9Na1ZCYnV6c2xLUGJxVnBnaThieWNIOEdMMHJxVFVYT3FXRlNkX2lERjU5STJpMnNTcktiU1h5N1FyZUluTE9TbkY2VE5GcjFWSkU3UWRWb3FnblhNZmtqTXRodGg3WHRnaXdaazlPUEhGMS1mb3BUN3ZjNm1JTm1DT2VGRVQ2eDdxaElWSDRraGZnaVp1VXdxNjdjNHRpMndNLUJZQlQ3VnQ2bmlTSkE0d2s5WlpBOU51X1VITm04X2c?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-03",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Common Solutions - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aMEN1ZzJSdi1Rd0c4N00tM0NselhkYjlFaEIxbnN1MVNPTjczUFVLUzhuTldtbWlYVndOaVdpdVdjZFBPcFRhUjQ5VXE2WlBmYVRwZTR0NmVSREJ2MHJjYXFXbGEzUQ?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-10-22",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character in a game real infidelity? - iXBT.games",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMXpZbXJjSnotSVZlNTI5eXhYZE83VlBvOHd1ZGRmODgzYnJQQlRiS1dRRzdETEx3OUxqb2t3ZVVMVUtpb1c1b19Sbnoya242Wng1aHI4Y2dQU2NsU0E4VFRLR0FMVXh1VkJkUWpOaXd1dl9LZ2lkbmlBNm5KMkRiU05tTGQ1T2lwMmVlWFVrMDdkaWhacVd2WlAtZ2ozaUZtSWtWWllmajg1bFVVUGZWTTV0SHZscW1YTUFhYUxudFlnN19Uc3l4Y3A2bEVGblBnSnd0eUpTWnRRSXpLeDZ2N1R0UnZoazBVdkp2Q1NZU0tfQdIB9wFBVV95cUxOVEN2aUNER2NjckxJeFRxWFJDTEEzUjk1Zzl2WklHc1JWcVFkeDBYR0RVM3hoMG5yeVFuNkpHdGh3MGVsSFRSM0pVaE9pUTZ6dXNMajQ3b1pLY19ad0NLWUxBZFc4Mkh5VjNEQ2RKWmNxaDZwTDlwalNVWFM1MGFCMDZOdjFMUGlaOFZnSzhnZkk4YjZOdnFDUHRCRFJIV3lMbW1ubzJPTzN3X2NTTnBLdVZnTTVFVjBQMEViNGl4RmpsWlBZTEpWdGp1RGtSV0llenc4dWFnWm9pWkJlQmlvWkRPSDBNanFmWnlSNlFTeTVia2p1ck9F?oc=5",
+      "publisher": "iXBT.games",
+      "published": "2026-10-19",
+      "discovery": "Jason and Lucia"
+    },
+    {
+      "title": "Grand Theft Auto VI Launch Trailer - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50azRBTThMZGkzQWFBVk9kdzk2aXhERnVnWEw5eGE2UTZDRk14UkZ0WkF3S3d3S1J1Mm1oMkVVb1F4ekxXajJhNzk2eFVMZnhTcWoxNGxR?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-10-15",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "GTA 6 Lets Jason and Lucia Become Lovers or Just Friends, But Rockstar Won’t Let Players Break The Duo Up - Wccftech",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ0wxd21jTnRBOUVwczUzcVdNSmtyeXd0MVlYOC0yNGhDbl8yZHBUVDhSSHoyQUwtenhIbzd1SklYMFJpc2xlOXRFaVBLZGR0LXBXR0lNd3dHc2JnR1ZESFRrX281NlVBWkVPaWhaUlJGYVEwR0hhY2ZKeDdWSUJ6WGZ5VkPSAYoBQVVfeXFMT0ItVm1WcFFYNzdfNERrbENKQVRwS1VSb1Z6dHk4bjEwalBxNFZCVFg2YW10bnZxS3ZvQW5DTFlaWklzMFZ6WDBMOTdyNGl1VjBjcjNnbHp1T0FJdnlOeUhPcGItSWlqLWtJUHZMZ1BTVklWaDFEY2pDdlgzYTdaOVA1LWdBZDdHcTNn?oc=5",
+      "publisher": "Wccftech",
+      "published": "2026-10-02",
+      "discovery": "Jason and Lucia"
+    }
+  ],
+  "notice": "Free automatic headline monitoring, not AI fact-checking. Summaries repeat source headlines; read original articles before treating a claim as confirmed."
 }
