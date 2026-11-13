@@ -179,6 +179,76 @@ const topicClips={'world': ['QdBZY2fkU-0', 4, 28, 'Vice City streets, beaches an
 function showHome(){stopTopicVideo();page.hidden=true;home.hidden=false;history.replaceState(null,'','#database');document.getElementById('database').scrollIntoView({block:'start'});}
 function showTopic(id){const t=topics.find(x=>x.id===id);if(!t)return;stopTopicVideo();const clip=topicClips[id];document.getElementById("topic-video").hidden=!clip;if(clip){document.getElementById("clip-description").textContent=clip[3];document.getElementById("clip-source").href="https://www.youtube.com/watch?v="+clip[0]+"&t="+clip[1]+"s";}home.hidden=true;page.hidden=false;document.getElementById('page-title').textContent=t.icon+' '+t.title;document.getElementById('page-intro').textContent=t.intro;const img=document.getElementById('page-image');img.src=t.image||'';img.alt='GTA VI scene illustrating '+t.title;img.referrerPolicy='no-referrer';img.onerror=()=>{img.style.display='none';};img.style.display=t.image?'block':'none';document.querySelector('.image-credit').style.display=t.image?'block':'none';document.getElementById('topic-sections').innerHTML=t.sections.map(([heading,bullets])=>`<section class="topic-list-section"><h3>${heading}</h3><ul>${bullets.map(b=>`<li>${b}</li>`).join('')}</ul></section>`).join('');document.getElementById('topic-links').innerHTML=sourceLinks.map(([label,url])=>`<a href="${url}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`).join('');history.replaceState(null,'','#topic-'+id);document.getElementById('database').scrollIntoView({block:'start'});}
 // Individual GTA VI topic thumbnails, linked to publicly available screenshots.
+/* Expanded research notes: official Rockstar material and hands-off developer-led previews. */
+const detailedGuides={
+story:[
+['Lucia Caminos — background and motivation (Rockstar confirmed)',[
+'Lucia grew up learning to defend herself. Rockstar says fighting for her family led to a prison sentence in Leonida Penitentiary.',
+'After leaving prison, Lucia wants a better life than the one she grew up with. Her mother dreamed of that life back in Liberty City.',
+'Lucia plans to change her circumstances through calculated decisions, although criminal work could pull her back into danger.',
+'Rockstar describes a life with Jason as a possible way forward for Lucia, but their future together is uncertain.']],
+['Jason Duval — background and motivation (Rockstar confirmed)',[
+'Jason grew up around criminals, joined the Army hoping to leave a troubled youth behind, then found work with drug runners in the Leonida Keys.',
+'Jason says he wants an easier life, but meeting Lucia could change everything. Rockstar deliberately leaves open whether that change will help or hurt him.',
+'Jason and Lucia are both trying to escape difficult circumstances; their hopes for stability may conflict with the risks they take.']],
+['How Jason and Lucia affect the story (official and developer statements)',[
+'Rockstar says a job goes wrong and draws the couple into a conspiracy across Leonida, forcing them to depend on each other to survive.',
+'Rockstar North development lead Rob Nelson told IGN that the main plot keeps Jason and Lucia working together as partners in crime for much of the story, even if players do not develop the romance.',
+'Nelson explained that spending time together can strengthen their bond. Ignoring the romance is allowed, but whether the relationship was nurtured affects how their story plays out.',
+'The relationship is not a separate dating game replacing the criminal storyline: it is a character-driven system woven into the adventure and the players choices.',
+'Their trust can add emotional stakes to jobs, escapes and disagreements, but specific betrayals, endings and exact branching outcomes have not been confirmed.']],
+['Relationship gameplay described in developer-led previews (reported)',[
+'In the IGN preview, Rockstar demonstrated Jason and Lucia sharing a safehouse and interacting naturally. Nelson said safehouses are intended to feel more lived-in, similar in spirit to Red Dead Redemption 2 camps.',
+'Developer Rob Nelson described activities together such as pool, mini golf, kayaking, exploring, and committing robberies as ways to build their relationship.',
+'The characters can keep in touch by phone and text while apart. Reporting on the demonstration suggests responding to a partner can matter to their bond.',
+'Rockstar demonstrated that the pair support each other in dangerous situations; their coordination is part of the story and open-world experience.',
+'These details come from journalists watching Rockstar staff play. They are not claims that outside reviewers independently played the final game.']],
+['What remains unknown (avoid spoilers and speculation)',[
+'Rockstar has not publicly laid out every relationship outcome or the full mission-by-mission consequences.',
+'Claims about specific breakups, betrayals, wedding missions, or a fixed number of endings should be treated as unverified unless backed by direct evidence.',
+'The relationship system and the separate Criminal Profile system were described in developer interviews, but their complete effects are not fully documented.']]
+],
+police:[['Wanted system and criminal profile (developer-led preview)',[
+'Rockstar Norths Rob Nelson described crimes being reported when witnesses see them or alarms are triggered.',
+'Police can reportedly identify a vehicle and recognize the protagonists as a couple, so switching cars or changing appearance can help escape attention.',
+'A separate Criminal Profile system reportedly tracks patterns in player behavior and may influence reactions and parts of the narrative.',
+'These mechanics were discussed in IGN coverage of a developer-led demo; exact final-game balance may change.']]],
+vehicles:[['Vehicle theft and travel (developer-led preview)',[
+'IGN reported that some parked cars require tools such as a slim-jim or key cloner instead of opening instantly.',
+'An in-game phone scanner was demonstrated for checking vehicle security, trackers and possible resale value.',
+'Some vehicles may have tracking systems that make getaway decisions more important.',
+'These details are reported from a Rockstar-controlled demonstration, not independently tested final-game features.']]],
+customization:[['Appearance and lifestyle (developer-led preview)',[
+'Rockstar demonstrated limited haircut changes at safehouses, while salons and barbers offer more hairstyles.',
+'Reports describe gyms affecting strength and eating habits affecting body weight.',
+'Safehouses are designed to feel lived-in and interactive, with Jason and Lucia behaving like people sharing a space.']]],
+activities:[['Activities together (developer-led preview)',[
+'Rockstar developer Rob Nelson named pool, mini golf and kayaking as examples of ways Jason and Lucia can spend time together.',
+'Going on activities or committing crimes together can reportedly strengthen their relationship.',
+'Players can explore alone or together outside story missions, according to the developer interview.']]],
+money:[['Money and progression (developer-led preview)',[
+'IGN reported that money has a stronger role in progression, including points where players need cash before certain story events can continue.',
+'Vehicle resale and security details reportedly appear in an in-game phone scanner.',
+'The exact economy and earnings balance are not fully documented.']]],
+technology:[['Open-world systems (developer-led preview)',[
+'IGN coverage describes a Focus mode that helps spot nearby points of interest and law enforcement.',
+'Rockstar discussed more varied non-player characters, ambient conversations and a more interactive world.',
+'The in-game phone reportedly supports communication between Jason and Lucia, including text messages.']]],
+world:[['World detail from developer-led previews',[
+'Developer interviews describe more enterable smaller interiors, lively safehouses and a wider variety of NPC appearances.',
+'The six named regions include urban Vice City, tropical Keys, wetlands, national-park terrain, coastal Port Gellhorn and industrial Ambrosia.',
+'The precise number of interiors and how much of the map is accessible should not be inferred from early previews.']]],
+combat:[['Working as a pair (developer-led preview)',[
+'Rob Nelson said Jason and Lucia back each other up in dangerous situations, including armed confrontations.',
+'The demonstration showed the protagonists coordinating in the open world; the exact tactical commands and injury simulation remain uncertain.',
+'Do not treat rumored broken bones, permanent injuries or advanced bleeding as confirmed gameplay mechanics.']]]
+};
+for(const guide of topics){if(detailedGuides[guide.id])guide.sections.push(...detailedGuides[guide.id]);}
+const relationshipSources=[
+['Rockstar Games — GTA VI official story and character bios','https://www.rockstargames.com/VI'],
+['IGN interview with Rockstar Norths Rob Nelson — relationship system and developer-led demo','https://tech.yahoo.com/gaming/articles/gta-6-big-interview-123000402.html'],
+['Developer interview — how romance influences the story','https://tech.yahoo.com/gaming/articles/step-forward-respects-exclusive-gta-190405476.html']
+];
 const topicImageUrls={
   "world": "https://media.gtaboom.com/variants/1280/media/images/c4/2a/State_of_Leonida_-_Vice_City_Image.jpg",
   "story": "https://www.igrandtheftauto.com/content/images/leonida-keys-05.jpg?etag=681dd513",
@@ -260,8 +330,8 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
 <aside id="la-panel" hidden aria-label="LEONIDA interactive guide">
  <div class="la-header"><div><strong>🤖 LEONIDA GUIDE</strong><small>Built into Anton James’s GTA VI fan site</small></div><button id="la-close" type="button" aria-label="Close assistant">✕</button></div>
  <div id="la-log" role="log" aria-live="polite" aria-relevant="additions text"></div>
- <div class="la-quick" id="la-quick"><button type="button" data-ask="Tell me about Jason and Lucia">Jason & Lucia</button><button type="button" data-ask="What regions can I explore?">Map</button><button type="button" data-ask="What is confirmed about police?">Police</button><button type="button" data-ask="How do I find the latest news?">Latest news</button></div>
- <div class="la-tools"><button id="la-surprise" type="button">🎲 Surprise topic</button><button id="la-sources" type="button">📚 Official sources</button><button id="la-clear" type="button">🗑 Clear chat</button></div><div class="la-suggestions" id="la-suggestions" aria-label="Follow-up suggestions"></div><form id="la-form"><input id="la-input" type="text" maxlength="280" autocomplete="off" aria-label="Ask about GTA VI" placeholder="Ask about GTA VI..." required><button id="la-send" type="submit">Send</button></form>
+ <div class="la-quick" id="la-quick"><button type="button" data-ask="How does Jason and Lucia relationship affect the story?">Jason & Lucia</button><button type="button" data-ask="What can I explore in Leonida?">Regions</button><button type="button" data-ask="What is confirmed about police?">Police</button><button type="button" data-ask="How do I find the latest news?">Latest news</button></div>
+ <div class="la-tools"><button id="la-surprise" type="button">🎲 Surprise topic</button><button id="la-sources" type="button">📚 Official sources</button><button id="la-clear" type="button">🗑 Clear chat</button></div><div class="la-suggestions" id="la-suggestions" aria-label="Follow-up suggestions"></div><form id="la-form"><input id="la-input" type="text" maxlength="280" autocomplete="off" aria-label="Ask about GTA VI" placeholder="Ask about Lucia, Jason, gameplay, sources..." required><button id="la-send" type="submit">Send</button></form>
  <p class="la-note">Answers come from this website's guides, not a live AI model. Details may change. <a href="https://www.rockstargames.com/VI" target="_blank" rel="noopener noreferrer">Rockstar official site</a>.</p>
 </aside>
 <script id="leonida-assistant-script">
@@ -288,6 +358,14 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
  return t.title+' — '+t.intro+'\n\n• '+selected.join('\n• ')+'\n\nOpen “'+t.title+'” in the Feature Database for the full guide. Ask me a follow-up!';
  }
  function answer(q){const c=clean(q);if(!c)return 'Ask me something about GTA VI!';
+ if(/(lucia|jason|couple|romance|relationship|love|trust|bond|partner|dating|story)/.test(c)&&/(affect|impact|change|influence|matter|important|ending|choice|choices|work|mechanic|play|optional|together|date|romance|relationship|love|trust|bond)/.test(c)){
+ lastTopic='story';
+ return 'JASON + LUCIA: HOW THEIR RELATIONSHIP SHAPES GTA VI\\n\\n• Rockstar confirms that a botched job draws them into a conspiracy and forces them to rely on each other.\\n• Rockstar North developer Rob Nelson says players can strengthen their relationship by spending time together, including everyday activities or crimes.\\n• Their romance is optional, but the story keeps them working together for much of the campaign. Nelson says nurturing the relationship affects how their story plays out.\\n• In a developer-led preview, journalists watched them interact in safehouses and support one another. This was not independent hands-on testing of the finished game.\\n• Exact endings, breakups and other consequences have not been confirmed.\\n\\nSources: https://www.rockstargames.com/VI and https://tech.yahoo.com/gaming/articles/step-forward-respects-exclusive-gta-190405476.html\\n\\nOpen Story & Characters for the full breakdown.';
+ }
+ if(/(lucia|jason)/.test(c)&&/(background|past|history|prison|army|who is|who are)/.test(c)){lastTopic='story';return 'Lucia Caminos was imprisoned after fighting for her family and wants a better life. Jason Duval grew up around criminals, served in the Army and later worked with drug runners in the Keys. Rockstar says meeting each other could change both their lives. Source: https://www.rockstargames.com/VI';}
+ if(/(game tested|playtest|hands on|played the game|who tested|reviewer|journalist|preview)/.test(c))return 'Important source distinction: IGN and other journalists watched Rockstar North staff play GTA VI during developer-led previews. Those observations and interviews offer useful reported details, but they do not mean the journalists independently played the final game. Developer interviews: https://tech.yahoo.com/gaming/articles/gta-6-big-interview-123000402.html';
+ if(/(relationship source|sources for relationship|where did you get|proof|evidence)/.test(c))return 'Relationship evidence:\\n• Rockstar official character bios: https://www.rockstargames.com/VI\\n• IGN developer-led preview and interview: https://tech.yahoo.com/gaming/articles/gta-6-big-interview-123000402.html\\n• Rob Nelson on the optional romance and story impact: https://tech.yahoo.com/gaming/articles/step-forward-respects-exclusive-gta-190405476.html';
+
  if(/^(hi|hey|hello|yo|sup|whats up|good morning|good evening)$/.test(c))return 'Yo! 🌴 Welcome to LEONIDA / FILES. Ask me about Jason and Lucia, the map, police, vehicles, or anything in our topic guides.';
  if(/^(thanks|thank you|thx|appreciate it)$/.test(c))return 'Anytime! 🌴 Want to explore another topic?';
  if(/^(help|menu|topics|options)$/.test(c))return 'I can help with the six regions, Jason and Lucia, combat, police, vehicles, money, activities, customization, technology, trailers, sources, and the latest news. Try the quick buttons or ask a question.';
@@ -308,13 +386,13 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
  if(scored[0]?.score>0)return topicAnswer(scored[0].t,q);
  return 'I couldn’t find a reliable answer in our current GTA VI guides. Try asking about a specific topic (Jason and Lucia, police, cars, Vice City, combat, money, or activities). For official updates, visit Rockstar’s GTA VI page.';
  }
- function followups(){suggestions.replaceChildren();const t=topics.find(x=>x.id===lastTopic);const prompts=t?['Tell me more','Is that confirmed?','Explore '+t.title]:['List the six regions','Tell me about Jason and Lucia','Show me the gallery'];for(const prompt of prompts){const b=document.createElement('button');b.type='button';b.textContent=prompt;b.addEventListener('click',()=>{if(prompt.startsWith('Explore ')&&t){showTopic(t.id);document.getElementById('database').scrollIntoView({behavior:'smooth'});hide();}else ask(prompt)});suggestions.append(b);}}
+ function followups(){suggestions.replaceChildren();const t=topics.find(x=>x.id===lastTopic);const prompts=t?(t.id==='story'?['How does their relationship affect the story?','What did journalists see in previews?','Explore '+t.title]:['Tell me more','Is that confirmed?','Explore '+t.title]):['List the six regions','Tell me about Jason and Lucia','Show me the gallery'];for(const prompt of prompts){const b=document.createElement('button');b.type='button';b.textContent=prompt;b.addEventListener('click',()=>{if(prompt.startsWith('Explore ')&&t){showTopic(t.id);document.getElementById('database').scrollIntoView({behavior:'smooth'});hide();}else ask(prompt)});suggestions.append(b);}}
  function ask(q){const value=String(q).trim().slice(0,280);if(!value)return;open();say(value,'user');const response=answer(value);say(response);previousQuestion=value;input.value='';followups();}
  document.getElementById('la-surprise').addEventListener('click',()=>{const t=topics[Math.floor(Math.random()*topics.length)];ask('Tell me about '+t.title);});
  document.getElementById('la-sources').addEventListener('click',()=>ask('Where are the official sources?'));
  document.getElementById('la-clear').addEventListener('click',()=>{log.replaceChildren();lastTopic=null;lastIndex=0;previousQuestion='';say('Chat cleared. 🌴 What would you like to explore?');followups();});
  form.addEventListener('submit',e=>{e.preventDefault();ask(input.value)});document.getElementById('la-quick').addEventListener('click',e=>{const b=e.target.closest('[data-ask]');if(b)ask(b.dataset.ask)});
- say('Welcome to LEONIDA / FILES! 🌴 Ask about GTA VI, explore the six regions, or use Surprise topic. I answer using this website’s guides, not live AI.');followups();
+ say('Welcome to LEONIDA / FILES! 🌴 Ask about GTA VI, explore the six regions, or use Surprise topic. I use expanded website guides and linked sources, not live AI.');followups();
 })();
 </script><script id="leonida-discovery-script">
 (()=>{'use strict';
