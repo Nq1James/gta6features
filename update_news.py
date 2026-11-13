@@ -13,14 +13,15 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+SCRIPT_DIR = pathlib.Path(__file__).resolve().parent
+ROOT = SCRIPT_DIR.parent if SCRIPT_DIR.name == "scripts" else SCRIPT_DIR
 OUTPUT = ROOT / "news.json"
 QUERY = '"Grand Theft Auto VI" OR "GTA 6" Rockstar'
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; LeonidaFilesNewsBot/2.0)", "Accept": "text/html,application/rss+xml,application/xml;q=0.9,*/*;q=0.8"}
 BING = "https://www.bing.com/news/search?" + urllib.parse.urlencode({"q": QUERY, "format": "rss"})
 GOOGLE = "https://news.google.com/rss/search?" + urllib.parse.urlencode({"q": QUERY + " when:7d", "hl": "en-US", "gl": "US", "ceid": "US:en"})
 MAX_ITEMS = 30
-MAX_IMAGE_CHECKS = 18
+MAX_IMAGE_CHECKS = 30
 
 
 def fetch(url, timeout=8, limit=900_000):
@@ -77,8 +78,15 @@ def image_from_rss(item):
             if candidate and (tag != "enclosure" or kind.startswith("image/")):
                 return candidate
     description = html.unescape(item.findtext("description") or "")
-    match = re.search(r'<img\b[^>]*\bsrc\s*=\s*["\']([^"\']+)', description, re.I)
-    return normalize_url(match.group(1)) if match else ""
+    # RSS descriptions may contain publisher thumbnails even when no media tag exists.
+    for pattern in (r'<img\b[^>]*\bsrc\s*=\s*["\']([^"\']+)',
+                    r'<img\b[^>]*\bsrc\s*=\s*([^\s>]+)'):
+        match = re.search(pattern, description, re.I)
+        if match:
+            candidate = normalize_url(match.group(1).strip('"\''))
+            if candidate:
+                return candidate
+    return ""
 
 
 def image_from_publisher(url):
@@ -122,10 +130,14 @@ def main():
     old_by_title = {str(a.get("title", "")).casefold(): a for a in existing["articles"] if isinstance(a, dict)}
     articles, seen = [], set()
     checks = 0
+    feed_counts = {}
 
     # Bing News often exposes publisher URLs directly; Google News is fallback.
     for feed in (BING, GOOGLE):
-        for item in items_from_feed(feed):
+        feed_name = "Bing" if feed == BING else "Google"
+        feed_items = items_from_feed(feed)
+        feed_counts[feed_name] = len(feed_items)
+        for item in feed_items:
             title = (item.findtext("title") or "").strip()
             if not title or not any(x in title.casefold() for x in ("gta 6", "gta vi", "grand theft auto")):
                 continue
@@ -166,6 +178,7 @@ def main():
             articles.append(old)
             seen.add(key)
 
+    print("Feed items:", feed_counts, "| publisher image checks:", checks)
     if not articles:
         print("No feed stories found; keeping existing news.json unchanged")
         return
