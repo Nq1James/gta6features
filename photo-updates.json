@@ -1,5 +1,70 @@
 {
-  "updated": null,
-  "photos": [],
-  "note": "Automatically sourced images appear here after the first photo workflow run."
+  "updated": "2026-11-13T16:59:52.334Z",
+  "photos": [
+    {
+      "image": "https://media.gtaboom.com/variants/1280/media/images/c4/2a/State_of_Leonida_-_Vice_City_Image.jpg",
+      "title": "Vice City — GTA VI region",
+      "topic": "world",
+      "source": "Existing LEONIDA image collection",
+      "article_url": "https://www.rockstargames.com/VI",
+      "published": ""
+    },
+    {
+      "image": "https://www.gtaboom.com/Leonida_Keys_01.jpg",
+      "title": "Leonida Keys — GTA VI region",
+      "topic": "world",
+      "source": "Existing LEONIDA image collection",
+      "article_url": "https://www.rockstargames.com/VI",
+      "published": ""
+    },
+    {
+      "image": "https://media.dexerto.com/media/gta-6-rockstar-locations-Grassrivers_04.jpg?format=auto&quality=75&width=768",
+      "title": "Grassrivers — GTA VI region",
+      "topic": "world",
+      "source": "Existing LEONIDA image collection",
+      "article_url": "https://www.rockstargames.com/VI",
+      "published": ""
+    },
+    {
+      "image": "https://danamic-media.danamic.org/danamic-production/2025/05/07033258/Mount_Kalaga_National_Park_04-1024x576.jpg",
+      "title": "Mount Kalaga — GTA VI region",
+      "topic": "world",
+      "source": "Existing LEONIDA image collection",
+      "article_url": "https://www.rockstargames.com/VI",
+      "published": ""
+    },
+    {
+      "image": "https://images.gamersyde.com/image_grand_theft_auto_vi-45515-5436_0007.jpg",
+      "title": "Port Gellhorn — GTA VI region",
+      "topic": "world",
+      "source": "Existing LEONIDA image collection",
+      "article_url": "https://www.rockstargames.com/VI",
+      "published": ""
+    },
+    {
+      "image": "https://leonidaexplorer.com/assets/images/screenshots/Places/Ambrosia/Ambrosia_04.webp",
+      "title": "Ambrosia — GTA VI region",
+      "topic": "world",
+      "source": "Existing LEONIDA image collection",
+      "article_url": "https://www.rockstargames.com/VI",
+      "published": ""
+    },
+    {
+      "image": "https://www.igrandtheftauto.com/content/images/leonida-keys-05.jpg?etag=681dd513",
+      "title": "GTA VI feature artwork",
+      "topic": "world",
+      "source": "Existing LEONIDA image collection",
+      "article_url": "https://www.rockstargames.com/VI",
+      "published": ""
+    },
+    {
+      "image": "https://www.igrandtheftauto.com/content/images/xxl/leonida-keys-02.jpg?etag=681dd4d1",
+      "title": "GTA VI feature artwork",
+      "topic": "story",
+      "source": "Existing LEONIDA image collection",
+      "article_url": "https://www.rockstargames.com/VI",
+      "published": ""
+    }
+  ],
+  "note": "Starter gallery uses existing GTA VI imagery; automatic research checks add publisher thumbnails when available. Images may not illustrate the exact news item."
 }
