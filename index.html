@@ -367,17 +367,39 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
   knowledge=docs;
  }
  function retrieveKnowledge(question){
-  rebuildKnowledge();const words=tokenize(question);if(!words.length)return null;
-  const c=clean(question);const requested=matchingTopic(question);const contextTopic=requested?.id||(/^(it|they|them|that|this|those|more|why|how)/.test(c)?lastTopic:null);
-  const wantsLatest=/new|latest|recent|update|announc|today|news|report/.test(c);
-  const ranked=knowledge.map((doc,index)=>{const hay=clean(doc.heading+' '+doc.body);const title=clean(doc.heading);let score=0;for(const w of words){if(hay.split(' ').includes(w))score+=3;else if(w.length>4&&hay.includes(w))score+=1;if(title.includes(w))score+=2;}if(contextTopic===doc.topic)score+=4;if(wantsLatest&&doc.status!=='guide')score+=7;if(wantsLatest&&doc.status==='guide')score-=5;if(!wantsLatest&&doc.status==='guide')score+=1;return {doc,index,score};}).filter(x=>x.score>=5).sort((a,b)=>b.score-a.score);
+  rebuildKnowledge();
+  const c=clean(question), words=tokenize(question);
+  const requested=matchingTopic(question);
+  const contextTopic=requested?.id||(/^(it|they|them|that|this|those|more|why|how|what about)/.test(c)?lastTopic:null);
+  const latest=/\b(new|latest|recent|update|announc|today|news|report)\b/.test(c);
+  if(!words.length&&!contextTopic)return null;
+  const ranked=knowledge.map((doc,index)=>{
+   const hay=clean(doc.heading+' '+doc.body),title=clean(doc.heading);
+   let score=0;
+   for(const w of words){if(hay.split(' ').includes(w))score+=3;else if(w.length>4&&hay.includes(w))score+=1;if(title.includes(w))score+=2;}
+   if(contextTopic===doc.topic)score+=5;
+   if(latest)score+=doc.status==='guide'?-8:12;
+   else if(doc.status==='guide')score+=1;
+   if(/confirm|verified|official|real/.test(c)&&doc.status==='unverified')score-=10;
+   return {doc,index,score};
+  }).filter(x=>x.score>=5).sort((a,b)=>b.score-a.score);
   if(!ranked.length)return null;
-  const seen=new Set(),chosen=[];
-  for(const hit of ranked){if(seen.has(hit.doc.body))continue;seen.add(hit.doc.body);chosen.push(hit.doc);if(chosen.length===3)break;}
-  if(!chosen.length)return null;
-  lastTopic=chosen[0].topic;
-  const heading=topics.find(t=>t.id===lastTopic)?.title||'GTA VI';
-  return heading+' — '+(wantsLatest?'latest sourced coverage':'relevant details')+'\n\n'+chosen.map(d=>'• '+(d.status==='guide'?'[Guide]': '['+d.status.toUpperCase()+']')+' '+d.body+(d.status!=='guide'&&d.source?'\n  Source: '+d.source:'')).join('\n\n')+'\n\n'+(wantsLatest?'These are publisher headlines, not independently verified gameplay facts.':'Ask a follow-up or open the full topic guide.');
+  const selected=[],seen=new Set();
+  for(const hit of ranked){
+   const d=hit.doc;
+   if(seen.has(d.body))continue;
+   if(selected.length&&d.topic!==selected[0].topic&&contextTopic)continue;
+   seen.add(d.body);selected.push(d);if(selected.length===2)break;
+  }
+  if(!selected.length)return null;
+  lastTopic=selected[0].topic;
+  const sentences=selected.map(d=>{
+   const body=d.body.trim().replace(/^[•\s]+/,'').replace(/\s+/g,' ');
+   const first=body.match(/^.*?[.!?](?=\s|$)/)?.[0]||body;
+   return (d.status==='unverified'?'Unverified: ':d.status==='reported'?'Reported: ':'')+first.replace(/[.!?]+$/,'')+'.';
+  });
+  if(latest&&selected.some(d=>d.status!=='guide'))sentences.push('These are reported headlines, not independently confirmed gameplay facts.');
+  return sentences.slice(0,3).join(' ');
  }
  fetch('feature-updates.json?v='+Math.floor(Date.now()/3600000),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(data=>{if(!data||!Array.isArray(data.updates))return;window.LEONIDA_LIVE_DATA=data;feedReady=true;rebuildKnowledge();}).catch(()=>{rebuildKnowledge();});
  let lastTopic=null,lastIndex=0;let previousQuestion='';const suggestions=document.getElementById('la-suggestions');
@@ -386,54 +408,55 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
  function hide(){panel.hidden=true;toggle.setAttribute('aria-expanded','false');toggle.focus();}
  toggle.addEventListener('click',()=>panel.hidden?open():hide());close.addEventListener('click',hide);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!panel.hidden)hide()});
  function matchingTopic(q){const words=clean(q).split(' ');let best=null,score=0;for(const t of topics){let n=0;for(const alias of topicAliases[t.id]||[]){const a=clean(alias);if(a.includes(' ')){if(clean(q).includes(a))n+=4;}else if(words.some(w=>w===a||w===a+'s'||(a.length>4&&w.startsWith(a))))n+=3;}const title=clean(t.title);if(clean(q).includes(title))n+=5;if(n>score){score=n;best=t;}}return best;}
- function topicAnswer(t,q){const normalized=clean(q);const relation=t.id==='story'&&/lucia|jason|relation|couple|love|trust|romance|partner/.test(normalized);
- let sections=t.sections;
- if(relation){const relevant=sections.filter(s=>/relation|trust|partnership|story|character|jason|lucia|together|bond/i.test(s[0]));if(relevant.length)sections=relevant;}
- if(/confirm|official|real|rumor|true|verified/.test(normalized))return 'I can’t independently verify that claim. Our guide mixes confirmed information and speculation. For confirmed GTA VI details, check Rockstar’s official page: https://www.rockstargames.com/VI';
- const keyTerms=normalized.split(' ').filter(w=>w.length>3&&!stop.has(w));const ranked=sections.flatMap(s=>s[1].map(b=>({b,score:keyTerms.reduce((n,w)=>n+(clean(b).includes(w)?1:0),0)}))).sort((a,b)=>b.score-a.score);
- let selected=ranked.filter(x=>x.score>0).slice(0,3).map(x=>x.b);
- if(!selected.length){const sec=sections[lastTopic===t.id?Math.min(lastIndex+1,sections.length-1):0];selected=sec[1].slice(0,3);lastIndex=sections.indexOf(sec);}else{lastIndex=0;}
+ function topicAnswer(t,q){
+ const c=clean(q),words=tokenize(q);
+ const ranked=t.sections.flatMap(section=>section[1].map(body=>({body,score:words.reduce((n,w)=>n+(clean(body).includes(w)?2:0),0)}))).sort((a,b)=>b.score-a.score);
+ const best=ranked.filter(x=>x.score>0).slice(0,2);
+ const chosen=best.length?best:ranked.slice(0,2);
  lastTopic=t.id;
- return t.title+' — '+t.intro+'\n\n• '+selected.join('\n• ')+'\n\nOpen “'+t.title+'” in the Feature Database for the full guide. Ask me a follow-up!';
+ return chosen.map(x=>{const body=x.body.trim();return /[.!?]$/.test(body)?body:body+'.';}).slice(0,2).join(' ');
  }
- function answer(q){const c=clean(q);if(!c)return 'Ask me something about GTA VI!';
- if(/(new features|new discoveries|latest features|feature updates|live research|recent reports|recently announced|what changed|new information|latest about)/.test(c)){
- const feed=window.LEONIDA_LIVE_DATA||{updates:[],sources:[]};
- const terms=c.split(' ').filter(w=>w.length>3);
- const matched=(feed.updates||[]).filter(x=>!terms.some(w=>['latest','recent','features','about','information','updated','announced','discoveries'].includes(w))||terms.some(w=>(x.topic+' '+x.title+' '+x.summary).toLowerCase().includes(w))).slice(0,4);
- if(matched.length)return 'LATEST SOURCE-ATTRIBUTED FEATURE UPDATES\\n\\n'+matched.map(x=>'• ['+x.status.toUpperCase()+'] '+x.title+': '+x.summary+'\\n  '+x.source_url).join('\\n\\n')+'\\n\\nSee the LIVE RESEARCH section for more.';
- const sources=(feed.sources||[]).slice(0,3);
- return sources.length?'The research bot has found recent coverage, but has not verified new gameplay claims yet. Check these original sources:\\n'+sources.map(x=>'• '+x.title+' — '+x.url).join('\\n'):'The automatic source feed is still being set up. I can answer from the existing detailed guides, but I cannot verify breaking news in real time.';
+ function answer(q){
+ const c=clean(q);
+ if(!c)return 'Ask me something about GTA VI.';
+ if(/^(hi|hey|hello|yo|sup|whats up|good morning|good evening)$/.test(c))return 'Hey! Ask me about GTA VI characters, regions, gameplay, or recent updates.';
+ if(/^(thanks|thank you|thx|appreciate it)$/.test(c))return 'Anytime! What else do you want to know?';
+ if(/^(help|menu|topics|options)$/.test(c))return 'I cover the six regions, Jason and Lucia, gameplay, and news. Ask anything specific for a short answer.';
+ if(/(who made|creator|owner|anton|made this|who built|who designed)/.test(c))return 'Anton James created and maintains LEONIDA / FILES. It is an independent GTA VI fan site.';
+ if(/(what can you do|are you ai|real ai|how do you work)/.test(c))return 'I search GTA VI guides and automatically collected headlines to answer questions. I remember recent topics on this device, but I do not independently verify reports or train myself.';
+ if(/(six regions|all regions|list regions|which regions|name the regions)/.test(c))return 'Leonida has six showcased areas: Vice City, Leonida Keys, Grassrivers, Mount Kalaga, Port Gellhorn, and Ambrosia. Each has a detailed guide in the Regions section.';
+ if(/(save|bookmark|favorites|favourites|saved files)/.test(c))return 'Open a topic and select Save Current Guide in Discovery. It stays saved on your device.';
+ if(/(gallery|pictures|photos|images|screenshots)/.test(c))return 'Open the Visual Archive for region screenshots and the latest sourced photos. Select an image to see it larger.';
+ if(/(source|official website|rockstar link|trailer|youtube)/.test(c))return 'Rockstar’s official GTA VI page is https://www.rockstargames.com/VI. The site also links to trailers and source articles.';
+ if(/(preorder|pre order|buy gta|purchase gta|controller|playstation store|xbox store)/.test(c))return 'Check the Preorder section for official PlayStation and Xbox store links. Prices and availability can change.';
+ if(/(release date|when.*release|launch date|when.*come out|price)/.test(c))return 'Release and pricing details can change. Check https://www.rockstargames.com/VI for the latest official announcement.';
+ if(/(relationship source|sources for relationship|where did you get|proof|evidence)/.test(c))return 'Rockstar’s character profiles describe Jason and Lucia’s partnership. Developer interviews provide additional reported details, linked in the Story guide.';
+ if(/(lucia|jason|couple|romance|relationship|love|trust|bond|partner)/.test(c)&&/(affect|impact|change|influence|matter|important|ending|choice|choices|work|mechanic|play|optional|together|date|romance|relationship|love|trust|bond)/.test(c)){
+  lastTopic='story';
+  return 'Jason and Lucia must rely on each other after a robbery goes wrong. Rockstar North says spending time together can strengthen their bond, while romance is optional. Exactly how that changes the ending is not confirmed.';
  }
-
- if(/(lucia|jason|couple|romance|relationship|love|trust|bond|partner|dating|story)/.test(c)&&/(affect|impact|change|influence|matter|important|ending|choice|choices|work|mechanic|play|optional|together|date|romance|relationship|love|trust|bond)/.test(c)){
- lastTopic='story';
- return 'JASON + LUCIA: HOW THEIR RELATIONSHIP SHAPES GTA VI\\n\\n• Rockstar confirms that a botched job draws them into a conspiracy and forces them to rely on each other.\\n• Rockstar North developer Rob Nelson says players can strengthen their relationship by spending time together, including everyday activities or crimes.\\n• Their romance is optional, but the story keeps them working together for much of the campaign. Nelson says nurturing the relationship affects how their story plays out.\\n• In a developer-led preview, journalists watched them interact in safehouses and support one another. This was not independent hands-on testing of the finished game.\\n• Exact endings, breakups and other consequences have not been confirmed.\\n\\nSources: https://www.rockstargames.com/VI and https://tech.yahoo.com/gaming/articles/step-forward-respects-exclusive-gta-190405476.html\\n\\nOpen Story & Characters for the full breakdown.';
+ if(/(lucia|jason)/.test(c)&&/(background|past|history|prison|army|who is|who are)/.test(c)){
+  lastTopic='story';
+  return 'Lucia was imprisoned after fighting for her family and wants a better life. Jason served in the Army before working with drug runners in the Keys. Their partnership drives the story.';
  }
- if(/(lucia|jason)/.test(c)&&/(background|past|history|prison|army|who is|who are)/.test(c)){lastTopic='story';return 'Lucia Caminos was imprisoned after fighting for her family and wants a better life. Jason Duval grew up around criminals, served in the Army and later worked with drug runners in the Keys. Rockstar says meeting each other could change both their lives. Source: https://www.rockstargames.com/VI';}
- if(/(game tested|playtest|hands on|played the game|who tested|reviewer|journalist|preview)/.test(c))return 'Important source distinction: IGN and other journalists watched Rockstar North staff play GTA VI during developer-led previews. Those observations and interviews offer useful reported details, but they do not mean the journalists independently played the final game. Developer interviews: https://tech.yahoo.com/gaming/articles/gta-6-big-interview-123000402.html';
- if(/(relationship source|sources for relationship|where did you get|proof|evidence)/.test(c))return 'Relationship evidence:\\n• Rockstar official character bios: https://www.rockstargames.com/VI\\n• IGN developer-led preview and interview: https://tech.yahoo.com/gaming/articles/gta-6-big-interview-123000402.html\\n• Rob Nelson on the optional romance and story impact: https://tech.yahoo.com/gaming/articles/step-forward-respects-exclusive-gta-190405476.html';
-
- if(/^(hi|hey|hello|yo|sup|whats up|good morning|good evening)$/.test(c))return 'Yo! 🌴 Welcome to LEONIDA / FILES. Ask me about Jason and Lucia, the map, police, vehicles, or anything in our topic guides.';
- if(/^(thanks|thank you|thx|appreciate it)$/.test(c))return 'Anytime! 🌴 Want to explore another topic?';
- if(/^(help|menu|topics|options)$/.test(c))return 'I can help with the six regions, Jason and Lucia, combat, police, vehicles, money, activities, customization, technology, trailers, sources, and the latest news. Try the quick buttons or ask a question.';
- if(/(six regions|all regions|list regions|which regions|name the regions)/.test(c))return 'The six areas in our guide are:\n• '+regions.map(r=>r[0]+' — '+r[1]).join('\n• ')+'\n\nExplore them in the Six Distinctive Regions section.';
- if(/(save|bookmark|favorites|favourites|saved files)/.test(c))return 'Open a topic guide, then use “Save current guide” in the Discovery section. Your saved guides stay on this device.';
- if(/(gallery|pictures|photos|images|screenshots)/.test(c))return 'Visit the Visual Archive gallery to browse region and topic images. Use its filters for Regions or Topics and select an image to preview it.';
- if(/(source|official website|rockstar link|trailer|youtube)/.test(c))return 'For confirmed GTA VI information, visit https://www.rockstargames.com/VI or the official Rockstar Games YouTube channel. Our topic guides also have trailers and source links. Community theories are not official confirmation.';
- if(/(latest|recent|new) (news|headlines|updates)|news|headlines/.test(c))return 'Scroll to “Latest GTA 6 News” on this website for automatically refreshed headlines. Headlines come from outside publishers and do not automatically mean Rockstar confirmed the story.';
- if(/(preorder|pre order|buy gta|purchase gta|dualsense|controller|playstation store|xbox store)/.test(c))return 'You can find official GTA VI preorder links for PlayStation and Xbox, plus both black and white GTA VI DualSense controllers, in the “Preorder GTA VI & shop controllers” section of this site. Scroll to the PREORDER section to open the official stores. Prices and stock can change.';
- if(/(release date|when.*release|launch date|when.*come out|price)/.test(c))return 'Release dates, pricing, and preorder details can change. For the latest confirmed information, check Rockstar’s official GTA VI page: https://www.rockstargames.com/VI. This built-in assistant cannot check live announcements.';
- if(/(who made|creator|owner|anton|made this|who built|who designed)/.test(c))return 'LEONIDA / FILES was created, designed, and is maintained by Anton James. 🌴 It’s an independent GTA VI fan project, not an official Rockstar website.';
- if(/(what can you do|are you ai|real ai|how do you work)/.test(c))return 'I’m a free, API-free knowledge assistant. I search the full guides and automatically collected, source-attributed updates. I can remember recent conversation topics on your device. I do not train a language model, independently verify headlines, or browse the web on demand.';
- let t=matchingTopic(q);
- if(!t&&/^(more|tell me more|go on|explain more|continue|what else|and|why|how so|examples|give examples|is that confirmed)$/.test(c)&&lastTopic)t=topics.find(x=>x.id===lastTopic);
- if(!t&&/^(it|they|them|that|this|those)\b/.test(c)&&lastTopic)t=topics.find(x=>x.id===lastTopic);
+ if(/(game tested|playtest|hands on|played the game|who tested|reviewer|journalist|preview)/.test(c))return 'Journalists watched Rockstar staff demonstrate GTA VI in developer-led previews. That is different from independently playing the finished game.';
+ if(/(new features|new discoveries|latest features|feature updates|live research|recent reports|recently announced|what changed|new information|latest about|latest news|recent news|headlines)/.test(c)){
+  const feed=window.LEONIDA_LIVE_DATA||{updates:[],sources:[]};
+  const updates=Array.isArray(feed.updates)?feed.updates:[];
+  const terms=tokenize(c).filter(w=>!['latest','recent','features','new','news','updates','announced','information'].includes(w));
+  const match=updates.find(x=>!terms.length||terms.some(w=>clean(x.title+' '+x.topic).includes(w)));
+  if(match){lastTopic=match.topic;return (match.status==='official'?'Official: ':match.status==='unverified'?'Unverified: ':'Reported: ')+String(match.title).replace(/[.!?]+$/,'')+'. Check its original source before treating the headline as a confirmed feature.';}
+  return 'No new gameplay feature is confirmed in the current feed. Check Live Research for the latest source links.';
+ }
+ if(/^(more|tell me more|go on|explain more|continue|what else|and|why|how so|examples|give examples|is that confirmed)$/.test(c)&&lastTopic){
+  const t=topics.find(x=>x.id===lastTopic);
+  if(t)return topicAnswer(t,q);
+ }
+ const found=retrieveKnowledge(q);
+ if(found)return found;
+ const t=matchingTopic(q)||(/^(it|they|them|that|this|those)\b/.test(c)?topics.find(x=>x.id===lastTopic):null);
  if(t)return topicAnswer(t,q);
- const learned=retrieveKnowledge(q);if(learned)return learned;
- const terms=c.split(' ').filter(w=>w.length>3&&!stop.has(w));const scored=topics.map(t=>({t,score:t.sections.flatMap(s=>s[1]).reduce((n,b)=>n+terms.reduce((m,w)=>m+(clean(b).includes(w)?1:0),0),0)})).sort((a,b)=>b.score-a.score);
- if(scored[0]?.score>0)return topicAnswer(scored[0].t,q);
- return 'I couldn’t find a reliable answer in our current GTA VI guides. Try asking about a specific topic (Jason and Lucia, police, cars, Vice City, combat, money, or activities). For official updates, visit Rockstar’s GTA VI page.';
+ return 'I couldn’t find a reliable answer in the current guides. Try a specific GTA VI character, region, or gameplay feature.';
  }
  function followups(){suggestions.replaceChildren();const t=topics.find(x=>x.id===lastTopic);const prompts=t?(t.id==='story'?['How does their relationship affect the story?','What did journalists see in previews?','Explore '+t.title]:['Tell me more','Is that confirmed?','Explore '+t.title]):['List the six regions','Tell me about Jason and Lucia','Show me the gallery'];for(const prompt of prompts){const b=document.createElement('button');b.type='button';b.textContent=prompt;b.addEventListener('click',()=>{if(prompt.startsWith('Explore ')&&t){showTopic(t.id);document.getElementById('database').scrollIntoView({behavior:'smooth'});hide();}else ask(prompt)});suggestions.append(b);}}
  function ask(q){const value=String(q).trim().slice(0,280);if(!value)return;open();say(value,'user');const response=answer(value);say(response);rememberQuestion(value,lastTopic);previousQuestion=value;input.value='';followups();}
