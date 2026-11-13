@@ -206,7 +206,7 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
 (()=>{
  'use strict';
  const toggle=document.getElementById('la-toggle'),panel=document.getElementById('la-panel'),close=document.getElementById('la-close'),log=document.getElementById('la-log'),form=document.getElementById('la-form'),input=document.getElementById('la-input');
- const clean=t=>String(t||'').toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\\s+/g,' ').trim();
+ const clean=t=>String(t||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
  const stop=new Set('what is are the a an and or to of in on for with about tell me can you do does it have how why where when which more please explain gta gta6 vi game games leonida files i want know'.split(' '));
  const topicAliases={world:['world','map','location','region','explore','vice city','keys','grassrivers','kalaga','gellhorn','ambrosia','wildlife','beach','swamp'],story:['story','character','lucia','jason','relationship','couple','romance','love','partner','trust','prison','protagonist'],combat:['combat','injury','injuries','wound','fight','gun','weapon','shoot','bleed','health','damage'],police:['police','cop','wanted','crime','arrest','robbery','rob','chase','witness','law'],vehicles:['vehicle','car','drive','driving','bike','boat','aircraft','garage','customize car'],money:['money','cash','economy','earn','property','bank','buy','spend','rich'],customization:['customization','outfit','clothes','hair','tattoo','gym','fitness','lifestyle'],activities:['activities','activity','sports','entertainment','nightclub','fishing','racing','mini game'],technology:['technology','npc','social','phone','graphics','visual','performance','fps','online']};
  let lastTopic=null,lastIndex=0;let previousQuestion='';const suggestions=document.getElementById('la-suggestions');
@@ -240,7 +240,7 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
  if(/(what can you do|are you ai|real ai|how do you work)/.test(c))return 'I’m a free, built-in interactive guide. I search the information already on LEONIDA / FILES and reply with relevant details. I’m not a live generative AI and I can’t browse the internet.';
  let t=matchingTopic(q);
  if(!t&&/^(more|tell me more|go on|explain more|continue|what else|and|why|how so|examples|give examples|is that confirmed)$/.test(c)&&lastTopic)t=topics.find(x=>x.id===lastTopic);
- if(!t&&/^(it|they|them|that|this|those)\\b/.test(c)&&lastTopic)t=topics.find(x=>x.id===lastTopic);
+ if(!t&&/^(it|they|them|that|this|those)\b/.test(c)&&lastTopic)t=topics.find(x=>x.id===lastTopic);
  if(t)return topicAnswer(t,q);
  const terms=c.split(' ').filter(w=>w.length>3&&!stop.has(w));const scored=topics.map(t=>({t,score:t.sections.flatMap(s=>s[1]).reduce((n,b)=>n+terms.reduce((m,w)=>m+(clean(b).includes(w)?1:0),0),0)})).sort((a,b)=>b.score-a.score);
  if(scored[0]?.score>0)return topicAnswer(scored[0].t,q);
