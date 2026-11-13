@@ -343,6 +343,34 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
  const clean=t=>String(t||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
  const stop=new Set('what is are the a an and or to of in on for with about tell me can you do does it have how why where when which more please explain gta gta6 vi game games leonida files i want know'.split(' '));
  const topicAliases={world:['world','map','location','region','explore','vice city','keys','grassrivers','kalaga','gellhorn','ambrosia','wildlife','beach','swamp'],story:['story','character','lucia','jason','relationship','couple','romance','love','partner','trust','prison','protagonist'],combat:['combat','injury','injuries','wound','fight','gun','weapon','shoot','bleed','health','damage'],police:['police','cop','wanted','crime','arrest','robbery','rob','chase','witness','law'],vehicles:['vehicle','car','drive','driving','bike','boat','aircraft','garage','customize car'],money:['money','cash','economy','earn','property','bank','buy','spend','rich'],customization:['customization','outfit','clothes','hair','tattoo','gym','fitness','lifestyle'],activities:['activities','activity','sports','entertainment','nightclub','fishing','racing','mini game'],technology:['technology','npc','social','phone','graphics','visual','performance','fps','online']};
+
+ // Local, API-free retrieval engine. Knowledge expands whenever feature-updates.json refreshes.
+ const MEMORY_KEY='leonida-guide-memory-v1';
+ const semanticAliases={lucia:['lucia','caminos','prison','relationship','jason'],jason:['jason','duval','army','lucia','relationship'],relationship:['relationship','bond','romance','trust','lucia','jason'],cars:['vehicles','driving','car'],cops:['police','wanted','witness'],map:['world','regions','leonida'],new:['latest','updates','research'],sources:['source','official','reported']};
+ let knowledge=[],memory={recentTopics:[],recentQuestions:[]},feedReady=false;
+ try{const stored=JSON.parse(localStorage.getItem(MEMORY_KEY)||'{}');if(Array.isArray(stored.recentTopics)&&Array.isArray(stored.recentQuestions))memory={recentTopics:stored.recentTopics.slice(-8),recentQuestions:stored.recentQuestions.slice(-6)};}catch{}
+ function rememberQuestion(question,topic){if(topic){memory.recentTopics=memory.recentTopics.filter(t=>t!==topic);memory.recentTopics.push(topic);memory.recentTopics=memory.recentTopics.slice(-8);}memory.recentQuestions.push(question.slice(0,120));memory.recentQuestions=memory.recentQuestions.slice(-6);try{localStorage.setItem(MEMORY_KEY,JSON.stringify(memory));}catch{}}
+ function tokenize(q){const words=clean(q).split(' ').filter(w=>w.length>2&&!stop.has(w));const expanded=[...words];for(const w of words){for(const [key,aliases] of Object.entries(semanticAliases)){if(w===key||aliases.includes(w))expanded.push(...aliases);}}return [...new Set(expanded)];}
+ function rebuildKnowledge(){
+  const docs=[];for(const t of topics){for(const section of t.sections){for(const bullet of section[1])docs.push({topic:t.id,heading:section[0],body:bullet,status:'guide',source:'https://www.rockstargames.com/VI'});}}
+  const live=window.LEONIDA_LIVE_DATA||{};
+  for(const x of Array.isArray(live.updates)?live.updates:[]){if(!x||!topics.some(t=>t.id===x.topic)||typeof x.summary!=='string')continue;docs.push({topic:x.topic,heading:x.title||'Recent coverage',body:x.summary,status:x.status||'reported',source:x.source_url||''});}
+  knowledge=docs;
+ }
+ function retrieveKnowledge(question){
+  rebuildKnowledge();const words=tokenize(question);if(!words.length)return null;
+  const c=clean(question);const requested=matchingTopic(question);const contextTopic=requested?.id||(/^(it|they|them|that|this|those|more|why|how)/.test(c)?lastTopic:null);
+  const wantsLatest=/new|latest|recent|update|announc|today|news|report/.test(c);
+  const ranked=knowledge.map((doc,index)=>{const hay=clean(doc.heading+' '+doc.body);const title=clean(doc.heading);let score=0;for(const w of words){if(hay.split(' ').includes(w))score+=3;else if(w.length>4&&hay.includes(w))score+=1;if(title.includes(w))score+=2;}if(contextTopic===doc.topic)score+=4;if(wantsLatest&&doc.status!=='guide')score+=7;if(wantsLatest&&doc.status==='guide')score-=5;if(!wantsLatest&&doc.status==='guide')score+=1;return {doc,index,score};}).filter(x=>x.score>=5).sort((a,b)=>b.score-a.score);
+  if(!ranked.length)return null;
+  const seen=new Set(),chosen=[];
+  for(const hit of ranked){if(seen.has(hit.doc.body))continue;seen.add(hit.doc.body);chosen.push(hit.doc);if(chosen.length===3)break;}
+  if(!chosen.length)return null;
+  lastTopic=chosen[0].topic;
+  const heading=topics.find(t=>t.id===lastTopic)?.title||'GTA VI';
+  return heading+' — '+(wantsLatest?'latest sourced coverage':'relevant details')+'\n\n'+chosen.map(d=>'• '+(d.status==='guide'?'[Guide]': '['+d.status.toUpperCase()+']')+' '+d.body+(d.status!=='guide'&&d.source?'\n  Source: '+d.source:'')).join('\n\n')+'\n\n'+(wantsLatest?'These are publisher headlines, not independently verified gameplay facts.':'Ask a follow-up or open the full topic guide.');
+ }
+ fetch('feature-updates.json?v='+Math.floor(Date.now()/3600000),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(data=>{if(!data||!Array.isArray(data.updates))return;window.LEONIDA_LIVE_DATA=data;feedReady=true;rebuildKnowledge();}).catch(()=>{rebuildKnowledge();});
  let lastTopic=null,lastIndex=0;let previousQuestion='';const suggestions=document.getElementById('la-suggestions');
  function say(text,who='bot'){const d=document.createElement('div');d.className='la-msg '+(who==='user'?'la-user':'la-bot');d.textContent=text;log.appendChild(d);log.scrollTop=log.scrollHeight;}
  function open(){panel.hidden=false;toggle.setAttribute('aria-expanded','true');input.focus();}
@@ -388,22 +416,23 @@ document.getElementById('news-refresh').addEventListener('click',loadNews);loadN
  if(/(preorder|pre order|buy gta|purchase gta|dualsense|controller|playstation store|xbox store)/.test(c))return 'You can find official GTA VI preorder links for PlayStation and Xbox, plus both black and white GTA VI DualSense controllers, in the “Preorder GTA VI & shop controllers” section of this site. Scroll to the PREORDER section to open the official stores. Prices and stock can change.';
  if(/(release date|when.*release|launch date|when.*come out|price)/.test(c))return 'Release dates, pricing, and preorder details can change. For the latest confirmed information, check Rockstar’s official GTA VI page: https://www.rockstargames.com/VI. This built-in assistant cannot check live announcements.';
  if(/(who made|creator|owner|anton|made this|who built|who designed)/.test(c))return 'LEONIDA / FILES was created, designed, and is maintained by Anton James. 🌴 It’s an independent GTA VI fan project, not an official Rockstar website.';
- if(/(what can you do|are you ai|real ai|how do you work)/.test(c))return 'I’m a free, built-in interactive guide. I search the information already on LEONIDA / FILES and reply with relevant details. I’m not a live generative AI and I can’t browse the internet.';
+ if(/(what can you do|are you ai|real ai|how do you work)/.test(c))return 'I’m a free, API-free knowledge assistant. I search the full guides and automatically collected, source-attributed updates. I can remember recent conversation topics on your device. I do not train a language model, independently verify headlines, or browse the web on demand.';
  let t=matchingTopic(q);
  if(!t&&/^(more|tell me more|go on|explain more|continue|what else|and|why|how so|examples|give examples|is that confirmed)$/.test(c)&&lastTopic)t=topics.find(x=>x.id===lastTopic);
  if(!t&&/^(it|they|them|that|this|those)\b/.test(c)&&lastTopic)t=topics.find(x=>x.id===lastTopic);
  if(t)return topicAnswer(t,q);
+ const learned=retrieveKnowledge(q);if(learned)return learned;
  const terms=c.split(' ').filter(w=>w.length>3&&!stop.has(w));const scored=topics.map(t=>({t,score:t.sections.flatMap(s=>s[1]).reduce((n,b)=>n+terms.reduce((m,w)=>m+(clean(b).includes(w)?1:0),0),0)})).sort((a,b)=>b.score-a.score);
  if(scored[0]?.score>0)return topicAnswer(scored[0].t,q);
  return 'I couldn’t find a reliable answer in our current GTA VI guides. Try asking about a specific topic (Jason and Lucia, police, cars, Vice City, combat, money, or activities). For official updates, visit Rockstar’s GTA VI page.';
  }
  function followups(){suggestions.replaceChildren();const t=topics.find(x=>x.id===lastTopic);const prompts=t?(t.id==='story'?['How does their relationship affect the story?','What did journalists see in previews?','Explore '+t.title]:['Tell me more','Is that confirmed?','Explore '+t.title]):['List the six regions','Tell me about Jason and Lucia','Show me the gallery'];for(const prompt of prompts){const b=document.createElement('button');b.type='button';b.textContent=prompt;b.addEventListener('click',()=>{if(prompt.startsWith('Explore ')&&t){showTopic(t.id);document.getElementById('database').scrollIntoView({behavior:'smooth'});hide();}else ask(prompt)});suggestions.append(b);}}
- function ask(q){const value=String(q).trim().slice(0,280);if(!value)return;open();say(value,'user');const response=answer(value);say(response);previousQuestion=value;input.value='';followups();}
+ function ask(q){const value=String(q).trim().slice(0,280);if(!value)return;open();say(value,'user');const response=answer(value);say(response);rememberQuestion(value,lastTopic);previousQuestion=value;input.value='';followups();}
  document.getElementById('la-surprise').addEventListener('click',()=>{const t=topics[Math.floor(Math.random()*topics.length)];ask('Tell me about '+t.title);});
  document.getElementById('la-sources').addEventListener('click',()=>ask('Where are the official sources?'));
- document.getElementById('la-clear').addEventListener('click',()=>{log.replaceChildren();lastTopic=null;lastIndex=0;previousQuestion='';say('Chat cleared. 🌴 What would you like to explore?');followups();});
+ document.getElementById('la-clear').addEventListener('click',()=>{log.replaceChildren();lastTopic=null;lastIndex=0;previousQuestion='';memory={recentTopics:[],recentQuestions:[]};try{localStorage.removeItem(MEMORY_KEY);}catch{}say('Chat cleared. 🌴 What would you like to explore?');followups();});
  form.addEventListener('submit',e=>{e.preventDefault();ask(input.value)});document.getElementById('la-quick').addEventListener('click',e=>{const b=e.target.closest('[data-ask]');if(b)ask(b.dataset.ask)});
- say('Welcome to LEONIDA / FILES! 🌴 Ask about GTA VI, explore the six regions, or use Surprise topic. I use expanded website guides and linked sources, not live AI.');followups();
+ say('Welcome to LEONIDA / FILES! 🌴 I search the full topic guides and new source updates to find relevant answers. I remember recent topics on this device, not on a server. No API key needed.');followups();
 })();
 </script><script id="leonida-discovery-script">
 (()=>{'use strict';
