@@ -22,6 +22,7 @@ OUTPUT = ROOT / "news.json"
 QUERY = '"Grand Theft Auto VI" OR "GTA 6" Rockstar'
 MAX_ITEMS = 30
 MAX_IMAGE_CHECKS = 20
+PROMO_PAGE = "https://www.rockstargames.com/VI"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; LeonidaFilesNewsBot/3.0)",
@@ -156,12 +157,6 @@ def image_from_article(url):
     if not valid_url(url):
         return ""
 
-    # Google News RSS URLs usually do not expose publisher images.
-    hostname = urllib.parse.urlsplit(url).hostname or ""
-
-    if hostname == "news.google.com":
-        return ""
-
     try:
         raw, final_url, content_type = fetch(
             url,
@@ -257,6 +252,11 @@ def main():
     articles = []
     seen = set()
     image_checks = 0
+    resolved = 0
+    # Rockstar promotional artwork is a clearly labeled fallback, not an
+    # illustration of the particular story. Fetch only once per update.
+    promotional_image = image_from_article(PROMO_PAGE)
+    print("Rockstar promotional image:", "found" if promotional_image else "unavailable")
 
     for feed_url in FEEDS:
         items = read_feed(feed_url)
@@ -319,12 +319,17 @@ def main():
                     urllib.parse.urlsplit(url).hostname or ""
                 )
 
-                if hostname != "news.google.com":
-                    image_checks += 1
-                    image = image_from_article(url)
+                image_checks += 1
+                image = image_from_article(url)
+                if image:
+                    resolved += 1
 
             if image:
                 article["image"] = image
+                article["image_type"] = "article"
+            elif promotional_image:
+                article["image"] = promotional_image
+                article["image_type"] = "GTA VI promotional artwork"
 
             articles.append(article)
             seen.add(title_lower)
@@ -355,6 +360,7 @@ def main():
         print("No articles found. Existing news.json preserved.")
         return
 
+    print("Publisher image checks:", image_checks, "| publisher images found:", resolved)
     image_count = sum(
         bool(article.get("image"))
         for article in articles
