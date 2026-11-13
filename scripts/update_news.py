@@ -21,8 +21,8 @@ OUTPUT = ROOT / "news.json"
 
 QUERY = '"Grand Theft Auto VI" OR "GTA 6" Rockstar'
 MAX_ITEMS = 30
-MAX_IMAGE_CHECKS = 20
-PROMO_PAGE = "https://www.rockstargames.com/VI"
+MAX_IMAGE_CHECKS = 30
+
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; LeonidaFilesNewsBot/3.0)",
@@ -253,11 +253,6 @@ def main():
     seen = set()
     image_checks = 0
     resolved = 0
-    # Rockstar promotional artwork is a clearly labeled fallback, not an
-    # illustration of the particular story. Fetch only once per update.
-    promotional_image = image_from_article(PROMO_PAGE)
-    print("Rockstar promotional image:", "found" if promotional_image else "unavailable")
-
     for feed_url in FEEDS:
         items = read_feed(feed_url)
 
@@ -311,7 +306,7 @@ def main():
 
             image = (
                 image_from_feed(item)
-                or normalize_url(old_article.get("image", ""))
+                or (normalize_url(old_article.get("image", "")) if old_article.get("image_type") == "article" and "/VI/_next/static/media/meta." not in str(old_article.get("image", "")) else "")
             )
 
             if not image and image_checks < MAX_IMAGE_CHECKS:
@@ -324,12 +319,11 @@ def main():
                 if image:
                     resolved += 1
 
+            if image and "/VI/_next/static/media/meta." in image:
+                image = ""
             if image:
                 article["image"] = image
                 article["image_type"] = "article"
-            elif promotional_image:
-                article["image"] = promotional_image
-                article["image_type"] = "GTA VI promotional artwork"
 
             articles.append(article)
             seen.add(title_lower)
@@ -353,7 +347,11 @@ def main():
             and key not in seen
             and normalize_url(old_article.get("url", ""))
         ):
-            articles.append(old_article)
+            retained = dict(old_article)
+            if retained.get("image_type") != "article" or "/VI/_next/static/media/meta." in str(retained.get("image", "")):
+                retained.pop("image", None)
+                retained.pop("image_type", None)
+            articles.append(retained)
             seen.add(key)
 
     if not articles:
