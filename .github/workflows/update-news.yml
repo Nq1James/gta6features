@@ -1,0 +1,43 @@
+
+name: Automatic GTA 6 News Updates
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gta6-news-update
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get website files
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check for GTA 6 news
+        run: python scripts/update_news.py
+
+      - name: Publish updated news
+        run: |
+          git add news.json
+          if git diff --cached --quiet; then
+            echo "No new news to publish."
+            exit 0
+          fi
+
+          git config user.name "GTA 6 News Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update GTA 6 news automatically"
+          git push
