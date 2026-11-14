@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-14T07:25:25+00:00",
+  "updated": "2026-11-14T13:13:13+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
-      "topic": "technology",
-      "title": "GTA 6 Trailer: Everything New YOU MISSED + 30 FPS Confirmed! - YouTube",
-      "summary": "Headline reported by YouTube: GTA 6 Trailer: Everything New YOU MISSED + 30 FPS Confirmed! - YouTube",
+      "topic": "story",
+      "title": "BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. I",
+      "summary": "Headline reported by X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else n",
       "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ycm5ob1pqalJCSWd1Q25NRkpmNTV3OVBJY3VXb0tOdF9GWnNIUGFONzBEQWdxcUUwQnQwX0d1MWRXZXY4NW5zUlFuZ2NvLXI2S09XOXdB?oc=5",
-      "source_title": "YouTube: GTA 6 Trailer: Everything New YOU MISSED + 30 FPS Confirmed! - YouTube",
-      "published": "2026-11-10"
+      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
+      "source_title": "X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
+      "published": "2026-11-14"
     },
     {
       "topic": "story",
@@ -41,6 +41,20 @@
   ],
   "sources": [
     {
+      "title": "GTA 6: NEW Gameplay, Trailer, Screenshots & Features Revealed! - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PVEQ1UEtCNHpvMW1YTWRaTDlpcWZEaWQxWjZZSHkyakFsNV9xWm9PdnU5UFNzdWFNM1VIMDJwX3J1ZVlWdXNUeGZ3Uk5hX2E3QllrUTRB?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-14",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
+      "publisher": "X",
+      "published": "2026-11-14",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "Activation code support - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55eGFsSWtDUk5fYTZDdEpYeHpWRi15TF9kZC1GOGhYTEx4QklwN2NGTmFBVExYcDVRUVZHdkhLYUI3QllqVHJvMFJhb29hWENtTzU5SmZOZWdJZktIVGhsTnpYaWZ2OEhsVUQzWWdma1A?oc=5",
       "publisher": "Rockstar Games",
@@ -48,25 +62,18 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "13 Years of GTA 6 Development Explained - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xY0EzZEotZmxPZ0RTcVZzajlIdm5hNjc5c3J3b09wejFzYlAzOE9mOHJDWDZGUDJZOXRzVzVtZUlHM2lsd2tmMDhhUHZlMGI3UGVWS1pR?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-13",
+      "discovery": "Rockstar YouTube"
+    },
+    {
       "title": "wrote up some thoughts on ai x gaming with @illscience and @Tocelot. read more below! https://t.co/zIs5TI8IRF - X",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fSExNcUN6OTN3VTFad0Z3MXpKTi1ybW9jdGx1MzY5OExObmJOUXZYR3ZYeXZQWElwUzZaelNCWmhKWnRpek5wVUFQbndaMTZxdG1qYXJuUTBQNEhDQTFJcFNhQQ?oc=5",
       "publisher": "X",
       "published": "2026-11-12",
       "discovery": "Rockstar social"
-    },
-    {
-      "title": "Rockstar Games appears to have released new footage from GTA 6, which also recreates the studio's real-life viral marketing in-game. https://t.co/gRYkLKC9wS - X",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TQ2VUSkVlWFpYd0tEQVVUTHM3NG5mR1ludzRWeDJITWZveDdNdklDTGRYRmNBZFdqR1NwaG5oMTdlbHZBY2Z3RkVXUjE5eElwRkJHNDBzSQ?oc=5",
-      "publisher": "X",
-      "published": "2026-11-12",
-      "discovery": "Rockstar social"
-    },
-    {
-      "title": "GRAND THEFT AUTO 6 - GTA 6 - PS5 | EARLY Unboxing | Physical Code in Box Edition | 4K - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tWlZjNi1JWmZQaVZaUk05akptQ1lnUUQ5c25GdFZqMG4wc3g4T0xpNl9uQmZQeVhJaVZ4enhqSmpsNGZFQVRhWFhtRFozNHFYTUlVVGdR?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-11",
-      "discovery": "Rockstar YouTube"
     },
     {
       "title": "UK broadband provider Virgin Media has announced in a new press release Grand Theft Auto VI pre-loads drove a record-breaking day on its broadband network, setting new records for both peak traffic and daily data usage. ",
@@ -83,6 +90,13 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "Grand Theft Auto VI - Pre-Load Now - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0ZUdDbm5kWGlMS2xrQTdaRDdZbko3NWFWeGNtaExDUDlBQnBCb2tQS3Z5ZElGWVRZa2lmWENaVzhfVG11RlV0TVg?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-10",
+      "discovery": "Rockstar official"
+    },
+    {
       "title": "Grand Theft Auto VI: Pre-Load Now - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Jb2FGUDFuVS1zNVdJZlp6TkdHZGpDLVJPWFM0bE9ERnBIYkVfX1lraEZVZWJPYlQySElXVXJkSGwzZ0ZFaXp6UzZXbkdrRkdKeTBBOEpB?oc=5",
       "publisher": "YouTube",
@@ -92,20 +106,6 @@
     {
       "title": "GTA 6 (Grand Theft Auto 6) - Official Pre Load Now Trailer - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DVnM5M1hUWWtBUk5yZHd5S0RTdTZ6bXF3ekVQMVhkRHF5RUV3OGpQaUJqdnFZdWtLSXNqc242V1JwRDFRQ2ZjOUtucGVaRFZ0R01ENVB3?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-10",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "GTA 6 Trailer: Everything New YOU MISSED + 30 FPS Confirmed! - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5ycm5ob1pqalJCSWd1Q25NRkpmNTV3OVBJY3VXb0tOdF9GWnNIUGFONzBEQWdxcUUwQnQwX0d1MWRXZXY4NW5zUlFuZ2NvLXI2S09XOXdB?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-10",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "GTA 6 (Grand Theft Auto 6) - Official PS5 Features Trailer - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52WFZfNzV0RFF0dkJpRTVNb01RdVBOTFU3SjNpTFFHdUZyTk9XMzNFdUFHZ0Ixc1NuVm9abmI0MzFJdkJvRFBWNHlXMmlzdzZPRFBkdnJB?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-10",
       "discovery": "Rockstar YouTube"
@@ -126,17 +126,10 @@
     },
     {
       "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUTBFR05fRS1HNGlEckEwaXZVc1BxVlgtUVdFYmYtMDlkVzY3amRZV1JWSUEza0I4d0l4RkpxNmdWV1k0WEJzUVBGaWpYY0QtWExEd3RBdE5wTWJwM1hj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZXQ2Z3VKV3ZmaXQ5d2FjQ1FWSnVJMjZxOURwa1dLNVVRMXFwMllwa1JPRTdXQ1dVQ1VCVzZDcVdBRlR5b1BWTXoyLTN1WnlaSnJFMjhMWjRvNGVXWDhnSlRjbU44eDRZSVFzQUNvTnNyX3RFZUFGdXU2SEtpell4MDh2bjJrNE5RMnptaUZjdHBXUUw5SnhGbDdR?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-09",
       "discovery": "Rockstar official"
-    },
-    {
-      "title": "Grand Theft Auto VI: The Festival, a special live event on November 21 at Mana Wynwood in Miami to celebrate the launch of GTAVI, featuring a star-studded lineup of artists from the game and the official soundtrack. More",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhS25VMXhWbDFhX2EyWkxSdFgySjgwVzlyWUxtSzZ4aDdQOUlLZk9nRUJsLTJvNGxpWlUwYVNWd2xmdEZhNnR3SS04eEhpa3NlWUpFdTQ3SmhxNVNYMGtuYllpclY?oc=5",
-      "publisher": "X",
-      "published": "2026-11-09",
-      "discovery": "Rockstar social"
     },
     {
       "title": "New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and online (later) being separate - Japanese version is missing a 1.37GB file - New Zealand and Australia versions are missing a 0.68",
@@ -153,6 +146,13 @@
       "discovery": "Rockstar social"
     },
     {
+      "title": "Take-Two CEO Strauss Zelnick was asked when or if Grand Theft Auto VI would come to PC, Nintendo and/or PHYSICAL DISC🚀 His response was: “information always comes from our labels” and will leave those potential future an",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBoekNxN05XbWF4Q0RWWmFGWkl6WnlkN0ozd3JULWNTN3pXRkU5bHlGSVIyMmRmYVlvcGVITk5tb0ZjcGpuSXdpWnU3bzhWZDY3eEZyMFB3WllmWnptUlNORmVnd2htQQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-09",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "Grand Theft Auto VI - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42WUhGNFVlZnJqaVlPbWIwT1h1M1puU1ByTzAzZm5kOVFUNmtGcWhaeC1MSVk0UHNBTGgwTzd1YnJyRnJjYmtwV2tVeWdpcDE5TXNORUtDQ2xwNUk?oc=5",
       "publisher": "Rockstar Games",
@@ -160,10 +160,10 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDdGSjJuNlZtbnZQMUJQczFyQUJkYUF3ZVdkOTZkY3ZiZ01xbzdGemx1X1FEZG15eUNTb0VUT0lsMHFLQUV2b1dUOV9SQXc4UTBvTjZMNXJZQzlwTVFlY2ZXdlhaT3lLY0U0emYwTG1SZlJ1LTktWi1qbTY5M1ZlYk15SWtmZ3ItNElUWlhWSzR0WWprVmlQM0ZpY0x3OWFoUFhQUWtqeWdHM2NVOTJlOFhhVk5IcTQ?oc=5",
+      "title": "Explore the Grand Theft Auto VI Launch Gallery - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQenlYTHJOV2JxUkx1TEZnblBxSzdYdnhJQlQ0RUEybnNON0pKS3RxUnlueXNkTGVUbmt5MnpBR1JzMkttUi1Qb3ZQNXp6NWpZbl9EX1dqUVhaWjNBU3ROWkFySlhBbUJwOVJESHNoZ0N0WXRVdGprZ1RGWWY2U2l4TjNtQm4zNDNpQkoxQnN1NmNVZUdqNTBhSGVYeFBsZUZFZWxHZ3RWLW5LSjFT?oc=5",
       "publisher": "Rockstar Games",
-      "published": "2026-11-04",
+      "published": "2026-11-05",
       "discovery": "Rockstar official"
     },
     {
