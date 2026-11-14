@@ -220,6 +220,19 @@ const videoConcepts={
  ]]]
 };
 for(const topic of topics){if(videoConcepts[topic.id])topic.sections.push(...videoConcepts[topic.id]);}
+// Fourth user-submitted TikTok: discussion of ambient GTA V NPC behaviors.
+// These examples are NOT evidence that GTA VI will include the same interactions.
+const ambientNpcComparison=[
+ ['Fourth TikTok — ambient NPC routines and small details (GTA V comparison, GTA VI unconfirmed)',[
+ 'The video argues that believable open worlds depend on everyday NPC behavior, not just missions.',
+ 'It cites GTA V-style examples such as a pedestrian walking a dog, reacting when the leash is released, and the dog running into the street.',
+ 'It also discusses a suspect being handcuffed by police, a character using a phone, and someone smoking a cigarette as background-world details.',
+ 'These are comparisons and commentary about existing open-world behavior; they do not confirm new GTA VI mechanics or that every example will return.',
+ 'Watch official GTA VI footage for evidence of independent NPC routines, contextual police scenes, pets, phone use and other ambient interactions.'
+ ]]
+];
+const ambientTopic=topics.find(t=>t.id==='technology');
+if(ambientTopic)ambientTopic.sections.push(...ambientNpcComparison);
 // Extra relationship context, based on Rockstar's official character biographies and story description.
 const relationshipDetails=[
  ['Jason and Lucia: why their relationship matters',[
