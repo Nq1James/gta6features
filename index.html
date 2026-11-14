@@ -184,6 +184,42 @@ for(const topic of topics){
   const extra=topicExpansions[topic.id];
   if(extra)topic.sections.push(...extra);
 }
+// User-submitted TikTok Parts 1–3: creator's imagined mechanics, NOT Rockstar confirmations.
+// These are presented as possibilities, not claims about the shipped game.
+const videoConcepts={
+ customization:[['TikTok fan concepts — gym and body changes (unconfirmed)',[
+ 'Part 1 imagines gym memberships, workout equipment and visible muscle or weight changes as players train.',
+ 'The creator illustrates a gym reception and exercise machines; these are mock-up concepts, not proof of a playable membership system.'
+ ]]],
+ activities:[['TikTok fan concepts — leisure and dates (unconfirmed)',[
+ 'Part 1 imagines a larger in-game radio station selector and more varied music choices.',
+ 'Part 2 imagines date activities such as kayaking, basketball, pool and mini-golf, with different outings for Jason and Lucia.',
+ 'Part 1 also proposes a more detailed fishing activity, with equipment and catches similar to a dedicated fishing game.'
+ ]]],
+ vehicles:[['TikTok fan concepts — vehicle systems (unconfirmed)',[
+ 'Part 1 imagines a fuel gauge, refueling stops and engine-condition indicators for vehicles.',
+ 'The video proposes more realistic vehicle wear and planning fuel before long drives; Rockstar has not confirmed those systems.'
+ ]]],
+ world:[['TikTok fan concepts — a more reactive Leonida (unconfirmed)',[
+ 'Part 2 imagines many more accessible interiors, including elevators and rooms inside tall buildings.',
+ 'The creator proposes a changing city where crowds and local conditions respond to events over time.',
+ 'Part 2 also illustrates severe storms that affect vehicles and aircraft; the specific storm mechanics shown are conceptual.',
+ 'Part 3 imagines longer sunsets and nights plus an expanded wildlife system with rare animals; a claim of over 170 species is not verified.'
+ ]]],
+ story:[['TikTok fan concepts — relationship choices (unconfirmed)',[
+ 'Parts 2 and 3 imagine optional dates, relationship meters and branching interactions for Jason and Lucia.',
+ 'Part 3 also depicts a possible relationship or marriage-related choice system, but the mock-up does not establish that marriage is playable.',
+ 'The creator imagines switching restrictions and character availability changing with the story; the exact rules are unconfirmed.'
+ ]]],
+ technology:[['TikTok fan concepts — phones and NPCs (unconfirmed)',[
+ 'Part 3 imagines a more interactive in-game phone and calls alongside more reactive NPC behavior.',
+ 'The video uses stylized menus and gameplay-style clips to illustrate possible mechanics, not authenticated Rockstar UI.'
+ ]]],
+ police:[['TikTok fan concepts — more reactive police (unconfirmed)',[
+ 'Part 3 suggests a more elaborate response to gunfire and street crime, but its illustrated interactions are not evidence of confirmed police systems.'
+ ]]]
+};
+for(const topic of topics){if(videoConcepts[topic.id])topic.sections.push(...videoConcepts[topic.id]);}
 // Extra relationship context, based on Rockstar's official character biographies and story description.
 const relationshipDetails=[
  ['Jason and Lucia: why their relationship matters',[
