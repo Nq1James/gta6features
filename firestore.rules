@@ -1,0 +1,22 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Each signed-in user can access only their own saved guide IDs.
+    match /users/{userId} {
+      allow read: if request.auth != null && request.auth.uid == userId;
+      allow create, update: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.keys().hasOnly(['savedTopics'])
+        && request.resource.data.savedTopics is list
+        && request.resource.data.savedTopics.size() <= 9
+        && request.resource.data.savedTopics.toSet().hasOnly([
+          'world','story','combat','police','vehicles','money',
+          'customization','activities','technology'
+        ]);
+      allow delete: if request.auth != null && request.auth.uid == userId;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
