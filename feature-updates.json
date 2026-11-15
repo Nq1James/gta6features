@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-15T13:14:24+00:00",
+  "updated": "2026-11-15T19:04:05+00:00",
   "mode": "source-monitoring",
   "updates": [
+    {
+      "topic": "money",
+      "title": "Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in t",
+      "summary": "Headline reported by X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have be",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RYXluZi1sT2lrMTFIemlvR1oyM3pCb1R0a2xFNFNLM25PYUUzcXRCMklfNUZKeEZUYkVHZldadGtSSGFVZWJxYm1MV2FIcC05NUEtTmcyVm9rYzgzMnJob1hoV1lfckE?oc=5",
+      "source_title": "X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have been booked off in the UK, ",
+      "published": "2026-11-15"
+    },
     {
       "topic": "story",
       "title": "BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. I",
@@ -10,15 +19,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
       "source_title": "X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
       "published": "2026-11-14"
-    },
-    {
-      "topic": "story",
-      "title": "New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and",
-      "summary": "Headline reported by X: New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and online (later) being separate - Japanese version is missing a 1.37GB file - New Zealand and Australia ve",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53bDRPWFNxYldSQ3BrcjJ3MkhPYno5SS14UDRUS05hR2tMV2RHVVY5cWtSa3B0c0pjdlZJcm1NQmFLY2o2bkJzb21tTndac2hqM0hkRHJaNjVWeUtzSVVOc3l0UkF3enM?oc=5",
-      "source_title": "X: New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and online (later) being separate - Japanese version is missing a 1.37GB file - New Zealand and Australia versions are missing a 0.68",
-      "published": "2026-11-09"
     },
     {
       "topic": "world",
@@ -41,6 +41,13 @@
   ],
   "sources": [
     {
+      "title": "Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have been booked off in the UK, ",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RYXluZi1sT2lrMTFIemlvR1oyM3pCb1R0a2xFNFNLM25PYUUzcXRCMklfNUZKeEZUYkVHZldadGtSSGFVZWJxYm1MV2FIcC05NUEtTmcyVm9rYzgzMnJob1hoV1lfckE?oc=5",
+      "publisher": "X",
+      "published": "2026-11-15",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "GTA 6: NEW Gameplay, Trailer, Screenshots & Features Revealed! - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PVEQ1UEtCNHpvMW1YTWRaTDlpcWZEaWQxWjZZSHkyakFsNV9xWm9PdnU5UFNzdWFNM1VIMDJwX3J1ZVlWdXNUeGZ3Uk5hX2E3QllrUTRB?oc=5",
       "publisher": "YouTube",
@@ -55,27 +62,6 @@
       "discovery": "Rockstar social"
     },
     {
-      "title": "Activation code support - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55eGFsSWtDUk5fYTZDdEpYeHpWRi15TF9kZC1GOGhYTEx4QklwN2NGTmFBVExYcDVRUVZHdkhLYUI3QllqVHJvMFJhb29hWENtTzU5SmZOZWdJZktIVGhsTnpYaWZ2OEhsVUQzWWdma1A?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-13",
-      "discovery": "Rockstar official"
-    },
-    {
-      "title": "13 Years of GTA 6 Development Explained - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xY0EzZEotZmxPZ0RTcVZzajlIdm5hNjc5c3J3b09wejFzYlAzOE9mOHJDWDZGUDJZOXRzVzVtZUlHM2lsd2tmMDhhUHZlMGI3UGVWS1pR?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-13",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "Grand Theft Auto VI - Prepare-se Para a Ação | PS5 - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00eEJpZWdsQ282TlJSblR6aUl5ZnE0T3ItVXpJdzVfRFQ0c2dkV2lfU1plQzJHUU1yNmhtSWlCTlE5TV9OR2E3YWlDYTZZU21FUGpXR1FB?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-13",
-      "discovery": "Rockstar YouTube"
-    },
-    {
       "title": "wrote up some thoughts on ai x gaming with @illscience and @Tocelot. read more below! https://t.co/zIs5TI8IRF - X",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fSExNcUN6OTN3VTFad0Z3MXpKTi1ybW9jdGx1MzY5OExObmJOUXZYR3ZYeXZQWElwUzZaelNCWmhKWnRpek5wVUFQbndaMTZxdG1qYXJuUTBQNEhDQTFJcFNhQQ?oc=5",
       "publisher": "X",
@@ -83,8 +69,22 @@
       "discovery": "Rockstar social"
     },
     {
+      "title": "Rockstar has announced that preloads are available for GTA 6 with a new trailer that gives a few new looks at the game before we all get to play it on November 19. - X",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlWVdwYmxmOHdUc2NocGZNS29jcUVKSUlKbjM2R2huMWVoSkxCeUJ2T3l4N2wxWGNfVlZZclBYVms1MVJnWXdhcUhqcmVETURORFp4NnhDUQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-12",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "Pre-Load Grand Theft Auto VI Now - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG4tVTJzUTcxU1NpT05mZVpHTXlRX285MWI5VzVwc2k1UnZiQ01HbGhBOWltLVlIRm9Rb2dUM1lfTmhYcDZXbVdsWHQwdEo0NmdCbTZ4bk9qRE5MOXVfcDNGNE9oWjl6LXoxQ05TdE9zaHA3WlBNVzZxMVY3c2F3R3dVa25wdHdWOFUzcEs4WFU3cXNXaVZTRWpR?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-10",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Application error: a client-side exception has occurred (see the browser console for more information). - Rockstar Support - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WX3M5UFFZeE5aMFJRLTI5djhQWGw0bUdyblFzSnRMaXdoQUZCZ1ZvNkpLMG16SHgwM3hza3ZjczRZRFI4UUs2czlEeWxabXU3OHA2NVR6SEZUeUcwMFAxMHNRSFdEaVVWNHR3Z0s5cl9pZ0E?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-10",
       "discovery": "Rockstar official"
@@ -111,18 +111,18 @@
       "discovery": "Rockstar YouTube"
     },
     {
+      "title": "GTA 6 (Grand Theft Auto 6) - Official PS5 Features Trailer - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjTDEyUmxuSW9VTTcza3hYWmc2Z3hpLVhlSjRGQ2NwUE56ZUt5N1BfMGlCUU1rMmE3V3hxSTlGZExVd0J5VmNsZEtqb2lYR1RKMTF5Mjhn?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-10",
+      "discovery": "Rockstar YouTube"
+    },
+    {
       "title": "\"Blood In Your Eyes\" by @ToveLo — featured in today's Pre-Load Now video and also on GTAVI: The Album. Available now on all major music streaming services: https://t.co/NlyeQEf4bo - X",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10X0Q5UHhBbzg4a1JVaXg0NnJhSV81emdoMUkzZTRHMXBZamJ2YUt6TzY4bF81Q2QwbzhXMGYzUEY4VFNWdkRUVDRncnZqWG0xeHdfUG41NzlnZVc0b3J3NzBCdmo?oc=5",
       "publisher": "X",
       "published": "2026-11-10",
       "discovery": "Rockstar social"
-    },
-    {
-      "title": "Issues installing Grand Theft Auto VI - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WX3M5UFFZeE5aMFJRLTI5djhQWGw0bUdyblFzSnRMaXdoQUZCZ1ZvNkpLMG16SHgwM3hza3ZjczRZRFI4UUs2czlEeWxabXU3OHA2NVR6SEZUeUcwMFAxMHNRSFdEaVVWNHR3Z0s5cl9pZ0E?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-09",
-      "discovery": "Rockstar official"
     },
     {
       "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
@@ -153,24 +153,17 @@
       "discovery": "Rockstar social"
     },
     {
-      "title": "New GTA 6 details: - Download size is 209.9GB - The game has a shared base, with story and online (later) being separate - Japanese version is missing a 1.37GB file - New Zealand and Australia versions are missing a 0.68",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53bDRPWFNxYldSQ3BrcjJ3MkhPYno5SS14UDRUS05hR2tMV2RHVVY5cWtSa3B0c0pjdlZJcm1NQmFLY2o2bkJzb21tTndac2hqM0hkRHJaNjVWeUtzSVVOc3l0UkF3enM?oc=5",
-      "publisher": "X",
-      "published": "2026-11-09",
-      "discovery": "Rockstar social"
-    },
-    {
-      "title": "Explore the Grand Theft Auto VI Launch Gallery - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQenlYTHJOV2JxUkx1TEZnblBxSzdYdnhJQlQ0RUEybnNON0pKS3RxUnlueXNkTGVUbmt5MnpBR1JzMkttUi1Qb3ZQNXp6NWpZbl9EX1dqUVhaWjNBU3ROWkFySlhBbUJwOVJESHNoZ0N0WXRVdGprZ1RGWWY2U2l4TjNtQm4zNDNpQkoxQnN1NmNVZUdqNTBhSGVYeFBsZUZFZWxHZ3RWLW5LSjFT?oc=5",
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42WUhGNFVlZnJqaVlPbWIwT1h1M1puU1ByTzAzZm5kOVFUNmtGcWhaeC1MSVk0UHNBTGgwTzd1YnJyRnJjYmtwV2tVeWdpcDE5TXNORUtDQ2xwNUk?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-05",
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42WUhGNFVlZnJqaVlPbWIwT1h1M1puU1ByTzAzZm5kOVFUNmtGcWhaeC1MSVk0UHNBTGgwTzd1YnJyRnJjYmtwV2tVeWdpcDE5TXNORUtDQ2xwNUk?oc=5",
+      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDdGSjJuNlZtbnZQMUJQczFyQUJkYUF3ZVdkOTZkY3ZiZ01xbzdGemx1X1FEZG15eUNTb0VUT0lsMHFLQUV2b1dUOV9SQXc4UTBvTjZMNXJZQzlwTVFlY2ZXdlhaT3lLY0U0emYwTG1SZlJ1LTktWi1qbTY5M1ZlYk15SWtmZ3ItNElUWlhWSzR0WWprVmlQM0ZpY0x3OWFoUFhQUWtqeWdHM2NVOTJlOFhhVk5IcTQ?oc=5",
       "publisher": "Rockstar Games",
-      "published": "2026-11-05",
+      "published": "2026-11-04",
       "discovery": "Rockstar official"
     },
     {
@@ -199,13 +192,6 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aMEN1ZzJSdi1Rd0c4N00tM0NselhkYjlFaEIxbnN1MVNPTjczUFVLUzhuTldtbWlYVndOaVdpdVdjZFBPcFRhUjQ5VXE2WlBmYVRwZTR0NmVSREJ2MHJjYXFXbGEzUQ?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-10-22",
-      "discovery": "Rockstar official"
-    },
-    {
-      "title": "Watch the Grand Theft Auto VI Launch Trailer - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOT3Y4a1Y2YW9DVFB4X2JDbUhFUTkzYTBBcDNQTXJnR3hZLTRydWw4YVdEWGx4V1FJTkNSRVNEQXRQTlpBaUcyMkZyQWUzNmhCRUVSd01qRkY1Y0dGQ1QzX1BBUFM0dXdwbmR6RUlZSXAtNjdYakdleS1CYW5CWDk1NU90M3ZweGs0STJhY3J2dmc2VWdobzFwcnRRakljQS1ScnFuRVVkeEdOMnJSSGg3N05xZXVxdUUzT08tVlIwbHd3SDBDOUtacERzcVRJQXlHM3JxUk14TGdXZmpUUlBMbkJfUExTZTJ5dDJkdHY5WGYxNW1GSjFUVGpUNGlwU1UxZWhKWHBWTEhkUEZJdmh2NDFoS0ZOeTdjMzJxag?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-10-15",
       "discovery": "Rockstar official"
     },
     {
