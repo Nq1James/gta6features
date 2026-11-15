@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-15T01:28:00+00:00",
+  "updated": "2026-11-15T07:26:32+00:00",
   "mode": "source-monitoring",
   "updates": [
+    {
+      "topic": "story",
+      "title": "BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. I",
+      "summary": "Headline reported by X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else n",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
+      "source_title": "X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
+      "published": "2026-11-14"
+    },
     {
       "topic": "world",
       "title": "Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X",
@@ -10,6 +19,15 @@
       "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDMyZzY3bVJNdzBWVmRwazV4UHZGczFERTAtT1JOLUxyS3A5MVNFT21zbDFtVXhUaV9Na1ZCYnV6c2xLUGJxVnBnaThieWNIOEdMMHJxVFVYT3FXRlNkX2lERjU5STJpMnNTcktiU1h5N1FyZUluTE9TbkY2VE5GcjFWSkU3UWRWb3FnblhNZmtqTXRodGg3WHRnaXdaazlPUEhGMS1mb3BUN3ZjNm1JTm1DT2VGRVQ2eDdxaElWSDRraGZnaVp1VXdxNjdjNHRpMndNLUJZQlQ3VnQ2bmlTSkE0d2s5WlpBOU51X1VITm04X2c?oc=5",
       "source_title": "Rockstar Games: Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X|S - Rockstar Games",
       "published": "2026-11-03"
+    },
+    {
+      "topic": "story",
+      "title": "Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character i",
+      "summary": "Headline reported by iXBT.games: Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character in a game real infidelity? - iXBT.games",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMXpZbXJjSnotSVZlNTI5eXhYZE83VlBvOHd1ZGRmODgzYnJQQlRiS1dRRzdETEx3OUxqb2t3ZVVMVUtpb1c1b19Sbnoya242Wng1aHI4Y2dQU2NsU0E4VFRLR0FMVXh1VkJkUWpOaXd1dl9LZ2lkbmlBNm5KMkRiU05tTGQ1T2lwMmVlWFVrMDdkaWhacVd2WlAtZ2ozaUZtSWtWWllmajg1bFVVUGZWTTV0SHZscW1YTUFhYUxudFlnN19Uc3l4Y3A2bEVGblBnSnd0eUpTWnRRSXpLeDZ2N1R0UnZoazBVdkp2Q1NZU0tfQdIB9wFBVV95cUxOVEN2aUNER2NjckxJeFRxWFJDTEEzUjk1Zzl2WklHc1JWcVFkeDBYR0RVM3hoMG5yeVFuNkpHdGh3MGVsSFRSM0pVaE9pUTZ6dXNMajQ3b1pLY19ad0NLWUxBZFc4Mkh5VjNEQ2RKWmNxaDZwTDlwalNVWFM1MGFCMDZOdjFMUGlaOFZnSzhnZkk4YjZOdnFDUHRCRFJIV3lMbW1ubzJPTzN3X2NTTnBLdVZnTTVFVjBQMEViNGl4RmpsWlBZTEpWdGp1RGtSV0llenc4dWFnWm9pWkJlQmlvWkRPSDBNanFmWnlSNlFTeTVia2p1ck9F?oc=5",
+      "source_title": "iXBT.games: Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character in a game real infidelity? - iXBT.games",
+      "published": "2026-10-19"
     },
     {
       "topic": "story",
@@ -30,6 +48,13 @@
       "discovery": "Rockstar YouTube"
     },
     {
+      "title": "BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
+      "publisher": "X",
+      "published": "2026-11-14",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "Activation code support - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55eGFsSWtDUk5fYTZDdEpYeHpWRi15TF9kZC1GOGhYTEx4QklwN2NGTmFBVExYcDVRUVZHdkhLYUI3QllqVHJvMFJhb29hWENtTzU5SmZOZWdJZktIVGhsTnpYaWZ2OEhsVUQzWWdma1A?oc=5",
       "publisher": "Rockstar Games",
@@ -44,11 +69,11 @@
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "Not again! - X",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKOXUwazVDUHBzUzhyNE0wN1RCQ19FdWJQSzZqNkFIc2hPWHU2TUFMU29pREx4TFRvaEhzc2lLQ2EtYnJZYTdyTnBJYTNvTE9CeTh0ZHZRS1UtejhoLWc?oc=5",
-      "publisher": "X",
+      "title": "Grand Theft Auto VI - Prepare-se Para a Ação | PS5 - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00eEJpZWdsQ282TlJSblR6aUl5ZnE0T3ItVXpJdzVfRFQ0c2dkV2lfU1plQzJHUU1yNmhtSWlCTlE5TV9OR2E3YWlDYTZZU21FUGpXR1FB?oc=5",
+      "publisher": "YouTube",
       "published": "2026-11-13",
-      "discovery": "Rockstar social"
+      "discovery": "Rockstar YouTube"
     },
     {
       "title": "wrote up some thoughts on ai x gaming with @illscience and @Tocelot. read more below! https://t.co/zIs5TI8IRF - X",
@@ -65,13 +90,6 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI - Pre-Load Now - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wQkdMR0dtTWFydzdQZkl0ZUdDbm5kWGlMS2xrQTdaRDdZbko3NWFWeGNtaExDUDlBQnBCb2tQS3Z5ZElGWVRZa2lmWENaVzhfVG11RlV0TVg?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-10",
-      "discovery": "Rockstar official"
-    },
-    {
       "title": "Grand Theft Auto VI: Pre-Load Now - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Jb2FGUDFuVS1zNVdJZlp6TkdHZGpDLVJPWFM0bE9ERnBIYkVfX1lraEZVZWJPYlQySElXVXJkSGwzZ0ZFaXp6UzZXbkdrRkdKeTBBOEpB?oc=5",
       "publisher": "YouTube",
@@ -79,15 +97,15 @@
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "GTA 6 (Grand Theft Auto 6) - Official PS5 Features Trailer - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjTDEyUmxuSW9VTTcza3hYWmc2Z3hpLVhlSjRGQ2NwUE56ZUt5N1BfMGlCUU1rMmE3V3hxSTlGZExVd0J5VmNsZEtqb2lYR1RKMTF5Mjhn?oc=5",
+      "title": "GTA 6 (Grand Theft Auto 6) - Official Pre Load Now Trailer - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DVnM5M1hUWWtBUk5yZHd5S0RTdTZ6bXF3ekVQMVhkRHF5RUV3OGpQaUJqdnFZdWtLSXNqc242V1JwRDFRQ2ZjOUtucGVaRFZ0R01ENVB3?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-10",
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "GTA 6 (Grand Theft Auto 6) - Official Pre Load Now Trailer - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DVnM5M1hUWWtBUk5yZHd5S0RTdTZ6bXF3ekVQMVhkRHF5RUV3OGpQaUJqdnFZdWtLSXNqc242V1JwRDFRQ2ZjOUtucGVaRFZ0R01ENVB3?oc=5",
+      "title": "GTA 6 (Grand Theft Auto 6) - Official PS5 Features Trailer - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjTDEyUmxuSW9VTTcza3hYWmc2Z3hpLVhlSjRGQ2NwUE56ZUt5N1BfMGlCUU1rMmE3V3hxSTlGZExVd0J5VmNsZEtqb2lYR1RKMTF5Mjhn?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-10",
       "discovery": "Rockstar YouTube"
@@ -112,6 +130,13 @@
       "publisher": "Rockstar Games",
       "published": "2026-11-09",
       "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI: The Festival, a special live event on November 21 at Mana Wynwood in Miami to celebrate the launch of GTAVI, featuring a star-studded lineup of artists from the game and the official soundtrack. More",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhS25VMXhWbDFhX2EyWkxSdFgySjgwVzlyWUxtSzZ4aDdQOUlLZk9nRUJsLTJvNGxpWlUwYVNWd2xmdEZhNnR3SS04eEhpa3NlWUpFdTQ3SmhxNVNYMGtuYllpclY?oc=5",
+      "publisher": "X",
+      "published": "2026-11-09",
+      "discovery": "Rockstar social"
     },
     {
       "title": "Explore the Grand Theft Auto VI Launch Gallery - Rockstar Games",
@@ -143,7 +168,7 @@
     },
     {
       "title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTEd3ZlVfeFU4blZUTEpzYWNfTURBMVg5azQ5NzFSbGJNSTdTcGRva3hhZUZ3cUNRald2d3J5OFczYW1zM0lOTlRQZWg5aWZvWXJ2U01mSDliSHRZNkVwLXY0RWFDV0lRdVA3VS11LVBGSllJTFgxZWdNYU1Wb1o5djdIc2FsMEpyQUZRM1RnVU1IOUE4N0MxSnVzWld3bGhjTEk5b19KbGdGcnl6QW1jR1JR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPTVJDRzc3aUlBaUN6VVE1N3dkZ00wbXhYb1AtOUtleWtPVXFPTTVyUUszTWxySmw2bWYtWmhtUGZFTEhpUHVTX1RBdGpRSXhNYmQ5UVgyRmhYTkwwRmlTcUNtbXlsRW42c2xsQ1h2cHdJaWlaa0dfMEdCaTI0YWYzbERDWmN3X3FQYzRDQkJrbjhoLTE2NTc0cGU2djBzM2M3SEN2NURTOXY1MFJuTXEwc0RmMm00OWxTS202UkVrNDBFTGJIY3FsMG53cUJWanY0Slg5R1JGazUxQXp2U2QyQ29BZ3NHLVFoN0lET0ZRNEkyWGxHcnZvaXMyODQyVjkybmZ0NmlmYlBwX1JUQTB0MkxuYnJLaE01V3gzNmh5LUVjZVVsRnhKOWNIMFNMTDRicXB4MHdMUk12ZHpUelBLTFliZWMyMFFXb0pTSE1OS2ZRNUQxdEItbVpQVnU1ZE9WSklsUXZfdTVNLWRwVjR3NEJvNjdodHhzbVZzcTZHaVk3T29IblhfYVVGbGhIakJ0Vlo1bA?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-03",
       "discovery": "Rockstar official"
@@ -154,6 +179,13 @@
       "publisher": "Rockstar Games",
       "published": "2026-10-22",
       "discovery": "Rockstar official"
+    },
+    {
+      "title": "Lucia and Jason's relationship in GTA VI sparked research - is flirting with a character in a game real infidelity? - iXBT.games",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMXpZbXJjSnotSVZlNTI5eXhYZE83VlBvOHd1ZGRmODgzYnJQQlRiS1dRRzdETEx3OUxqb2t3ZVVMVUtpb1c1b19Sbnoya242Wng1aHI4Y2dQU2NsU0E4VFRLR0FMVXh1VkJkUWpOaXd1dl9LZ2lkbmlBNm5KMkRiU05tTGQ1T2lwMmVlWFVrMDdkaWhacVd2WlAtZ2ozaUZtSWtWWllmajg1bFVVUGZWTTV0SHZscW1YTUFhYUxudFlnN19Uc3l4Y3A2bEVGblBnSnd0eUpTWnRRSXpLeDZ2N1R0UnZoazBVdkp2Q1NZU0tfQdIB9wFBVV95cUxOVEN2aUNER2NjckxJeFRxWFJDTEEzUjk1Zzl2WklHc1JWcVFkeDBYR0RVM3hoMG5yeVFuNkpHdGh3MGVsSFRSM0pVaE9pUTZ6dXNMajQ3b1pLY19ad0NLWUxBZFc4Mkh5VjNEQ2RKWmNxaDZwTDlwalNVWFM1MGFCMDZOdjFMUGlaOFZnSzhnZkk4YjZOdnFDUHRCRFJIV3lMbW1ubzJPTzN3X2NTTnBLdVZnTTVFVjBQMEViNGl4RmpsWlBZTEpWdGp1RGtSV0llenc4dWFnWm9pWkJlQmlvWkRPSDBNanFmWnlSNlFTeTVia2p1ck9F?oc=5",
+      "publisher": "iXBT.games",
+      "published": "2026-10-19",
+      "discovery": "Jason and Lucia"
     },
     {
       "title": "Grand Theft Auto VI Launch Trailer - YouTube",
