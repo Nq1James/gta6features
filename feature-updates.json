@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T15:26:59+00:00",
+  "updated": "2026-11-16T19:17:37+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -19,15 +19,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
       "source_title": "X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
       "published": "2026-11-14"
-    },
-    {
-      "topic": "world",
-      "title": "Exclusive first look at ‘MACCA & FRIENDS’. The series follows the adventures of Macca the ",
-      "summary": "Headline reported by X: Exclusive first look at ‘MACCA & FRIENDS’. The series follows the adventures of Macca the Gator and his wetland friends across the state of Leonida. Coming November 19 on WEAZEL. - X",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtQ19OQ1lvenRMelVMQ2lYa1FHcEMtNnpMLWtQTHhNR3NpbEc3ZVFXcG5CWnd1NnpDckQ3cGpCbl9yM1JJakVYM2lVcVR5X1BYdVJwcTRycUFtZTBjVXFuN2laRFg0QQ?oc=5",
-      "source_title": "X: Exclusive first look at ‘MACCA & FRIENDS’. The series follows the adventures of Macca the Gator and his wetland friends across the state of Leonida. Coming November 19 on WEAZEL. - X",
-      "published": "2026-11-13"
     },
     {
       "topic": "world",
@@ -69,13 +60,6 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Exclusive first look at ‘MACCA & FRIENDS’. The series follows the adventures of Macca the Gator and his wetland friends across the state of Leonida. Coming November 19 on WEAZEL. - X",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtQ19OQ1lvenRMelVMQ2lYa1FHcEMtNnpMLWtQTHhNR3NpbEc3ZVFXcG5CWnd1NnpDckQ3cGpCbl9yM1JJakVYM2lVcVR5X1BYdVJwcTRycUFtZTBjVXFuN2laRFg0QQ?oc=5",
-      "publisher": "X",
-      "published": "2026-11-13",
-      "discovery": "Rockstar social"
-    },
-    {
       "title": "Rockstar has announced that preloads are available for GTA 6 with a new trailer that gives a few new looks at the game before we all get to play it on November 19. - X",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlWVdwYmxmOHdUc2NocGZNS29jcUVKSUlKbjM2R2huMWVoSkxCeUJ2T3l4N2wxWGNfVlZZclBYVms1MVJnWXdhcUhqcmVETURORFp4NnhDUQ?oc=5",
       "publisher": "X",
@@ -90,15 +74,15 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI: Pre-Load Now - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Jb2FGUDFuVS1zNVdJZlp6TkdHZGpDLVJPWFM0bE9ERnBIYkVfX1lraEZVZWJPYlQySElXVXJkSGwzZ0ZFaXp6UzZXbkdrRkdKeTBBOEpB?oc=5",
+      "title": "Grand Theft Auto VI - Features Trailer | PS5 Games - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGRFdkYmtYT3FIbTRnbGNIM1JFS0x5ZmR6SjdMU0hKYVRacjJuQS1xMnhGZzk4aHBMZlR6b3lzSkhELXUzX3FsZkQ4bk1QVW1fbS1mSktn?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-10",
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "GTA 6 (Grand Theft Auto 6) - Official Pre Load Now Trailer - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DVnM5M1hUWWtBUk5yZHd5S0RTdTZ6bXF3ekVQMVhkRHF5RUV3OGpQaUJqdnFZdWtLSXNqc242V1JwRDFRQ2ZjOUtucGVaRFZ0R01ENVB3?oc=5",
+      "title": "Grand Theft Auto VI: Pre-Load Now - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Jb2FGUDFuVS1zNVdJZlp6TkdHZGpDLVJPWFM0bE9ERnBIYkVfX1lraEZVZWJPYlQySElXVXJkSGwzZ0ZFaXp6UzZXbkdrRkdKeTBBOEpB?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-10",
       "discovery": "Rockstar YouTube"
@@ -119,7 +103,7 @@
     },
     {
       "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZXQ2Z3VKV3ZmaXQ5d2FjQ1FWSnVJMjZxOURwa1dLNVVRMXFwMllwa1JPRTdXQ1dVQ1VCVzZDcVdBRlR5b1BWTXoyLTN1WnlaSnJFMjhMWjRvNGVXWDhnSlRjbU44eDRZSVFzQUNvTnNyX3RFZUFGdXU2SEtpell4MDh2bjJrNE5RMnptaUZjdHBXUUw5SnhGbDdR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUTBFR05fRS1HNGlEckEwaXZVc1BxVlgtUVdFYmYtMDlkVzY3amRZV1JWSUEza0I4d0l4RkpxNmdWV1k0WEJzUVBGaWpYY0QtWExEd3RBdE5wTWJwM1hj?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-09",
       "discovery": "Rockstar official"
