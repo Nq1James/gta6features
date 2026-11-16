@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T01:44:52+00:00",
+  "updated": "2026-11-16T09:05:07+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -28,15 +28,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDMyZzY3bVJNdzBWVmRwazV4UHZGczFERTAtT1JOLUxyS3A5MVNFT21zbDFtVXhUaV9Na1ZCYnV6c2xLUGJxVnBnaThieWNIOEdMMHJxVFVYT3FXRlNkX2lERjU5STJpMnNTcktiU1h5N1FyZUluTE9TbkY2VE5GcjFWSkU3UWRWb3FnblhNZmtqTXRodGg3WHRnaXdaazlPUEhGMS1mb3BUN3ZjNm1JTm1DT2VGRVQ2eDdxaElWSDRraGZnaVp1VXdxNjdjNHRpMndNLUJZQlQ3VnQ2bmlTSkE0d2s5WlpBOU51X1VITm04X2c?oc=5",
       "source_title": "Rockstar Games: Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X|S - Rockstar Games",
       "published": "2026-11-03"
-    },
-    {
-      "topic": "story",
-      "title": "GTA 6 Lets Jason and Lucia Become Lovers or Just Friends, But Rockstar Won’t Let Players B",
-      "summary": "Headline reported by Wccftech: GTA 6 Lets Jason and Lucia Become Lovers or Just Friends, But Rockstar Won’t Let Players Break The Duo Up - Wccftech",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ0wxd21jTnRBOUVwczUzcVdNSmtyeXd0MVlYOC0yNGhDbl8yZHBUVDhSSHoyQUwtenhIbzd1SklYMFJpc2xlOXRFaVBLZGR0LXBXR0lNd3dHc2JnR1ZESFRrX281NlVBWkVPaWhaUlJGYVEwR0hhY2ZKeDdWSUJ6WGZ5VkPSAYoBQVVfeXFMT0ItVm1WcFFYNzdfNERrbENKQVRwS1VSb1Z6dHk4bjEwalBxNFZCVFg2YW10bnZxS3ZvQW5DTFlaWklzMFZ6WDBMOTdyNGl1VjBjcjNnbHp1T0FJdnlOeUhPcGItSWlqLWtJUHZMZ1BTVklWaDFEY2pDdlgzYTdaOVA1LWdBZDdHcTNn?oc=5",
-      "source_title": "Wccftech: GTA 6 Lets Jason and Lucia Become Lovers or Just Friends, But Rockstar Won’t Let Players Break The Duo Up - Wccftech",
-      "published": "2026-10-02"
     }
   ],
   "sources": [
@@ -67,13 +58,6 @@
       "publisher": "Rockstar Games",
       "published": "2026-11-13",
       "discovery": "Rockstar official"
-    },
-    {
-      "title": "Rockstar has announced that preloads are available for GTA 6 with a new trailer that gives a few new looks at the game before we all get to play it on November 19. - X",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlWVdwYmxmOHdUc2NocGZNS29jcUVKSUlKbjM2R2huMWVoSkxCeUJ2T3l4N2wxWGNfVlZZclBYVms1MVJnWXdhcUhqcmVETURORFp4NnhDUQ?oc=5",
-      "publisher": "X",
-      "published": "2026-11-12",
-      "discovery": "Rockstar social"
     },
     {
       "title": "UK broadband provider Virgin Media has announced in a new press release Grand Theft Auto VI pre-loads drove a record-breaking day on its broadband network, setting new records for both peak traffic and daily data usage. ",
@@ -126,7 +110,7 @@
     },
     {
       "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZXQ2Z3VKV3ZmaXQ5d2FjQ1FWSnVJMjZxOURwa1dLNVVRMXFwMllwa1JPRTdXQ1dVQ1VCVzZDcVdBRlR5b1BWTXoyLTN1WnlaSnJFMjhMWjRvNGVXWDhnSlRjbU44eDRZSVFzQUNvTnNyX3RFZUFGdXU2SEtpell4MDh2bjJrNE5RMnptaUZjdHBXUUw5SnhGbDdR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUTBFR05fRS1HNGlEckEwaXZVc1BxVlgtUVdFYmYtMDlkVzY3amRZV1JWSUEza0I4d0l4RkpxNmdWV1k0WEJzUVBGaWpYY0QtWExEd3RBdE5wTWJwM1hj?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-09",
       "discovery": "Rockstar official"
@@ -143,13 +127,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42WUhGNFVlZnJqaVlPbWIwT1h1M1puU1ByTzAzZm5kOVFUNmtGcWhaeC1MSVk0UHNBTGgwTzd1YnJyRnJjYmtwV2tVeWdpcDE5TXNORUtDQ2xwNUk?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-05",
-      "discovery": "Rockstar official"
-    },
-    {
-      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDdGSjJuNlZtbnZQMUJQczFyQUJkYUF3ZVdkOTZkY3ZiZ01xbzdGemx1X1FEZG15eUNTb0VUT0lsMHFLQUV2b1dUOV9SQXc4UTBvTjZMNXJZQzlwTVFlY2ZXdlhaT3lLY0U0emYwTG1SZlJ1LTktWi1qbTY5M1ZlYk15SWtmZ3ItNElUWlhWSzR0WWprVmlQM0ZpY0x3OWFoUFhQUWtqeWdHM2NVOTJlOFhhVk5IcTQ?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-04",
       "discovery": "Rockstar official"
     },
     {
@@ -181,25 +158,11 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Watch the Grand Theft Auto VI Launch Trailer - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOT3Y4a1Y2YW9DVFB4X2JDbUhFUTkzYTBBcDNQTXJnR3hZLTRydWw4YVdEWGx4V1FJTkNSRVNEQXRQTlpBaUcyMkZyQWUzNmhCRUVSd01qRkY1Y0dGQ1QzX1BBUFM0dXdwbmR6RUlZSXAtNjdYakdleS1CYW5CWDk1NU90M3ZweGs0STJhY3J2dmc2VWdobzFwcnRRakljQS1ScnFuRVVkeEdOMnJSSGg3N05xZXVxdUUzT08tVlIwbHd3SDBDOUtacERzcVRJQXlHM3JxUk14TGdXZmpUUlBMbkJfUExTZTJ5dDJkdHY5WGYxNW1GSjFUVGpUNGlwU1UxZWhKWHBWTEhkUEZJdmh2NDFoS0ZOeTdjMzJxag?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-10-15",
-      "discovery": "Rockstar official"
-    },
-    {
       "title": "Grand Theft Auto VI Launch Trailer - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50azRBTThMZGkzQWFBVk9kdzk2aXhERnVnWEw5eGE2UTZDRk14UkZ0WkF3S3d3S1J1Mm1oMkVVb1F4ekxXajJhNzk2eFVMZnhTcWoxNGxR?oc=5",
       "publisher": "YouTube",
       "published": "2026-10-15",
       "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "GTA 6 Lets Jason and Lucia Become Lovers or Just Friends, But Rockstar Won’t Let Players Break The Duo Up - Wccftech",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ0wxd21jTnRBOUVwczUzcVdNSmtyeXd0MVlYOC0yNGhDbl8yZHBUVDhSSHoyQUwtenhIbzd1SklYMFJpc2xlOXRFaVBLZGR0LXBXR0lNd3dHc2JnR1ZESFRrX281NlVBWkVPaWhaUlJGYVEwR0hhY2ZKeDdWSUJ6WGZ5VkPSAYoBQVVfeXFMT0ItVm1WcFFYNzdfNERrbENKQVRwS1VSb1Z6dHk4bjEwalBxNFZCVFg2YW10bnZxS3ZvQW5DTFlaWklzMFZ6WDBMOTdyNGl1VjBjcjNnbHp1T0FJdnlOeUhPcGItSWlqLWtJUHZMZ1BTVklWaDFEY2pDdlgzYTdaOVA1LWdBZDdHcTNn?oc=5",
-      "publisher": "Wccftech",
-      "published": "2026-10-02",
-      "discovery": "Jason and Lucia"
     }
   ],
   "notice": "Free automatic headline monitoring, not AI fact-checking. Summaries repeat source headlines; read original articles before treating a claim as confirmed."
