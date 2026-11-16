@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T09:05:07+00:00",
+  "updated": "2026-11-16T15:26:59+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -19,6 +19,15 @@
       "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
       "source_title": "X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
       "published": "2026-11-14"
+    },
+    {
+      "topic": "world",
+      "title": "Exclusive first look at ‘MACCA & FRIENDS’. The series follows the adventures of Macca the ",
+      "summary": "Headline reported by X: Exclusive first look at ‘MACCA & FRIENDS’. The series follows the adventures of Macca the Gator and his wetland friends across the state of Leonida. Coming November 19 on WEAZEL. - X",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtQ19OQ1lvenRMelVMQ2lYa1FHcEMtNnpMLWtQTHhNR3NpbEc3ZVFXcG5CWnd1NnpDckQ3cGpCbl9yM1JJakVYM2lVcVR5X1BYdVJwcTRycUFtZTBjVXFuN2laRFg0QQ?oc=5",
+      "source_title": "X: Exclusive first look at ‘MACCA & FRIENDS’. The series follows the adventures of Macca the Gator and his wetland friends across the state of Leonida. Coming November 19 on WEAZEL. - X",
+      "published": "2026-11-13"
     },
     {
       "topic": "world",
@@ -60,10 +69,17 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "UK broadband provider Virgin Media has announced in a new press release Grand Theft Auto VI pre-loads drove a record-breaking day on its broadband network, setting new records for both peak traffic and daily data usage. ",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4R0tpRnc2Zm4wYjJMQmw2T2tLWm04QmEyX1JsOUVfdjYyQ1dTWHJ5eDJsekpiODlxYjBRR3diemwtblo1UWJfN1lHNUFvVFl5bVZiNUhvSDAwM25HdTlz?oc=5",
+      "title": "Exclusive first look at ‘MACCA & FRIENDS’. The series follows the adventures of Macca the Gator and his wetland friends across the state of Leonida. Coming November 19 on WEAZEL. - X",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAtQ19OQ1lvenRMelVMQ2lYa1FHcEMtNnpMLWtQTHhNR3NpbEc3ZVFXcG5CWnd1NnpDckQ3cGpCbl9yM1JJakVYM2lVcVR5X1BYdVJwcTRycUFtZTBjVXFuN2laRFg0QQ?oc=5",
       "publisher": "X",
-      "published": "2026-11-11",
+      "published": "2026-11-13",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Rockstar has announced that preloads are available for GTA 6 with a new trailer that gives a few new looks at the game before we all get to play it on November 19. - X",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlWVdwYmxmOHdUc2NocGZNS29jcUVKSUlKbjM2R2huMWVoSkxCeUJ2T3l4N2wxWGNfVlZZclBYVms1MVJnWXdhcUhqcmVETURORFp4NnhDUQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-12",
       "discovery": "Rockstar social"
     },
     {
@@ -88,13 +104,6 @@
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "GTA 6 (Grand Theft Auto 6) - Official PS5 Features Trailer - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjTDEyUmxuSW9VTTcza3hYWmc2Z3hpLVhlSjRGQ2NwUE56ZUt5N1BfMGlCUU1rMmE3V3hxSTlGZExVd0J5VmNsZEtqb2lYR1RKMTF5Mjhn?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-10",
-      "discovery": "Rockstar YouTube"
-    },
-    {
       "title": "\"Blood In Your Eyes\" by @ToveLo — featured in today's Pre-Load Now video and also on GTAVI: The Album. Available now on all major music streaming services: https://t.co/NlyeQEf4bo - X",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10X0Q5UHhBbzg4a1JVaXg0NnJhSV81emdoMUkzZTRHMXBZamJ2YUt6TzY4bF81Q2QwbzhXMGYzUEY4VFNWdkRUVDRncnZqWG0xeHdfUG41NzlnZVc0b3J3NzBCdmo?oc=5",
       "publisher": "X",
@@ -110,7 +119,7 @@
     },
     {
       "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUTBFR05fRS1HNGlEckEwaXZVc1BxVlgtUVdFYmYtMDlkVzY3amRZV1JWSUEza0I4d0l4RkpxNmdWV1k0WEJzUVBGaWpYY0QtWExEd3RBdE5wTWJwM1hj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZXQ2Z3VKV3ZmaXQ5d2FjQ1FWSnVJMjZxOURwa1dLNVVRMXFwMllwa1JPRTdXQ1dVQ1VCVzZDcVdBRlR5b1BWTXoyLTN1WnlaSnJFMjhMWjRvNGVXWDhnSlRjbU44eDRZSVFzQUNvTnNyX3RFZUFGdXU2SEtpell4MDh2bjJrNE5RMnptaUZjdHBXUUw5SnhGbDdR?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-09",
       "discovery": "Rockstar official"
@@ -130,11 +139,25 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDdGSjJuNlZtbnZQMUJQczFyQUJkYUF3ZVdkOTZkY3ZiZ01xbzdGemx1X1FEZG15eUNTb0VUT0lsMHFLQUV2b1dUOV9SQXc4UTBvTjZMNXJZQzlwTVFlY2ZXdlhaT3lLY0U0emYwTG1SZlJ1LTktWi1qbTY5M1ZlYk15SWtmZ3ItNElUWlhWSzR0WWprVmlQM0ZpY0x3OWFoUFhQUWtqeWdHM2NVOTJlOFhhVk5IcTQ?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-04",
+      "discovery": "Rockstar official"
+    },
+    {
       "title": "Zelda: Ocarina of Time Remake Is Officially the Highest-Rated Game of 2026 - FandomWire",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQU84N0FyVG9meHc1bnE5UGJaTHZXT0dUVWVlZDdheDJsemEydUlEbkZPSU11UDE0YVd1V1RwMnZTUjE5cWNFeGpJT1k4dEkwRjBSblk2aThuMTBuS1E0Wk13Z1dGUmpJZjJLZzdmdk9COU51VkdPWjVsUVRfZGZ5aV9B?oc=5",
       "publisher": "FandomWire",
       "published": "2026-11-04",
       "discovery": "Gaming reports"
+    },
+    {
+      "title": "GTA 6: Official Launch Trailer, File Size, Release Date, Gameplay And More - Man of Many",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWHo0azl0d3pJaTlWTnlRX3dQSVZEejZWNFhLak9uOUlpRnpXNnI3UlRyZGZNLVY4R1VBc3lRalo0OUtXN29jR1UtbDY1dG5CUlRta2pabGpUQWx5bmJpb3pocldNcW84Q1EwdmN5VGhieUk3cmhIaEdjVHl4bGFURTJiaEpkWmVxam1nYk1YN2llTXljU0RJZzF3cDdCMjlkVVFtVGdQY1pKWHc?oc=5",
+      "publisher": "Man of Many",
+      "published": "2026-11-04",
+      "discovery": "Jason and Lucia"
     },
     {
       "title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
