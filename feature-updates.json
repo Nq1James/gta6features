@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T13:31:17+00:00",
+  "updated": "2026-11-17T19:23:40+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -37,10 +37,24 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "🚨 BREAKING: GTA 6 players who created New Zealand PSN accounts to play 13 hours early have reportedly started receiving account suspensions without warning. The suspensions are reportedly being issued for violations of P",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5acTdCN214TTZzT3Z6LVVkaU1LMmZNMVpyNkV5cGdNS2dGcjB6UEl5QjZHdV9qTjFPNE4xTDVuR2g1T1k2RjBLbkZPdHpzbmhUdkpGZmRmSXRKcGRkWkE?oc=5",
+      "publisher": "X",
+      "published": "2026-11-16",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "PS5 users are throwing around crazy propaganda by saying Rockstar will ban you if you switch your Xbox Series XS console to New Zealand to play GTA VI a day early, this is totally false Xbox has had the ability to change",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1scWRRVUNrekp5b2dIM0s5U2Q4c1MxYXREdGswakFvTWdtbVZGX0Njb05ZOURPLWppLVNtZDMxdXdYbm1Bd0lEbEtjcWJuU1BNUXg4dWVMa3hoUmN1dnh1SG9n?oc=5",
       "publisher": "X",
       "published": "2026-11-16",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "A GTA 6 fan rented a hotel room for a whole week just to play the game all day without being bothered: “My wife thinks I’m crazy or unfaithful.” (via u/Impossible_Bus_2319) - X",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95ZWVxSkhkQVYxVlNESUY1aG4xQWE2LVM4ejltNGZwY09rYVpaUGdGLXRNamptWHhyNHhSMEVZb3dfMS0zaGV0OEZyMEl3dExvcjVCeXhzME5abjBXRnVDUS1QZWtxQW8?oc=5",
+      "publisher": "X",
+      "published": "2026-11-15",
       "discovery": "Rockstar social"
     },
     {
@@ -49,20 +63,6 @@
       "publisher": "X",
       "published": "2026-11-15",
       "discovery": "Rockstar social"
-    },
-    {
-      "title": "Massive GTA 6 Easter Eggs Revealed by Rockstar Games - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96UE9zRTBtYzFsUDMyVHJRb0tWbFNqNktyQUFuZWJmcDhnakFRS2lmYTJFd1JWREVIMjZ5Qm40S0tqdVU0dXRHby1rZ2ZLbkZlR29CTm5R?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-14",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "Latest GTA 6 Interview Confirms New Gameplay Features And Details - RockstarINTEL",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbXNKcV9abUFmMkd2TGljSFN4RGI0ZnpYeFFMbENwZTloZ2VXMm9hZlh1dEJqYU5EWmR1Y3RHTmdlb1hxVC1GVXpMSDZSQXo1MjRQUXAyTDVYaEJOQXByXzl3Y09EQ2U0cWM1cDBQc1JJZTE1THJULVVwb3RzbUMxdFFlWjN1Qm1UdWRuUmlMNF94S1RhdGlJ?oc=5",
-      "publisher": "RockstarINTEL",
-      "published": "2026-11-14",
-      "discovery": "Jason and Lucia"
     },
     {
       "title": "Activation code support - Rockstar Games",
@@ -74,13 +74,6 @@
     {
       "title": "Macca & Friends: Exclusive Teaser Trailer - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JdHhoZTg2ZktkYThwNDY5M1VxUVdnNUtOOEZKSzBKdU83Zjl3eERFTDd1QnUyVjRveDRzQWY4Sm5NbjFiZTBfaThhMHRyLTVabUFTNlR3?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-13",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "New GTA 6 Photorealistic Gameplay Just Dropped.. - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PVW1KSEc0MFRDRFhmVDRCWFFHc05pamF6Q09HakZ6UElKN2VfLWFfTHF1WVlOVjNVcHlzZngzZ3Z6N2Z4OVpUWTBzSG1KRnh1dkx1SG9R?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-13",
       "discovery": "Rockstar YouTube"
@@ -135,13 +128,6 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "GTA 6: Official Launch Trailer, File Size, Release Date, Gameplay And More - Man of Many",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWHo0azl0d3pJaTlWTnlRX3dQSVZEejZWNFhLak9uOUlpRnpXNnI3UlRyZGZNLVY4R1VBc3lRalo0OUtXN29jR1UtbDY1dG5CUlRta2pabGpUQWx5bmJpb3pocldNcW84Q1EwdmN5VGhieUk3cmhIaEdjVHl4bGFURTJiaEpkWmVxam1nYk1YN2llTXljU0RJZzF3cDdCMjlkVVFtVGdQY1pKWHc?oc=5",
-      "publisher": "Man of Many",
-      "published": "2026-11-04",
-      "discovery": "Jason and Lucia"
-    },
-    {
       "title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPTVJDRzc3aUlBaUN6VVE1N3dkZ00wbXhYb1AtOUtleWtPVXFPTTVyUUszTWxySmw2bWYtWmhtUGZFTEhpUHVTX1RBdGpRSXhNYmQ5UVgyRmhYTkwwRmlTcUNtbXlsRW42c2xsQ1h2cHdJaWlaa0dfMEdCaTI0YWYzbERDWmN3X3FQYzRDQkJrbjhoLTE2NTc0cGU2djBzM2M3SEN2NURTOXY1MFJuTXEwc0RmMm00OWxTS202UkVrNDBFTGJIY3FsMG53cUJWanY0Slg5R1JGazUxQXp2U2QyQ29BZ3NHLVFoN0lET0ZRNEkyWGxHcnZvaXMyODQyVjkybmZ0NmlmYlBwX1JUQTB0MkxuYnJLaE01V3gzNmh5LUVjZVVsRnhKOWNIMFNMTDRicXB4MHdMUk12ZHpUelBLTFliZWMyMFFXb0pTSE1OS2ZRNUQxdEItbVpQVnU1ZE9WSklsUXZfdTVNLWRwVjR3NEJvNjdodHhzbVZzcTZHaVk3T29IblhfYVVGbGhIakJ0Vlo1bA?oc=5",
       "publisher": "Rockstar Games",
@@ -165,6 +151,13 @@
     {
       "title": "Grand Theft Auto VI Launch Trailer - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50azRBTThMZGkzQWFBVk9kdzk2aXhERnVnWEw5eGE2UTZDRk14UkZ0WkF3S3d3S1J1Mm1oMkVVb1F4ekxXajJhNzk2eFVMZnhTcWoxNGxR?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-10-15",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "GTA 6 (Grand Theft Auto 6) - Official Launch Trailer - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mQ1daTTBvTzIwakRpNDV5eHZ5M3Uyay1Eakpidmx3QU1wNTFaOUJBRlB5NE9aTzVLR09CMXhabDlWSWdBS0gtWUNWRnRpLURyVUxzZG1R?oc=5",
       "publisher": "YouTube",
       "published": "2026-10-15",
       "discovery": "Rockstar YouTube"
