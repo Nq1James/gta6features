@@ -1,25 +1,7 @@
 {
-  "updated": "2026-11-17T01:32:49+00:00",
+  "updated": "2026-11-17T07:39:11+00:00",
   "mode": "source-monitoring",
   "updates": [
-    {
-      "topic": "money",
-      "title": "Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in t",
-      "summary": "Headline reported by X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have be",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RYXluZi1sT2lrMTFIemlvR1oyM3pCb1R0a2xFNFNLM25PYUUzcXRCMklfNUZKeEZUYkVHZldadGtSSGFVZWJxYm1MV2FIcC05NUEtTmcyVm9rYzgzMnJob1hoV1lfckE?oc=5",
-      "source_title": "X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have been booked off in the UK, ",
-      "published": "2026-11-15"
-    },
-    {
-      "topic": "story",
-      "title": "BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. I",
-      "summary": "Headline reported by X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else n",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
-      "source_title": "X: BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
-      "published": "2026-11-14"
-    },
     {
       "topic": "world",
       "title": "Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X",
@@ -32,13 +14,6 @@
   ],
   "sources": [
     {
-      "title": "Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have been booked off in the UK, ",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RYXluZi1sT2lrMTFIemlvR1oyM3pCb1R0a2xFNFNLM25PYUUzcXRCMklfNUZKeEZUYkVHZldadGtSSGFVZWJxYm1MV2FIcC05NUEtTmcyVm9rYzgzMnJob1hoV1lfckE?oc=5",
-      "publisher": "X",
-      "published": "2026-11-15",
-      "discovery": "Rockstar social"
-    },
-    {
       "title": "GTA 6: NEW Gameplay, Trailer, Screenshots & Features Revealed! - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PVEQ1UEtCNHpvMW1YTWRaTDlpcWZEaWQxWjZZSHkyakFsNV9xWm9PdnU5UFNzdWFNM1VIMDJwX3J1ZVlWdXNUeGZ3Uk5hX2E3QllrUTRB?oc=5",
       "publisher": "YouTube",
@@ -46,11 +21,18 @@
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "BREAKING: Here is The Guardian’s full exclusive GTA 6 story from their Saturday edition. It was literally just sitting there on the app, I checked it out of curiosity. Can’t believe no one else noticed. - X",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TQVJ6YTZBZGRMZzd6ZjR1Vnd2cTBZa0pJM2xIU080TnJmaGlVRERhUmFRX05sY3kzTkQ4bWRuRi1vYXp0UExuZ1NwMHQxOUVfR0QwRC1Cdy1kRWxKUE40?oc=5",
-      "publisher": "X",
+      "title": "Latest GTA 6 Interview Confirms New Gameplay Features And Details - RockstarINTEL",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbXNKcV9abUFmMkd2TGljSFN4RGI0ZnpYeFFMbENwZTloZ2VXMm9hZlh1dEJqYU5EWmR1Y3RHTmdlb1hxVC1GVXpMSDZSQXo1MjRQUXAyTDVYaEJOQXByXzl3Y09EQ2U0cWM1cDBQc1JJZTE1THJULVVwb3RzbUMxdFFlWjN1Qm1UdWRuUmlMNF94S1RhdGlJ?oc=5",
+      "publisher": "RockstarINTEL",
       "published": "2026-11-14",
-      "discovery": "Rockstar social"
+      "discovery": "Jason and Lucia"
+    },
+    {
+      "title": "Activation code support - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55eGFsSWtDUk5fYTZDdEpYeHpWRi15TF9kZC1GOGhYTEx4QklwN2NGTmFBVExYcDVRUVZHdkhLYUI3QllqVHJvMFJhb29hWENtTzU5SmZOZWdJZktIVGhsTnpYaWZ2OEhsVUQzWWdma1A?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-13",
+      "discovery": "Rockstar official"
     },
     {
       "title": "Pre-Load Grand Theft Auto VI Now - Rockstar Games",
@@ -74,13 +56,6 @@
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "\"Blood In Your Eyes\" by @ToveLo — featured in today's Pre-Load Now video and also on GTAVI: The Album. Available now on all major music streaming services: https://t.co/NlyeQEf4bo - X",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10X0Q5UHhBbzg4a1JVaXg0NnJhSV81emdoMUkzZTRHMXBZamJ2YUt6TzY4bF81Q2QwbzhXMGYzUEY4VFNWdkRUVDRncnZqWG0xeHdfUG41NzlnZVc0b3J3NzBCdmo?oc=5",
-      "publisher": "X",
-      "published": "2026-11-10",
-      "discovery": "Rockstar social"
-    },
-    {
       "title": "Issues installing Grand Theft Auto VI - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WX3M5UFFZeE5aMFJRLTI5djhQWGw0bUdyblFzSnRMaXdoQUZCZ1ZvNkpLMG16SHgwM3hza3ZjczRZRFI4UUs2czlEeWxabXU3OHA2NVR6SEZUeUcwMFAxMHNRSFdEaVVWNHR3Z0s5cl9pZ0E?oc=5",
       "publisher": "Rockstar Games",
@@ -93,13 +68,6 @@
       "publisher": "Rockstar Games",
       "published": "2026-11-09",
       "discovery": "Rockstar official"
-    },
-    {
-      "title": "Grand Theft Auto VI: The Festival, a special live event on November 21 at Mana Wynwood in Miami to celebrate the launch of GTAVI, featuring a star-studded lineup of artists from the game and the official soundtrack. More",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhS25VMXhWbDFhX2EyWkxSdFgySjgwVzlyWUxtSzZ4aDdQOUlLZk9nRUJsLTJvNGxpWlUwYVNWd2xmdEZhNnR3SS04eEhpa3NlWUpFdTQ3SmhxNVNYMGtuYllpclY?oc=5",
-      "publisher": "X",
-      "published": "2026-11-09",
-      "discovery": "Rockstar social"
     },
     {
       "title": "Grand Theft Auto VI - Rockstar Games",
@@ -116,11 +84,11 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Zelda: Ocarina of Time Remake Is Officially the Highest-Rated Game of 2026 - FandomWire",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQU84N0FyVG9meHc1bnE5UGJaTHZXT0dUVWVlZDdheDJsemEydUlEbkZPSU11UDE0YVd1V1RwMnZTUjE5cWNFeGpJT1k4dEkwRjBSblk2aThuMTBuS1E0Wk13Z1dGUmpJZjJLZzdmdk9COU51VkdPWjVsUVRfZGZ5aV9B?oc=5",
-      "publisher": "FandomWire",
+      "title": "GTA 6: Official Launch Trailer, File Size, Release Date, Gameplay And More - Man of Many",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWHo0azl0d3pJaTlWTnlRX3dQSVZEejZWNFhLak9uOUlpRnpXNnI3UlRyZGZNLVY4R1VBc3lRalo0OUtXN29jR1UtbDY1dG5CUlRta2pabGpUQWx5bmJpb3pocldNcW84Q1EwdmN5VGhieUk3cmhIaEdjVHl4bGFURTJiaEpkWmVxam1nYk1YN2llTXljU0RJZzF3cDdCMjlkVVFtVGdQY1pKWHc?oc=5",
+      "publisher": "Man of Many",
       "published": "2026-11-04",
-      "discovery": "Gaming reports"
+      "discovery": "Jason and Lucia"
     },
     {
       "title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
