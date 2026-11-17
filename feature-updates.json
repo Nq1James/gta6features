@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-17T07:39:11+00:00",
+  "updated": "2026-11-17T13:31:17+00:00",
   "mode": "source-monitoring",
   "updates": [
+    {
+      "topic": "money",
+      "title": "Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in t",
+      "summary": "Headline reported by X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have be",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RYXluZi1sT2lrMTFIemlvR1oyM3pCb1R0a2xFNFNLM25PYUUzcXRCMklfNUZKeEZUYkVHZldadGtSSGFVZWJxYm1MV2FIcC05NUEtTmcyVm9rYzgzMnJob1hoV1lfckE?oc=5",
+      "source_title": "X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have been booked off in the UK, ",
+      "published": "2026-11-15"
+    },
     {
       "topic": "world",
       "title": "Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X",
@@ -14,8 +23,36 @@
   ],
   "sources": [
     {
-      "title": "GTA 6: NEW Gameplay, Trailer, Screenshots & Features Revealed! - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PVEQ1UEtCNHpvMW1YTWRaTDlpcWZEaWQxWjZZSHkyakFsNV9xWm9PdnU5UFNzdWFNM1VIMDJwX3J1ZVlWdXNUeGZ3Uk5hX2E3QllrUTRB?oc=5",
+      "title": "Grand Theft Auto VI Collection Now at the Rockstar Store - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS2JXeC05cEE2VjY1MWs3X05yc2pPSkVsRjdudlZZVm5KclQ0SW94NUpSZ3F5VFF4bDZ6d0k1WFhudTN0SVA4YS1GZEdEd1IzcE9TdTVfbnZSVDg0NWtzSTR0aUtEZVhqRkNUYTdIOTZWbU8tdjZrQjRMZlhCWkJ4bmQzbUxVRzhNbWhxVkJXZnR5ZHJvdjl1eFdCa29LUE9HcUVUcThqWHF5ZWY4REFwazBnSG9VOG5HU0JoZ2x1UE9qOHVtWmJiZTd1Zk82UGpsZE16Z0g0ZlU?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-17",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI is Now Set to Launch November 19, 2026 - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTBtaHBIYlRBTDY1bnNwT3JxUzBWcWRrRjZEdEhwaWV5Ql9xVFZmYkZwcFhzeHI5QXN1MHZseXhlbWZzSTJfYm1MenNFLU1ZVXRhQ2dySG84MVVlTW9rVml3YzljR0JOaHJjZE9JOXFvYXlPVlFBNmgydFZGNXBWaVhvbmZTbmV0cGlqYTVKeGtpcXhYOWRGd3paQTljSUZBZ09wMHhTWXB4Nk50V2ZNTzdtRkhhdU9DLWxZ?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-17",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "PS5 users are throwing around crazy propaganda by saying Rockstar will ban you if you switch your Xbox Series XS console to New Zealand to play GTA VI a day early, this is totally false Xbox has had the ability to change",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1scWRRVUNrekp5b2dIM0s5U2Q4c1MxYXREdGswakFvTWdtbVZGX0Njb05ZOURPLWppLVNtZDMxdXdYbm1Bd0lEbEtjcWJuU1BNUXg4dWVMa3hoUmN1dnh1SG9n?oc=5",
+      "publisher": "X",
+      "published": "2026-11-16",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have been booked off in the UK, ",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RYXluZi1sT2lrMTFIemlvR1oyM3pCb1R0a2xFNFNLM25PYUUzcXRCMklfNUZKeEZUYkVHZldadGtSSGFVZWJxYm1MV2FIcC05NUEtTmcyVm9rYzgzMnJob1hoV1lfckE?oc=5",
+      "publisher": "X",
+      "published": "2026-11-15",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Massive GTA 6 Easter Eggs Revealed by Rockstar Games - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE96UE9zRTBtYzFsUDMyVHJRb0tWbFNqNktyQUFuZWJmcDhnakFRS2lmYTJFd1JWREVIMjZ5Qm40S0tqdVU0dXRHby1rZ2ZLbkZlR29CTm5R?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-14",
       "discovery": "Rockstar YouTube"
@@ -35,6 +72,20 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "Macca & Friends: Exclusive Teaser Trailer - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JdHhoZTg2ZktkYThwNDY5M1VxUVdnNUtOOEZKSzBKdU83Zjl3eERFTDd1QnUyVjRveDRzQWY4Sm5NbjFiZTBfaThhMHRyLTVabUFTNlR3?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-13",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "New GTA 6 Photorealistic Gameplay Just Dropped.. - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PVW1KSEc0MFRDRFhmVDRCWFFHc05pamF6Q09HakZ6UElKN2VfLWFfTHF1WVlOVjNVcHlzZngzZ3Z6N2Z4OVpUWTBzSG1KRnh1dkx1SG9R?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-13",
+      "discovery": "Rockstar YouTube"
+    },
+    {
       "title": "Pre-Load Grand Theft Auto VI Now - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG4tVTJzUTcxU1NpT05mZVpHTXlRX285MWI5VzVwc2k1UnZiQ01HbGhBOWltLVlIRm9Rb2dUM1lfTmhYcDZXbVdsWHQwdEo0NmdCbTZ4bk9qRE5MOXVfcDNGNE9oWjl6LXoxQ05TdE9zaHA3WlBNVzZxMVY3c2F3R3dVa25wdHdWOFUzcEs4WFU3cXNXaVZTRWpR?oc=5",
       "publisher": "Rockstar Games",
@@ -42,18 +93,18 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI - Features Trailer | PS5 Games - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGRFdkYmtYT3FIbTRnbGNIM1JFS0x5ZmR6SjdMU0hKYVRacjJuQS1xMnhGZzk4aHBMZlR6b3lzSkhELXUzX3FsZkQ4bk1QVW1fbS1mSktn?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-10",
-      "discovery": "Rockstar YouTube"
-    },
-    {
       "title": "Grand Theft Auto VI: Pre-Load Now - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Jb2FGUDFuVS1zNVdJZlp6TkdHZGpDLVJPWFM0bE9ERnBIYkVfX1lraEZVZWJPYlQySElXVXJkSGwzZ0ZFaXp6UzZXbkdrRkdKeTBBOEpB?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-10",
       "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "\"Blood In Your Eyes\" by @ToveLo — featured in today's Pre-Load Now video and also on GTAVI: The Album. Available now on all major music streaming services: https://t.co/NlyeQEf4bo - X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10X0Q5UHhBbzg4a1JVaXg0NnJhSV81emdoMUkzZTRHMXBZamJ2YUt6TzY4bF81Q2QwbzhXMGYzUEY4VFNWdkRUVDRncnZqWG0xeHdfUG41NzlnZVc0b3J3NzBCdmo?oc=5",
+      "publisher": "X",
+      "published": "2026-11-10",
+      "discovery": "Rockstar social"
     },
     {
       "title": "Issues installing Grand Theft Auto VI - Rockstar Games",
