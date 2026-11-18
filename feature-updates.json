@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T19:23:40+00:00",
+  "updated": "2026-11-18T01:38:19+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -10,6 +10,15 @@
       "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RYXluZi1sT2lrMTFIemlvR1oyM3pCb1R0a2xFNFNLM25PYUUzcXRCMklfNUZKeEZUYkVHZldadGtSSGFVZWJxYm1MV2FIcC05NUEtTmcyVm9rYzgzMnJob1hoV1lfckE?oc=5",
       "source_title": "X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have been booked off in the UK, ",
       "published": "2026-11-15"
+    },
+    {
+      "topic": "world",
+      "title": "Welcome to Vice City 🌴 - X",
+      "summary": "Headline reported by X: Welcome to Vice City 🌴 - X",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UaFlBRktrd1F1cTZYa2s5cDlrUUdrMi1iS0pWYVFjQU9RbFc1c1RvRnJ4c1RLU1JvdGlYVGYtYkMtd1dGZlFSWnJSUVVtVU5kczFkYzRBSTZFUDQ0UFJn?oc=5",
+      "source_title": "X: Welcome to Vice City 🌴 - X",
+      "published": "2026-11-12"
     },
     {
       "topic": "world",
@@ -37,13 +46,6 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "🚨 BREAKING: GTA 6 players who created New Zealand PSN accounts to play 13 hours early have reportedly started receiving account suspensions without warning. The suspensions are reportedly being issued for violations of P",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5acTdCN214TTZzT3Z6LVVkaU1LMmZNMVpyNkV5cGdNS2dGcjB6UEl5QjZHdV9qTjFPNE4xTDVuR2g1T1k2RjBLbkZPdHpzbmhUdkpGZmRmSXRKcGRkWkE?oc=5",
-      "publisher": "X",
-      "published": "2026-11-16",
-      "discovery": "Rockstar social"
-    },
-    {
       "title": "PS5 users are throwing around crazy propaganda by saying Rockstar will ban you if you switch your Xbox Series XS console to New Zealand to play GTA VI a day early, this is totally false Xbox has had the ability to change",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1scWRRVUNrekp5b2dIM0s5U2Q4c1MxYXREdGswakFvTWdtbVZGX0Njb05ZOURPLWppLVNtZDMxdXdYbm1Bd0lEbEtjcWJuU1BNUXg4dWVMa3hoUmN1dnh1SG9n?oc=5",
       "publisher": "X",
@@ -65,25 +67,11 @@
       "discovery": "Rockstar social"
     },
     {
-      "title": "Activation code support - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55eGFsSWtDUk5fYTZDdEpYeHpWRi15TF9kZC1GOGhYTEx4QklwN2NGTmFBVExYcDVRUVZHdkhLYUI3QllqVHJvMFJhb29hWENtTzU5SmZOZWdJZktIVGhsTnpYaWZ2OEhsVUQzWWdma1A?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-13",
-      "discovery": "Rockstar official"
-    },
-    {
-      "title": "Macca & Friends: Exclusive Teaser Trailer - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JdHhoZTg2ZktkYThwNDY5M1VxUVdnNUtOOEZKSzBKdU83Zjl3eERFTDd1QnUyVjRveDRzQWY4Sm5NbjFiZTBfaThhMHRyLTVabUFTNlR3?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-13",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "Pre-Load Grand Theft Auto VI Now - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaG4tVTJzUTcxU1NpT05mZVpHTXlRX285MWI5VzVwc2k1UnZiQ01HbGhBOWltLVlIRm9Rb2dUM1lfTmhYcDZXbVdsWHQwdEo0NmdCbTZ4bk9qRE5MOXVfcDNGNE9oWjl6LXoxQ05TdE9zaHA3WlBNVzZxMVY3c2F3R3dVa25wdHdWOFUzcEs4WFU3cXNXaVZTRWpR?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-10",
-      "discovery": "Rockstar official"
+      "title": "Welcome to Vice City 🌴 - X",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UaFlBRktrd1F1cTZYa2s5cDlrUUdrMi1iS0pWYVFjQU9RbFc1c1RvRnJ4c1RLU1JvdGlYVGYtYkMtd1dGZlFSWnJSUVVtVU5kczFkYzRBSTZFUDQ0UFJn?oc=5",
+      "publisher": "X",
+      "published": "2026-11-12",
+      "discovery": "Rockstar social"
     },
     {
       "title": "Grand Theft Auto VI: Pre-Load Now - YouTube",
@@ -128,17 +116,24 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxPTVJDRzc3aUlBaUN6VVE1N3dkZ00wbXhYb1AtOUtleWtPVXFPTTVyUUszTWxySmw2bWYtWmhtUGZFTEhpUHVTX1RBdGpRSXhNYmQ5UVgyRmhYTkwwRmlTcUNtbXlsRW42c2xsQ1h2cHdJaWlaa0dfMEdCaTI0YWYzbERDWmN3X3FQYzRDQkJrbjhoLTE2NTc0cGU2djBzM2M3SEN2NURTOXY1MFJuTXEwc0RmMm00OWxTS202UkVrNDBFTGJIY3FsMG53cUJWanY0Slg5R1JGazUxQXp2U2QyQ29BZ3NHLVFoN0lET0ZRNEkyWGxHcnZvaXMyODQyVjkybmZ0NmlmYlBwX1JUQTB0MkxuYnJLaE01V3gzNmh5LUVjZVVsRnhKOWNIMFNMTDRicXB4MHdMUk12ZHpUelBLTFliZWMyMFFXb0pTSE1OS2ZRNUQxdEItbVpQVnU1ZE9WSklsUXZfdTVNLWRwVjR3NEJvNjdodHhzbVZzcTZHaVk3T29IblhfYVVGbGhIakJ0Vlo1bA?oc=5",
+      "title": "Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X|S - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDMyZzY3bVJNdzBWVmRwazV4UHZGczFERTAtT1JOLUxyS3A5MVNFT21zbDFtVXhUaV9Na1ZCYnV6c2xLUGJxVnBnaThieWNIOEdMMHJxVFVYT3FXRlNkX2lERjU5STJpMnNTcktiU1h5N1FyZUluTE9TbkY2VE5GcjFWSkU3UWRWb3FnblhNZmtqTXRodGg3WHRnaXdaazlPUEhGMS1mb3BUN3ZjNm1JTm1DT2VGRVQ2eDdxaElWSDRraGZnaVp1VXdxNjdjNHRpMndNLUJZQlQ3VnQ2bmlTSkE0d2s5WlpBOU51X1VITm04X2c?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-03",
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI regional pre-load and release times on PlayStation 5 and XBOX Series X|S - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNaDMyZzY3bVJNdzBWVmRwazV4UHZGczFERTAtT1JOLUxyS3A5MVNFT21zbDFtVXhUaV9Na1ZCYnV6c2xLUGJxVnBnaThieWNIOEdMMHJxVFVYT3FXRlNkX2lERjU5STJpMnNTcktiU1h5N1FyZUluTE9TbkY2VE5GcjFWSkU3UWRWb3FnblhNZmtqTXRodGg3WHRnaXdaazlPUEhGMS1mb3BUN3ZjNm1JTm1DT2VGRVQ2eDdxaElWSDRraGZnaVp1VXdxNjdjNHRpMndNLUJZQlQ3VnQ2bmlTSkE0d2s5WlpBOU51X1VITm04X2c?oc=5",
+      "title": "Grand Theft Auto VI Pre-Load Begins on November 10 - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTEd3ZlVfeFU4blZUTEpzYWNfTURBMVg5azQ5NzFSbGJNSTdTcGRva3hhZUZ3cUNRald2d3J5OFczYW1zM0lOTlRQZWg5aWZvWXJ2U01mSDliSHRZNkVwLXY0RWFDV0lRdVA3VS11LVBGSllJTFgxZWdNYU1Wb1o5djdIc2FsMEpyQUZRM1RnVU1IOUE4N0MxSnVzWld3bGhjTEk5b19KbGdGcnl6QW1jR1JR?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-03",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI: Original Score by Justice - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWmZkdzNKbWhkNktyeExlN0paN05QMTFyRzNLS3ZCRVowMVByNWFxOGdnd29RREdNNTYwYXRuOElSd01USzBjNk9qMElpaDV6LWJUV1JEdEVrTVVNSHF2WWJIeDAybEl4MVdkc0E4RUpnZFpVMjhibmxkbVVYWWRLYzhDa05GU1dKblloR2NuS2xiTUhEVmN0T1l0QU1VOEExTDFzUnFaNEt4S2M?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-10-29",
       "discovery": "Rockstar official"
     },
     {
