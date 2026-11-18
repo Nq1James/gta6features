@@ -1,7 +1,34 @@
 {
-  "updated": "2026-11-18T07:38:20+00:00",
+  "updated": "2026-11-18T13:33:51+00:00",
   "mode": "source-monitoring",
   "updates": [
+    {
+      "topic": "world",
+      "title": "Grand Theft Auto 6 Sets The Bar For Open Worlds Impossibly High - YouTube",
+      "summary": "Headline reported by YouTube: Grand Theft Auto 6 Sets The Bar For Open Worlds Impossibly High - YouTube",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxdU5GbGdkbzZIeXQ0VHpEQW00NzlCVXNjdEg0X1VXQ0tKNElhZEFEU1NpWjZuTXZuX3RkUk5wYnFUT1VOdnh2WFJNVVpKbm90UjM0UE1R?oc=5",
+      "source_title": "YouTube: Grand Theft Auto 6 Sets The Bar For Open Worlds Impossibly High - YouTube",
+      "published": "2026-11-18"
+    },
+    {
+      "topic": "story",
+      "title": "Grand Theft Auto VI Reviews Praise Rockstar’s Open-World Leap With Jason and Lucia: how 21",
+      "summary": "Headline reported by NewsCord: Grand Theft Auto VI Reviews Praise Rockstar’s Open-World Leap With Jason and Lucia: how 21 outlets framed it - NewsCord",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVE9qT0pXUUVlY0E5YS14Y2ZlUUNQdGkzemQtdHF5WTJ3T0dnTzJ1RHlGMkJsUm53UmdheHcxWVdMNEdJa0dGdXFWaXM0QUswcmZORFlxS0VvQWIzY09QMWhibVluZEh5UnQ3U2haRElXblM1bDUwcm9HTHJYWnVsT0x1T1R4VmVEcEZfTzQ3d2FFbWNsUWxfZmVqUnBQcU9sNUwtamJyQVVveXo5V3ZMN29vT2ZRT2ZfVC1PM0hvVnh3M1RPajF0ZURxY0h1My03Y0RMTHBQUjh1WFlIUlRrc19OZ2RtVVZoS2c?oc=5",
+      "source_title": "NewsCord: Grand Theft Auto VI Reviews Praise Rockstar’s Open-World Leap With Jason and Lucia: how 21 outlets framed it - NewsCord",
+      "published": "2026-11-18"
+    },
+    {
+      "topic": "story",
+      "title": "Jason Duval not receiving a Best Performance nomination doesn't take anything away from wh",
+      "summary": "Headline reported by X: Jason Duval not receiving a Best Performance nomination doesn't take anything away from what we've seen of his character so far. Manni L. Perez getting nominated for her role as Lucia Caminos is ",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41WlFYSlhjSmh4QTByTFowMUs3VW9TZEFnbnFqeEIwUDJsSlZPbEY5Wnh5WDBZVWlaSElJVFVSaDBWeFJjc3Y4MFhvNDBpRl9YajRITFBzMVU4MDJDUm9aWElYcE5DTHM?oc=5",
+      "source_title": "X: Jason Duval not receiving a Best Performance nomination doesn't take anything away from what we've seen of his character so far. Manni L. Perez getting nominated for her role as Lucia Caminos is great news, and there's s",
+      "published": "2026-11-17"
+    },
     {
       "topic": "money",
       "title": "Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in t",
@@ -39,6 +66,76 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "Grand Theft Auto VI is Now Set to Launch November 19, 2026 - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTBtaHBIYlRBTDY1bnNwT3JxUzBWcWRrRjZEdEhwaWV5Ql9xVFZmYkZwcFhzeHI5QXN1MHZseXhlbWZzSTJfYm1MenNFLU1ZVXRhQ2dySG84MVVlTW9rVml3YzljR0JOaHJjZE9JOXFvYXlPVlFBNmgydFZGNXBWaVhvbmZTbmV0cGlqYTVKeGtpcXhYOWRGd3paQTljSUZBZ09wMHhTWXB4Nk50V2ZNTzdtRkhhdU9DLWxZ?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-18",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto 6 Sets The Bar For Open Worlds Impossibly High - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxdU5GbGdkbzZIeXQ0VHpEQW00NzlCVXNjdEg0X1VXQ0tKNElhZEFEU1NpWjZuTXZuX3RkUk5wYnFUT1VOdnh2WFJNVVpKbm90UjM0UE1R?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-18",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "GTA VI IS FINALLY HERE. AFTER 13 YEARS, THE WAIT IS OVER. Grand Theft Auto VI's first reviews have landed, with a 99 Metascore from 117 critics so far, tying The Legend of Zelda: Ocarina of Time (1998) for the highest sc",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8td3dWUTBKeFQyc1JqeDA0Y2t2SFExVG5KU2VJNXBHSmxRX1gwRUhjZTdZOUFxdkE5VWhGUDhxWF9DeUs3QlphaC01VXo2dEVlR3NVNmVKVEZRNjZFUkU4blVEaw?oc=5",
+      "publisher": "X",
+      "published": "2026-11-18",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "GTA 6 Review Roundup – Grand Theft Auto VI Is Now The Highest Rated Game Of All Time - VICE",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTdm0tWGYyUDNaTm9fYXp6QjNGN2s4UmhtMTBXZ0RROU13T2IydkZpWjYxb2lsREE1Yk91cWxjRDUxaG1xR09oQjMzRDlWUkZfZkxLcjF4S0lGdDlQSlNZTi1iaw?oc=5",
+      "publisher": "VICE",
+      "published": "2026-11-18",
+      "discovery": "Gaming reports"
+    },
+    {
+      "title": "'GTA 6' Sets Metacritic All-Time Record As First Reviews Finally Detail Rockstar's Masterpiece - MovieWeb",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Yb3FVNWN2N196NkxpN2ZXNDB0Xzl1MlJkS0EzRm5udmlZOEhkbU1UdTROeGh5NmUzZHRSejYyM3NaSWo2dGprM0EwZXVyOVMtdXpGRQ?oc=5",
+      "publisher": "MovieWeb",
+      "published": "2026-11-18",
+      "discovery": "Gaming reports"
+    },
+    {
+      "title": "GTA 6 Reviews Round Up – How Is the Most Anticipated Game of All Time Faring Critically? - MP1st",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWGZuR0ZHMWM2MHFlUkhVQU8wZXRwdzZvWFRQWHhkS0RzUG9lVjQyeTJMSnItSU00ejd1RVZHeHpfQ1lfOVBFRlFaOWxKOW9RT0tGcHJ6aWNQLTJUb29Sckc0eWNMY1NEeWNtS0dQZ2NhMFhDU2daMEJEZnU3LUhzTHAzU1RkY0gyUlVoVkQxcU9Hazk4eF9pRUZrRXg1ZEdzYW1n?oc=5",
+      "publisher": "MP1st",
+      "published": "2026-11-18",
+      "discovery": "Gaming reports"
+    },
+    {
+      "title": "GTA 6 Reviews Roundup: Here's What Critics Say About Rockstar's Masterpiece - Windows Report",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IdGxmekRab2FqWVR2bkhvbzUtaHFkUHZlTEhscW0yYktxSV93LTdJaTIzTlMxbThFRFh5RmNoaHU2blp4OUZTQ29iWnRBWFZpWDBXQXNSSzFPdy1Y?oc=5",
+      "publisher": "Windows Report",
+      "published": "2026-11-18",
+      "discovery": "Gaming reports"
+    },
+    {
+      "title": "Grand Theft Auto VI Reviews Praise Rockstar’s Open-World Leap With Jason and Lucia: how 21 outlets framed it - NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNVE9qT0pXUUVlY0E5YS14Y2ZlUUNQdGkzemQtdHF5WTJ3T0dnTzJ1RHlGMkJsUm53UmdheHcxWVdMNEdJa0dGdXFWaXM0QUswcmZORFlxS0VvQWIzY09QMWhibVluZEh5UnQ3U2haRElXblM1bDUwcm9HTHJYWnVsT0x1T1R4VmVEcEZfTzQ3d2FFbWNsUWxfZmVqUnBQcU9sNUwtamJyQVVveXo5V3ZMN29vT2ZRT2ZfVC1PM0hvVnh3M1RPajF0ZURxY0h1My03Y0RMTHBQUjh1WFlIUlRrc19OZ2RtVVZoS2c?oc=5",
+      "publisher": "NewsCord",
+      "published": "2026-11-18",
+      "discovery": "Jason and Lucia"
+    },
+    {
+      "title": "GTA 6 - The First Early Reviews... - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jT3BqQjFDZjhqSFFvZG85Uzh3eEpzSXNaYkIzNTdSZVF5b1RaX3pSWmpibnlnV0RCS2o2MXJ5RHhiWUdJUXNlVkpkdkZOS1lucVNDTkxR?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-17",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "Jason Duval not receiving a Best Performance nomination doesn't take anything away from what we've seen of his character so far. Manni L. Perez getting nominated for her role as Lucia Caminos is great news, and there's s",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41WlFYSlhjSmh4QTByTFowMUs3VW9TZEFnbnFqeEIwUDJsSlZPbEY5Wnh5WDBZVWlaSElJVFVSaDBWeFJjc3Y4MFhvNDBpRl9YajRITFBzMVU4MDJDUm9aWElYcE5DTHM?oc=5",
+      "publisher": "X",
+      "published": "2026-11-17",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "New GTA 6 Severe Weather Screenshots & Info (TROPICAL STORMS!) - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wY0kySHZfaWwtVmhsSU5zWHBtaGI4cmlYSkdqdWszQ1JZckg2ZDk5d1VMMnF2U0xPa1ZuaFNkblQwb0NsRlZGZDNXREZIR1V4aWxrR1VR?oc=5",
       "publisher": "YouTube",
@@ -51,13 +148,6 @@
       "publisher": "X",
       "published": "2026-11-15",
       "discovery": "Rockstar social"
-    },
-    {
-      "title": "Rockstar Just Revealed a TON of NEW GTA 6 Information... - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJOWxXZy1yekU1RHJMbGZMdjlyZkhWMnNhRUI0MWZ5VkZqeDlQcURHaWNPNUp4MTh0dlIwQnktYWdaZzhGVno4SmdtNDhxQU04eVNFaW93?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-14",
-      "discovery": "Rockstar YouTube"
     },
     {
       "title": "Welcome to Vice City 🌴 - X",
@@ -106,13 +196,6 @@
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42WUhGNFVlZnJqaVlPbWIwT1h1M1puU1ByTzAzZm5kOVFUNmtGcWhaeC1MSVk0UHNBTGgwTzd1YnJyRnJjYmtwV2tVeWdpcDE5TXNORUtDQ2xwNUk?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-05",
-      "discovery": "Rockstar official"
-    },
-    {
-      "title": "Grand Theft Auto VI Platforms, Editions, and Versions - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDdGSjJuNlZtbnZQMUJQczFyQUJkYUF3ZVdkOTZkY3ZiZ01xbzdGemx1X1FEZG15eUNTb0VUT0lsMHFLQUV2b1dUOV9SQXc4UTBvTjZMNXJZQzlwTVFlY2ZXdlhaT3lLY0U0emYwTG1SZlJ1LTktWi1qbTY5M1ZlYk15SWtmZ3ItNElUWlhWSzR0WWprVmlQM0ZpY0x3OWFoUFhQUWtqeWdHM2NVOTJlOFhhVk5IcTQ?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-04",
       "discovery": "Rockstar official"
     },
     {
