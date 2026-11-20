@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T07:39:40+00:00",
+  "updated": "2026-11-20T13:31:57+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -30,12 +30,12 @@
       "published": "2026-11-18"
     },
     {
-      "topic": "technology",
-      "title": "Yep, confirmed! GTA VI runs smooth as hell. You barely notice the 30 FPS yooooooo My new t",
-      "summary": "Headline reported by X: Yep, confirmed! GTA VI runs smooth as hell. You barely notice the 30 FPS yooooooo My new track SAN 4 SAN is on the in-game radio and streaming everywhere now. Hope Rockstar doesn’t pull it for me",
+      "topic": "story",
+      "title": "Rockstar Games - 'Please be mindful of spoilers as Grand Theft Auto VI begins to launch ac",
+      "summary": "Headline reported by X: Rockstar Games - 'Please be mindful of spoilers as Grand Theft Auto VI begins to launch across the globe. We want to ensure everyone experiences Jason and Lucia’s story for themselves.' - X",
       "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VaDlwMmdpX1JDQUJqeWUtSEVQVjRlY0pKQUtqNHd0Yk1sUDcwZHpWS3RYMVFzUzFjMXJ5Q1NWRldkSUNBRlpqR1ZmX0FjWVNtWVZKZU8zTFlDZ096TUE?oc=5",
-      "source_title": "X: Yep, confirmed! GTA VI runs smooth as hell. You barely notice the 30 FPS yooooooo My new track SAN 4 SAN is on the in-game radio and streaming everywhere now. Hope Rockstar doesn’t pull it for me spilling the beans early",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VZEt2M2twZEJnbUhrNGt2Q05BV0VxcktKbzJHcm1RX2NPcVNZVTJ1a1QydnktUERDZUF4OGFzem9TNW83WV9YWm5ycE5jM254ZW5ReTZIYXhmNEhKTVlQUmk3Q0g?oc=5",
+      "source_title": "X: Rockstar Games - 'Please be mindful of spoilers as Grand Theft Auto VI begins to launch across the globe. We want to ensure everyone experiences Jason and Lucia’s story for themselves.' - X",
       "published": "2026-11-18"
     },
     {
@@ -52,18 +52,9 @@
       "title": "GTA 6 launches with 99 on Metacritic: it’s among the most acclaimed games of all time - ko",
       "summary": "Headline reported by kotaworld.it: GTA 6 launches with 99 on Metacritic: it’s among the most acclaimed games of all time - kotaworld.it",
       "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQmg5Z3lqWmMxYlF3bnVJNnhOWFR5Y2Jiam1IX1VWZGdCUUdOaDNhLTBHNHZMRURka0Vqd2lpMkVpOTdFTU84Z29CY0UzSHhma0x5cGU0WXRfbXNjWUFfSDIzOFJCRkotenB5cXJXRXpfc2NuOFc3b2ZzQkpKZkxJQ1dSbUFkaU1JanByMmdvd01BTnJoZkpTSWUxdFRRdHpNbzlnekpueE1ZSEZzaVhfRll5T0N6LXl3WEJaWVlR?oc=5",
+      "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTHlUdEJLendPUjJ2MGJSMGdCeG9ONUN4Z1pONWZFRnJaM0w0Wmh3ZjFybWFfU3ExdFdqWkl6ZlhwTTQwRmdLSUU3NnVxSlNITnVEa0p5UUcxVE5mcjhGbzNLYnFUd2cya0RPMXF3OWlUbkN0TTdBdnRkdnZhTll3YzZ4LTJlWnVQSjAybzBiN3lMUnRoOE9PbzhiZTczRmhSdnlzY0Q4YnhNN1VwdGdPdDBhd3NyYjVHc19WVG50OWNWWVE?oc=5",
       "source_title": "kotaworld.it: GTA 6 launches with 99 on Metacritic: it’s among the most acclaimed games of all time - kotaworld.it",
       "published": "2026-11-18"
-    },
-    {
-      "topic": "story",
-      "title": "Jason Duval not receiving a Best Performance nomination doesn't take anything away from wh",
-      "summary": "Headline reported by X: Jason Duval not receiving a Best Performance nomination doesn't take anything away from what we've seen of his character so far. Manni L. Perez getting nominated for her role as Lucia Caminos is ",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41WlFYSlhjSmh4QTByTFowMUs3VW9TZEFnbnFqeEIwUDJsSlZPbEY5Wnh5WDBZVWlaSElJVFVSaDBWeFJjc3Y4MFhvNDBpRl9YajRITFBzMVU4MDJDUm9aWElYcE5DTHM?oc=5",
-      "source_title": "X: Jason Duval not receiving a Best Performance nomination doesn't take anything away from what we've seen of his character so far. Manni L. Perez getting nominated for her role as Lucia Caminos is great news, and there's s",
-      "published": "2026-11-17"
     },
     {
       "topic": "world",
@@ -86,6 +77,13 @@
   ],
   "sources": [
     {
+      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNWnVWZmloRHp3QVJOc2g0d2U4VGhvZFJrYnU0YVlmck1EdzYwd1VaWGVySzloYnNhbzBXS3ROZmprZjRoaFVIRDFJYWhNOTFnNmpwV2xZSFViRWFVUjBzMEpzTGlPY3JKbDlEazhfZ1BubGNOZ0xncVVVX3VDM0FkZjdqUFpPVHBnT1lkTFBES3ZnSmRWQkVUUm9Ga0tYMGhtY1dBUFBQWmZhSlhNSzZZeFRmcm5XUUFyWHB0NEhZdnNXVVJkWVptQXU3aW80Qy13OFltRDVqZVh4Q0VnS0RqbTFwd1BxYlZqOUVhaGE0QnpJMWxBSDYzN0xZU1RabHFMZjc0TjhiTXFxQjdlMHJPNG1fV25NZTBnUFRr?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-20",
+      "discovery": "Rockstar official"
+    },
+    {
       "title": "GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamJWU2d4ckpIUnJ1M1pZTnpWWDRQTjhsdFA0NDYwQnNrd0NmekdtVVg3OTM0Vkp2UUZUQXg1WGpZSEdEUVpyejNSLVZiQ3V5VmkxU3NsOHdlQ1oyLUZ0VjFYUGxCT1NKTDFvR1pwZHV3b1AtZ3RYenVpV3EtMzVLaGNPMTk2elhLVkk2enZEWTQ2cGRFc3J0UkdsX2dSeUJTRkJmWkV0MndEOUtOZUpzZkwzUm9sWkZBcDBUUnhIV3E4bl850gHSAUFVX3lxTE5rWWt0YUtMT0h0eXcybmFtUTV3VXY0QldwSlJrZTVYc1JLSWs4UFZhUWw5ZU5GY0FpZFFzNU1CQmZ2MEdSTW1nVHFILWcyZUVlNVFKNmNGQTZtTlZuWE90VUc0eTZrWkRmdWNYQTM3QXNJYl8zdFdONmJBek9YbUpXMzBqTG5pMk8tQ3dHTVl0QkhsY2FJM0ZucDZHUE1QZ1BBblFZQ3daVUJyUEQzZGdzZ0lkbkFhOEV1UUc4QnJmVnVjWmhpZDdZQm1WWFpDanR3dw?oc=5",
       "publisher": "IndulgExpress",
@@ -100,8 +98,8 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNWnVWZmloRHp3QVJOc2g0d2U4VGhvZFJrYnU0YVlmck1EdzYwd1VaWGVySzloYnNhbzBXS3ROZmprZjRoaFVIRDFJYWhNOTFnNmpwV2xZSFViRWFVUjBzMEpzTGlPY3JKbDlEazhfZ1BubGNOZ0xncVVVX3VDM0FkZjdqUFpPVHBnT1lkTFBES3ZnSmRWQkVUUm9Ga0tYMGhtY1dBUFBQWmZhSlhNSzZZeFRmcm5XUUFyWHB0NEhZdnNXVVJkWVptQXU3aW80Qy13OFltRDVqZVh4Q0VnS0RqbTFwd1BxYlZqOUVhaGE0QnpJMWxBSDYzN0xZU1RabHFMZjc0TjhiTXFxQjdlMHJPNG1fV25NZTBnUFRr?oc=5",
+      "title": "Grand Theft Auto VI Error Troubleshooting - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWDM4OG1sMF9kWkFoQ3ZzRmRMU0w0S2dtTGg1UGZPeVdIYUVWQmM0c3Nnb21uZHBpUXJqZU9IWnNjVmQ1cDJIdVF5WnVwdURETmZZUVROYnZqTXVRczN3UXBMMFBMUHkwM2VXYjJKbktZRUE?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
@@ -121,39 +119,11 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Error Troubleshooting - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEtja01IMlNaR2w4RFZKemFrOEpWY2RaSkJ2RjlIcjliV3hCSGYzUXFNVC1ESWV0TkE1QWZjcjVEZ3FTeERKRTEwOWlxcVdsWXozTnIzSElldXFHVnluUDlDSUNBdnRSN2tKR2wxZDRoaDYxTmpxZDloT01wbjN6YVpCVWJtYVlhb0ZDODczVjBLUE9jMGEwWVBFQmhqNHRtQ0dfT1Z0Wktkd0k?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-19",
-      "discovery": "Rockstar official"
-    },
-    {
-      "title": "How to change Grand Theft Auto VI settings - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUTNya1kwVHQxUFFJc2w2UHp5WXphTWZfLTNLNm9ESnVkQmc2SmhMWXNzWS16ZTAzVW1INndLbjZGOXFwS3dYaTZSRUttbXllb2tnWldzSTFHQkkzRmtadHBRUFV1d1VTQV9acDRUU0FTREUzN1ZrUUtodC03dmQ2TjhrR2VIRjFxaW5ncUVHTm9iY3hWN0JPVndVdWtqQ0tZY3g0LXhmNzVEcjBL?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-19",
-      "discovery": "Rockstar official"
-    },
-    {
       "title": "GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMzdEMG9JZzFMVmtVSzJvRXVjQjFLVzRFUzlSbGN3OGRPOUktX3IxdmJJSHFibE44em9VbWthNWxzTGtMeGt6aVpDMHBTc1EyVUNPRzRn?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-19",
       "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "GTA 6 debuts at 99 on Metacritic, tying Ocarina of Time’s all-time record - GamesHub",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDluQ2FoX1ZoMFhZWi1RT0JaVnR0eUstMDZSRVIwRGF4WEFqWGNocEhlNFFzWU1PMFBQMmJwS0NPbjBNUkNUY1lGbDcwSC1jVUN2Vy1paTRsMVBHQ2RqQ2ppUU4xQU1TUFpDVmVQNWdsUW9aTl8yblJ6cEZPd25XRVE0OUctcF81VnNaZ2FhRVN1bU0?oc=5",
-      "publisher": "GamesHub",
-      "published": "2026-11-19",
-      "discovery": "Gaming reports"
-    },
-    {
-      "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - IMDb",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jY1Fta2hVa2VOUlRHaFNmckI5M2F1WUlxamp4RVhxV0ZUNE1BTXFsM1pIWnNCWlAtREc2N0dVVHlLNW90OFBkQi1hYlNDODNGWGNyemcxNFNUX0RsYlVkYUp5azIxczA?oc=5",
-      "publisher": "IMDb",
-      "published": "2026-11-19",
-      "discovery": "Gaming reports"
     },
     {
       "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - The Hollywood Reporter India",
@@ -163,9 +133,30 @@
       "discovery": "Gaming reports"
     },
     {
+      "title": "GTA 6 debuts at 99 on Metacritic, tying Ocarina of Time’s all-time record - GamesHub",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDluQ2FoX1ZoMFhZWi1RT0JaVnR0eUstMDZSRVIwRGF4WEFqWGNocEhlNFFzWU1PMFBQMmJwS0NPbjBNUkNUY1lGbDcwSC1jVUN2Vy1paTRsMVBHQ2RqQ2ppUU4xQU1TUFpDVmVQNWdsUW9aTl8yblJ6cEZPd25XRVE0OUctcF81VnNaZ2FhRVN1bU0?oc=5",
+      "publisher": "GamesHub",
+      "published": "2026-11-19",
+      "discovery": "Gaming reports"
+    },
+    {
       "title": "The 13-year wait is over! GTA 6 achieved a record score on its first day. - Haberler.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSy1HamZRaFIteXByUnZGaTdPR0xNSmVZS3BoX0QwZUNUQS1TQUhYdUUtamlENVJSWjlSdUh6em1DLUpmUEdoajVjT2UtNjU1Rm0zbmZJei14ODFkNjI0WnBJWks3RUpyM2Y1ekV3MFZFSFk3ZlNobVR1akI2emZhWVhuWERWUFVx?oc=5",
       "publisher": "Haberler.com",
+      "published": "2026-11-19",
+      "discovery": "Gaming reports"
+    },
+    {
+      "title": "GTA VI: 5 Things Players Love and 5 Complaints They Have With Rockstar's Biggest Game Yet - Smartprix",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbVVRTXBaNDgzYkQzeUsydHh0SXhjcTZiQXNmbmV1TENpNmxHVjZiUmhFU241ZmVwcTJoNTVrbnlRdlhuM1BkX2hpYTkxVGRqN1NpenNDS2tURzFnMkNWSURURWlOaXQxYmtQcUhFTWRONm9BbEQ2bWRydTBkQjB0SmhHU09DRUpJZjFiYlJ4ajhHMzZHaDR4ZGpjWWhJM0lZcU9FeXZMN1g1TngyWDlrNkRRaExBdE92VE9IMQ?oc=5",
+      "publisher": "Smartprix",
+      "published": "2026-11-19",
+      "discovery": "Gaming reports"
+    },
+    {
+      "title": "GTA 6 Review: 99 on Metacritic, Problems and PC Release - CryptoTicker.io",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yWTM0Q1UxZVphWXpPQjFfQ3JMM3FLcmdxV3YzWGxBWWhfQTRVcm1uOTVremhmekY1bVZYR0FYN1dkcXJzT2ZNMmJzMVdobS1pUnI0Y1pVWmdFMTNOZ0hHQTdtWi1UMk96YlplOXh5WEV4ZHdYbTBFNTVyaw?oc=5",
+      "publisher": "CryptoTicker.io",
       "published": "2026-11-19",
       "discovery": "Gaming reports"
     },
@@ -198,8 +189,8 @@
       "discovery": "Rockstar social"
     },
     {
-      "title": "Yep, confirmed! GTA VI runs smooth as hell. You barely notice the 30 FPS yooooooo My new track SAN 4 SAN is on the in-game radio and streaming everywhere now. Hope Rockstar doesn’t pull it for me spilling the beans early",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VaDlwMmdpX1JDQUJqeWUtSEVQVjRlY0pKQUtqNHd0Yk1sUDcwZHpWS3RYMVFzUzFjMXJ5Q1NWRldkSUNBRlpqR1ZmX0FjWVNtWVZKZU8zTFlDZ096TUE?oc=5",
+      "title": "Rockstar Games - 'Please be mindful of spoilers as Grand Theft Auto VI begins to launch across the globe. We want to ensure everyone experiences Jason and Lucia’s story for themselves.' - X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VZEt2M2twZEJnbUhrNGt2Q05BV0VxcktKbzJHcm1RX2NPcVNZVTJ1a1QydnktUERDZUF4OGFzem9TNW83WV9YWm5ycE5jM254ZW5ReTZIYXhmNEhKTVlQUmk3Q0g?oc=5",
       "publisher": "X",
       "published": "2026-11-18",
       "discovery": "Rockstar social"
@@ -207,6 +198,13 @@
     {
       "title": "Sony Interactive has issued a PS5 system software update that is required before playing Grand Theft Auto VI. Players should download this update prior to midnight on November 19 so that they’re ready to play on launch d",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QX0VaVDNxQVMwVE0wcVFTQ0hrTVM1d2oydHI0OGc3RjltLVFUdkxvWUJPRXk2R3pPMDJHek9icjlSckhIT1dnVnA4Q3UtU0hjcENpaFBZY3FJNjZfSTBqZmJpUjU?oc=5",
+      "publisher": "X",
+      "published": "2026-11-18",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "GTA 6 is now live on Blinkit! 🎮 It took 13 years for GTA 6 to be released. In the meantime, we built Blinkit so that you can get the game delivered in minutes. We’ve launched it in select areas of Delhi, Gurugram, Farida",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wLUo3dW1fbi1YeENYQjJPTGNMay1hUk5GMXZRRERabFFSTkRJYkE0YkRXUDdLamdsRjdyWXBWNmx6cFM4V3BTY2xMQ3Z1OE94NmlUTjZ1a25fd1lzZkE?oc=5",
       "publisher": "X",
       "published": "2026-11-18",
       "discovery": "Rockstar social"
@@ -226,23 +224,23 @@
       "discovery": "Gaming reports"
     },
     {
-      "title": "'GTA 6' Sets Metacritic All-Time Record As First Reviews Finally Detail Rockstar's Masterpiece - MovieWeb",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Yb3FVNWN2N196NkxpN2ZXNDB0Xzl1MlJkS0EzRm5udmlZOEhkbU1UdTROeGh5NmUzZHRSejYyM3NaSWo2dGprM0EwZXVyOVMtdXpGRQ?oc=5",
-      "publisher": "MovieWeb",
-      "published": "2026-11-18",
-      "discovery": "Gaming reports"
-    },
-    {
       "title": "GTA 6 launches with 99 on Metacritic: it’s among the most acclaimed games of all time - kotaworld.it",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQmg5Z3lqWmMxYlF3bnVJNnhOWFR5Y2Jiam1IX1VWZGdCUUdOaDNhLTBHNHZMRURka0Vqd2lpMkVpOTdFTU84Z29CY0UzSHhma0x5cGU0WXRfbXNjWUFfSDIzOFJCRkotenB5cXJXRXpfc2NuOFc3b2ZzQkpKZkxJQ1dSbUFkaU1JanByMmdvd01BTnJoZkpTSWUxdFRRdHpNbzlnekpueE1ZSEZzaVhfRll5T0N6LXl3WEJaWVlR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTHlUdEJLendPUjJ2MGJSMGdCeG9ONUN4Z1pONWZFRnJaM0w0Wmh3ZjFybWFfU3ExdFdqWkl6ZlhwTTQwRmdLSUU3NnVxSlNITnVEa0p5UUcxVE5mcjhGbzNLYnFUd2cya0RPMXF3OWlUbkN0TTdBdnRkdnZhTll3YzZ4LTJlWnVQSjAybzBiN3lMUnRoOE9PbzhiZTczRmhSdnlzY0Q4YnhNN1VwdGdPdDBhd3NyYjVHc19WVG50OWNWWVE?oc=5",
       "publisher": "kotaworld.it",
       "published": "2026-11-18",
       "discovery": "Gaming reports"
     },
     {
-      "title": "GTA 6 Reviews Round Up – How Is the Most Anticipated Game of All Time Faring Critically? - MP1st",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWGZuR0ZHMWM2MHFlUkhVQU8wZXRwdzZvWFRQWHhkS0RzUG9lVjQyeTJMSnItSU00ejd1RVZHeHpfQ1lfOVBFRlFaOWxKOW9RT0tGcHJ6aWNQLTJUb29Sckc0eWNMY1NEeWNtS0dQZ2NhMFhDU2daMEJEZnU3LUhzTHAzU1RkY0gyUlVoVkQxcU9Hazk4eF9pRUZrRXg1ZEdzYW1n?oc=5",
-      "publisher": "MP1st",
+      "title": "GTA 6 Review Roundup: Critics Crown This The Best Game Ever! - TechJuice",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNODRiRmxqamdORWFyU3dZTDBBVXJvTVNadWhoTl84Zm45VENlYi1FTlZ3ZFB6SDVpclZaX19ILWZVc2FiSWM5LU9IVU5KbS1RaGQyUDItVkNFRDBuQXEzLXNwT3dPMVZTVi1aOWZXcmFwa2Nqb2Ixa2NiVEIzYmlmNThGNUNSVUtHNW9WMA?oc=5",
+      "publisher": "TechJuice",
+      "published": "2026-11-18",
+      "discovery": "Gaming reports"
+    },
+    {
+      "title": "GTA VI goes live in a bit, becomes Metacritic's highest-rated game of all time - GIZGUIDE",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5nZy02djBOUnJub2RWb0k1ZXhXX0hQMl9lbkVVbmJWQXh1blY3ZkV2NG5wUlJzUHJIY0IxYW1PNjdNNHpqMzNwUGcwNFdJOFVHMUt5SmNfV2liVnplUGFKNmVEUXR1RW1vOVVKZzJZZC1pSFltcVNQZURBZTltUQ?oc=5",
+      "publisher": "GIZGUIDE",
       "published": "2026-11-18",
       "discovery": "Gaming reports"
     },
@@ -259,13 +257,6 @@
       "publisher": "Rockstar Games",
       "published": "2026-11-17",
       "discovery": "Rockstar official"
-    },
-    {
-      "title": "Jason Duval not receiving a Best Performance nomination doesn't take anything away from what we've seen of his character so far. Manni L. Perez getting nominated for her role as Lucia Caminos is great news, and there's s",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41WlFYSlhjSmh4QTByTFowMUs3VW9TZEFnbnFqeEIwUDJsSlZPbEY5Wnh5WDBZVWlaSElJVFVSaDBWeFJjc3Y4MFhvNDBpRl9YajRITFBzMVU4MDJDUm9aWElYcE5DTHM?oc=5",
-      "publisher": "X",
-      "published": "2026-11-17",
-      "discovery": "Rockstar social"
     },
     {
       "title": "Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a fictional world inspired ",
