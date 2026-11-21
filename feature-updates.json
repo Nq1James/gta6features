@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-20T19:21:47+00:00",
+  "updated": "2026-11-21T01:33:44+00:00",
   "mode": "source-monitoring",
   "updates": [
+    {
+      "topic": "story",
+      "title": "Rockstar announced ‘GRAND THEFT AUTO VI’ sold over 32.5 million copies and brought in more",
+      "summary": "Headline reported by X: Rockstar announced ‘GRAND THEFT AUTO VI’ sold over 32.5 million copies and brought in more than $3.79 billion in its first 24 hours, making it the biggest entertainment launch in history. - X",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FNUxDcTU4YkpxSVVGODBrdVBVRThKem5XRDRXX3NfVW5JQ21RRjJGeXBfU0VNWEdBNFFhOFBZYkhrY19KMm0xSEk3d0FhQ1Roc2FLVDVkbDdyd21xcW9NWkNZUFI?oc=5",
+      "source_title": "X: Rockstar announced ‘GRAND THEFT AUTO VI’ sold over 32.5 million copies and brought in more than $3.79 billion in its first 24 hours, making it the biggest entertainment launch in history. - X",
+      "published": "2026-11-20"
+    },
     {
       "topic": "world",
       "title": "GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
@@ -10,6 +19,15 @@
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamJWU2d4ckpIUnJ1M1pZTnpWWDRQTjhsdFA0NDYwQnNrd0NmekdtVVg3OTM0Vkp2UUZUQXg1WGpZSEdEUVpyejNSLVZiQ3V5VmkxU3NsOHdlQ1oyLUZ0VjFYUGxCT1NKTDFvR1pwZHV3b1AtZ3RYenVpV3EtMzVLaGNPMTk2elhLVkk2enZEWTQ2cGRFc3J0UkdsX2dSeUJTRkJmWkV0MndEOUtOZUpzZkwzUm9sWkZBcDBUUnhIV3E4bl850gHSAUFVX3lxTE5rWWt0YUtMT0h0eXcybmFtUTV3VXY0QldwSlJrZTVYc1JLSWs4UFZhUWw5ZU5GY0FpZFFzNU1CQmZ2MEdSTW1nVHFILWcyZUVlNVFKNmNGQTZtTlZuWE90VUc0eTZrWkRmdWNYQTM3QXNJYl8zdFdONmJBek9YbUpXMzBqTG5pMk8tQ3dHTVl0QkhsY2FJM0ZucDZHUE1QZ1BBblFZQ3daVUJyUEQzZGdzZ0lkbkFhOEV1UUc4QnJmVnVjWmhpZDdZQm1WWFpDanR3dw?oc=5",
       "source_title": "IndulgExpress: GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
       "published": "2026-11-20"
+    },
+    {
+      "topic": "money",
+      "title": "Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
+      "summary": "Headline reported by Rockstar Games: Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
+      "status": "official",
+      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV29lSGZuOGJiR1NET2pyQ2tHR19WUjNLZVJDYzVtbUFqSkd1OThuWGxObUpFaWhWUEs1UHJ6cTFxOGFPLUJLTkJkR0staGlhT25sUW1iRFpCdVFLd0xHdjNrM01uN2xHdGRSSmtrYzJ2QXA1dVVGMkRSTFAwOWNQeWRXRm85WmxfaGhyVXdtT2xqemE0U083azFuRXhWVEV6OXpKTFNEQklXM1FoQkJhTXdjOGNKZ0c2NjVzZi0yV3hLN2FzWG92NEYxS05uNndi?oc=5",
+      "source_title": "Rockstar Games: Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
+      "published": "2026-11-19"
     },
     {
       "topic": "story",
@@ -66,15 +84,6 @@
       "published": "2026-11-18"
     },
     {
-      "topic": "customization",
-      "title": "Introducing Magnific Illusion Take any video. Change the person, outfit, product or whole ",
-      "summary": "Headline reported by X: Introducing Magnific Illusion Take any video. Change the person, outfit, product or whole look Powered by Seedance 2.5 Available now on Magnific, via MCP, and in the Desktop and Mobile App - X",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51TThKWURPOXd3NGdqUzEzV3JXall0eTV0d2cyY3o2bGNLSjJlclJjcU0yZndWcXczWDZjcy1WX0VMWFcybDk5ZF9FWTU4S2tBNThMbmJzTkdFZm5MQkE?oc=5",
-      "source_title": "X: Introducing Magnific Illusion Take any video. Change the person, outfit, product or whole look Powered by Seedance 2.5 Available now on Magnific, via MCP, and in the Desktop and Mobile App - X",
-      "published": "2026-11-17"
-    },
-    {
       "topic": "world",
       "title": "Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at th",
       "summary": "Headline reported by X: Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a ",
@@ -82,24 +91,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XSTFNMzJIWGdUUTF2SUdYOGZjOFNSVklNOTdvamhIT3JIc1ZBRGJGNWNESlp1R1BfSHYwRFY2cUNaOHVGOXI4SVJJOW9CRm90Y2VDQmF1SjlzZGlTelZRLW5lRkp6Zw?oc=5",
       "source_title": "X: Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a fictional world inspired ",
       "published": "2026-11-16"
-    },
-    {
-      "topic": "money",
-      "title": "Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in t",
-      "summary": "Headline reported by X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have be",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RYXluZi1sT2lrMTFIemlvR1oyM3pCb1R0a2xFNFNLM25PYUUzcXRCMklfNUZKeEZUYkVHZldadGtSSGFVZWJxYm1MV2FIcC05NUEtTmcyVm9rYzgzMnJob1hoV1lfckE?oc=5",
-      "source_title": "X: Effect of the GTA 6 launch on the world economy and businesses: - 12.5 million gamers in the US plan to take time off to play it, with an estimated $1 billion in losses - 83 thousand days have been booked off in the UK, ",
-      "published": "2026-11-15"
-    },
-    {
-      "topic": "technology",
-      "title": "GTA 6’s reported 120Hz support isn’t a 120fps promise - Digg",
-      "summary": "Headline reported by Digg: GTA 6’s reported 120Hz support isn’t a 120fps promise - Digg",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE54cEJlM20yQXNDaVJaaG9YSFVjQWZJM190OVJ0VUhzV3dGUFlGSTZZbDhDY0Jsdkw4RTI2Q2hBYW1yVlJTVXZz?oc=5",
-      "source_title": "Digg: GTA 6’s reported 120Hz support isn’t a 120fps promise - Digg",
-      "published": "2026-11-09"
     }
   ],
   "sources": [
@@ -109,6 +100,13 @@
       "publisher": "Rockstar Games",
       "published": "2026-11-20",
       "discovery": "Rockstar official"
+    },
+    {
+      "title": "Rockstar announced ‘GRAND THEFT AUTO VI’ sold over 32.5 million copies and brought in more than $3.79 billion in its first 24 hours, making it the biggest entertainment launch in history. - X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FNUxDcTU4YkpxSVVGODBrdVBVRThKem5XRDRXX3NfVW5JQ21RRjJGeXBfU0VNWEdBNFFhOFBZYkhrY19KMm0xSEk3d0FhQ1Roc2FLVDVkbDdyd21xcW9NWkNZUFI?oc=5",
+      "publisher": "X",
+      "published": "2026-11-20",
+      "discovery": "Rockstar social"
     },
     {
       "title": "GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
@@ -132,13 +130,6 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Rockstar Games - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sSGN4TnhVUS1zQXBJVzE3T3FVS0RPcUZ3SFZ6YU9kNzRrWGwwNFotY293RWhUTkgtM25rRS13V2lEV0tESFozZmpwVHRnTlR2X2c?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-19",
-      "discovery": "Rockstar official"
-    },
-    {
       "title": "Grand Theft Auto VI Error Troubleshooting - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWDM4OG1sMF9kWkFoQ3ZzRmRMU0w0S2dtTGg1UGZPeVdIYUVWQmM0c3Nnb21uZHBpUXJqZU9IWnNjVmQ1cDJIdVF5WnVwdURETmZZUVROYnZqTXVRczN3UXBMMFBMUHkwM2VXYjJKbktZRUE?oc=5",
       "publisher": "Rockstar Games",
@@ -146,15 +137,22 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI: Out Now - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5",
+      "title": "Rockstar Games - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sSGN4TnhVUS1zQXBJVzE3T3FVS0RPcUZ3SFZ6YU9kNzRrWGwwNFotY293RWhUTkgtM25rRS13V2lEV0tESFozZmpwVHRnTlR2X2c?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
     },
     {
-      "title": "Watch the Grand Theft Auto VI Launch Trailer - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTnFtcjZ6dTJNOEZNUVlyS0I4TU5DVTJKNkc0STdvVjlycnZHc3hlWFloZHlCSV94T3dyUnYyWHZEZnJxSkRWZEJGUFlLX2ZpU1hGdDBwNzN6MnNzczFoN0YtN1JDV1lCNW1uOW5tWEpFV0t2aHI2UkZYVElrTUVScTRrclNDU2ZrblJoRTZVaEdBcW1HUmcxR1AzSWR6X1lpVDA0b2kwZHpOS3FfVUZjemVSWkluN0U3SnhYdUUtUHhLbjdjQVBWZ3lTT2w?oc=5",
+      "title": "Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV29lSGZuOGJiR1NET2pyQ2tHR19WUjNLZVJDYzVtbUFqSkd1OThuWGxObUpFaWhWUEs1UHJ6cTFxOGFPLUJLTkJkR0staGlhT25sUW1iRFpCdVFLd0xHdjNrM01uN2xHdGRSSmtrYzJ2QXA1dVVGMkRSTFAwOWNQeWRXRm85WmxfaGhyVXdtT2xqemE0U083azFuRXhWVEV6OXpKTFNEQklXM1FoQkJhTXdjOGNKZ0c2NjVzZi0yV3hLN2FzWG92NEYxS05uNndi?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-19",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Activation code support - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTTlpVG5uei1DMGVrTmlMZkduR2NLRk1RU0NkdXkyVHVmNUc3NHlhTzNzOWNZNi13dnhKOFp4eXNRYTFlVjV1Skx3ZDhCQ1dEa08yVms0ZDVqYnd2azQzSHVlY0xTanBab0pTMEZqTVIxVFdOU1VxN1RaLXdHRlhpS2poSzdSU1hScll2dG1VQThQME1jZ2lVMW9XMHg1ZkFuY2JzeA?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
@@ -168,7 +166,7 @@
     },
     {
       "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - The Hollywood Reporter India",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNRTZUY0JfQ1VmZDhvZDF0TVZwTmhHNDNyNnh1dEVIQmhvV1FYUi1VOUdLdGd5d1dwRHdrZWgxY3AzOWI5cjRXdEtsZkF2YUd2ckdLSGUxa191c1kxY0g5NFpYVnQyb01iU241dGpuNVQ2MFk4QmNXS3puUWdUZExBY213cnktR0NOTWJJS0QzYlF2OW42M2p4UllMc1h3Ym9nYktZWkJ1bV9MWW00UFRGcTRuM21la3ZUVmJzUUI1WExWWTNoc21TR0FQLXhScGVjbXFwVEY4UmxWcVB4MDZxR1JrS1gxZ3VK0gHoAUFVX3lxTE1FNlRjQl9DVWZkOG9kMXRNVnBOaEc0M3I2eHV0RUhCaG9XUVhSLVU5R0t0Z3l3V3BEd2tlaDFjcDM5YjlyNFd0S2xmQXZhR3ZyR0tIZTFrX3VzWTFjSDk0WlhWdDJvTWJTbjV0am41VDYwWThCY1dLem5RZ1RkTEFjbXdyeS1HQ05NYklLRDNiUXY5bjYzanhSWUxzWHdib2diS1laQnVtX0xZbTRQVEZxNG4zbWVrdlRWYnNRQjVYTFZZM2hzbVNHQVAteFJwZWNtcXBURjhSbFZxUHgwNnFHUmtLWDFndUo?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVWxUakNIUjNtM2dfZ29MNjUxa3FfUm5nSXQyLVRsYzhsV05uMU44Y3ZhMzdneEZvQTZvLWx4U2hNdTFVRm1NcUdUTUNidjYwRmpHaVo3YnJEbnhwSXQ0RFlYa1VreXBtT2hVMWE2SW0yX2l0QlVzTTI2Ql83TnhIYzgydXVXYlQwZGhxMklBMWdoc3U1Q05Pdi1RN1dMS1YxLUZoQUlIQXhvaXItYnpNdWdPT3ltbFlvX1lLcUxKZXk2Tm9xRlljdlFQcGhzV2pJSzNmY296M2d6alnSAegBQVVfeXFMTUU2VGNCX0NVZmQ4b2QxdE1WcE5oRzQzcjZ4dXRFSEJob1dRWFItVTlHS3RneXdXcER3a2VoMWNwMzliOXI0V3RLbGZBdmFHdnJHS0hlMWtfdXNZMWNIOTRaWFZ0Mm9NYlNuNXRqbjVUNjBZOEJjV0t6blFnVGRMQWNtd3J5LUdDTk1iSUtEM2JRdjluNjNqeFJZTHNYd2JvZ2JLWVpCdW1fTFltNFBURnE0bjNtZWt2VFZic1FCNVhMVlkzaHNtU0dBUC14UnBlY21xcFRGOFJsVnFQeDA2cUdSa0tYMWd1Sg?oc=5",
       "publisher": "The Hollywood Reporter India",
       "published": "2026-11-19",
       "discovery": "Gaming reports"
@@ -216,6 +214,13 @@
       "discovery": "Jason and Lucia"
     },
     {
+      "title": "'GTA 6' Is Triggering Men Who Are Learning How To Have A Girlfriend - Polygon.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdEN0R2RNU21qV2liQ0lZQkwyRUhQTXVDQmk1emtiblY3NWtCQktGcUJCaGpnanBJYm1yZHRIUmtzWUF5eWNmNUoweDBoLTJodC1maWFxY080ckVGY1JZanRCeVJ5bTFpXy11ZTBXbE5zZVRsXzZQclQ4U1hYRFRteFFDQjJLYU0?oc=5",
+      "publisher": "Polygon.com",
+      "published": "2026-11-19",
+      "discovery": "Jason and Lucia"
+    },
+    {
       "title": "GTA 6 - Opening Intro & Theme Song [PS5 4K] - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DaEw0b0tvdnZvRnFoSXNkY1dfRXVLZkRnUVBCS3ExWEJjYW5qNjNiNzBSa1lGcXMzdXZ2bDR3cHVEenhPZkJFYkJmd2h0dHhRWGVBamNn?oc=5",
       "publisher": "YouTube",
@@ -225,6 +230,13 @@
     {
       "title": "Congratulations to Rockstar Games on the incredible reviews for Grand Theft Auto VI from media around the world. Reviewers have spent the past three weeks playing the game for their reviews and consideration for nominati",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLNnVCU2lVTVNyNnB3dS1KZmVfNFNmT1lZLTUtbDBqaktTZF96V2pORU9sMkxxQU9taVV6Sm9NVEE3REw2Y3dSSVpKdTNLaVdtT3FOanFXZktjU0pOTmJ5b2Nvc0E?oc=5",
+      "publisher": "X",
+      "published": "2026-11-18",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "SET TIMES FOR GRAND THEFT AUTO VI: THE FESTIVAL Doors open at 4:00 p.m. and The Store at Mana Wynwood will be stocked with special GTAVI gear: https://t.co/XRlfYFOk0H As a thank you to Miami, all proceeds from ticket sal",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TTEdabVBWQmt5cjF0VEIwVllQTXhodzlXQUM5cVhqUm9DTFVyWFU3MGszM25JTW4zMlZ6N0JNRkJOVDkzRUFBcjRtU1VlTkFVN3owY0ZFajFEM3UxUHJha3BaR2o?oc=5",
       "publisher": "X",
       "published": "2026-11-18",
       "discovery": "Rockstar social"
@@ -279,13 +291,6 @@
       "discovery": "Gaming reports"
     },
     {
-      "title": "GTA VI goes live in a bit, becomes Metacritic's highest-rated game of all time - GIZGUIDE",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5nZy02djBOUnJub2RWb0k1ZXhXX0hQMl9lbkVVbmJWQXh1blY3ZkV2NG5wUlJzUHJIY0IxYW1PNjdNNHpqMzNwUGcwNFdJOFVHMUt5SmNfV2liVnplUGFKNmVEUXR1RW1vOVVKZzJZZC1pSFltcVNQZURBZTltUQ?oc=5",
-      "publisher": "GIZGUIDE",
-      "published": "2026-11-18",
-      "discovery": "Gaming reports"
-    },
-    {
       "title": "GTA 6 Review Roundup: Critics Crown This The Best Game Ever! - TechJuice",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNODRiRmxqamdORWFyU3dZTDBBVXJvTVNadWhoTl84Zm45VENlYi1FTlZ3ZFB6SDVpclZaX19ILWZVc2FiSWM5LU9IVU5KbS1RaGQyUDItVkNFRDBuQXEzLXNwT3dPMVZTVi1aOWZXcmFwa2Nqb2Ixa2NiVEIzYmlmNThGNUNSVUtHNW9WMA?oc=5",
       "publisher": "TechJuice",
@@ -293,25 +298,11 @@
       "discovery": "Gaming reports"
     },
     {
-      "title": "Rockstar Explains Why GTA 6 Doesn’t Have Prostitutes - VICE",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XV3g1bVRiSGhyY3o3RmM1R2RBMG5BOGViRWtSRHppZ2o2N2U3ZHBCNlRFc3ExbTZxQlYxOXBETWNHOTh3c2Q0MW1yVlgxOVh3Q21ra095SjFZdzdQOGNHeDl4WWFjdE9ILW9YZ2VjcWxrT3l3ZHhr?oc=5",
-      "publisher": "VICE",
+      "title": "GTA VI goes live in a bit, becomes Metacritic's highest-rated game of all time - GIZGUIDE",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5nZy02djBOUnJub2RWb0k1ZXhXX0hQMl9lbkVVbmJWQXh1blY3ZkV2NG5wUlJzUHJIY0IxYW1PNjdNNHpqMzNwUGcwNFdJOFVHMUt5SmNfV2liVnplUGFKNmVEUXR1RW1vOVVKZzJZZC1pSFltcVNQZURBZTltUQ?oc=5",
+      "publisher": "GIZGUIDE",
       "published": "2026-11-18",
-      "discovery": "Jason and Lucia"
-    },
-    {
-      "title": "Newswire - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1NdUg4cGo5ZVhzVXMwR2lZTVdRZnRjRjJicVNiRDFZSFNzckRZaUhfZlV6SE0xaDBPMmdFd3p4UFJucXN1cXE5bzRqa0FDM29TTndjUGl6V2RYV2diVmQ4?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-17",
-      "discovery": "Rockstar official"
-    },
-    {
-      "title": "Introducing Magnific Illusion Take any video. Change the person, outfit, product or whole look Powered by Seedance 2.5 Available now on Magnific, via MCP, and in the Desktop and Mobile App - X",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51TThKWURPOXd3NGdqUzEzV3JXall0eTV0d2cyY3o2bGNLSjJlclJjcU0yZndWcXczWDZjcy1WX0VMWFcybDk5ZF9FWTU4S2tBNThMbmJzTkdFZm5MQkE?oc=5",
-      "publisher": "X",
-      "published": "2026-11-17",
-      "discovery": "Rockstar social"
+      "discovery": "Gaming reports"
     }
   ],
   "notice": "Free automatic headline monitoring, not AI fact-checking. Summaries repeat source headlines; read original articles before treating a claim as confirmed."
