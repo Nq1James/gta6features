@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T07:30:30+00:00",
+  "updated": "2026-11-22T13:17:21+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -66,15 +66,6 @@
       "published": "2026-11-18"
     },
     {
-      "topic": "story",
-      "title": "Jason Duval not receiving a Best Performance nomination doesn't take anything away from wh",
-      "summary": "Headline reported by X: Jason Duval not receiving a Best Performance nomination doesn't take anything away from what we've seen of his character so far. Manni L. Perez getting nominated for her role as Lucia Caminos is ",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41WlFYSlhjSmh4QTByTFowMUs3VW9TZEFnbnFqeEIwUDJsSlZPbEY5Wnh5WDBZVWlaSElJVFVSaDBWeFJjc3Y4MFhvNDBpRl9YajRITFBzMVU4MDJDUm9aWElYcE5DTHM?oc=5",
-      "source_title": "X: Jason Duval not receiving a Best Performance nomination doesn't take anything away from what we've seen of his character so far. Manni L. Perez getting nominated for her role as Lucia Caminos is great news, and there's s",
-      "published": "2026-11-17"
-    },
-    {
       "topic": "world",
       "title": "Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at th",
       "summary": "Headline reported by X: Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a ",
@@ -85,6 +76,13 @@
     }
   ],
   "sources": [
+    {
+      "title": "Grand Theft Auto VI: The Album Now Available - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-20",
+      "discovery": "Rockstar official"
+    },
     {
       "title": "Grand Theft Auto VI Now Available - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
@@ -149,6 +147,13 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "Grand Theft Auto VI pre-order bonus FAQ - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPODc4NkxSOUc4SW5NdUZCOWJpNDhsX085ZXIxVXRzNGo0WWdYdkN1cGJzSjdzbHNtSlFIUUM4ejZwZFh5VWd6MWp6OEtoUWVrckNGRTNJLTdGWjRXUWlNZy1MY3YwSmJLbkJ1VktQQlhvb0t0Z1NUaFBiQ0x3ZFdMenNldXVIM2Q2NjdfbS1LQ25aMW44N0huX3BZdEd4c1AxeVJldkNsUHg?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-19",
+      "discovery": "Rockstar official"
+    },
+    {
       "title": "Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV29lSGZuOGJiR1NET2pyQ2tHR19WUjNLZVJDYzVtbUFqSkd1OThuWGxObUpFaWhWUEs1UHJ6cTFxOGFPLUJLTkJkR0staGlhT25sUW1iRFpCdVFLd0xHdjNrM01uN2xHdGRSSmtrYzJ2QXA1dVVGMkRSTFAwOWNQeWRXRm85WmxfaGhyVXdtT2xqemE0U083azFuRXhWVEV6OXpKTFNEQklXM1FoQkJhTXdjOGNKZ0c2NjVzZi0yV3hLN2FzWG92NEYxS05uNndi?oc=5",
       "publisher": "Rockstar Games",
@@ -163,11 +168,11 @@
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "Grand Theft Auto VI - Out Now! | PS5 Games - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UM0ZmQkdwbnpPYnlpRFYtNlZSd1Y0OVJIXzhQV0tISUJiQk9iYXozTXU3UWI1cDZvNTduX2NwUEFrS2dsYnIxOXlkNWxHa2syVnJlUWl3?oc=5",
-      "publisher": "YouTube",
+      "title": "CYBERLEEK HAS LEAKED THE XBOX BUILD OF GTA 6🚨🚨🚨 They claim the full Xbox build (~208GB) is out via torrent, with the main executable locked behind a countdown, or released early if their crypto token hits a $15M market c",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FakJZdHpFMXVBbHRiZENkZmF3N0piWXVCd1YyS0wzbTluS0d3R2VJRVBMTHZOckJzbXBMa0preXpyOV9oZXJwLXRZWEVnZzFaX1pEdktZSEZBZllhdGpQdkNuaGd6dGM?oc=5",
+      "publisher": "X",
       "published": "2026-11-19",
-      "discovery": "Rockstar YouTube"
+      "discovery": "Rockstar social"
     },
     {
       "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - The Hollywood Reporter India",
@@ -226,25 +231,11 @@
       "discovery": "Jason and Lucia"
     },
     {
-      "title": "Installation support - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2MW02OGwyNm1NbjB3MDVvYUxaMjB2TXdmb2tuVGN3cVI3NFpTT2ZhVEpjRGM2SjRPT0RCVjZOZ1pibkRfVW5ZamhkczNJT3F6MWtWeTBxUTh4ZjBsTm1jUEx0Y0Jnc1lncDNGQVFXT2M0d1E?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-18",
-      "discovery": "Rockstar official"
-    },
-    {
       "title": "GTA 6 - Opening Intro & Theme Song [PS5 4K] - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9DaEw0b0tvdnZvRnFoSXNkY1dfRXVLZkRnUVBCS3ExWEJjYW5qNjNiNzBSa1lGcXMzdXZ2bDR3cHVEenhPZkJFYkJmd2h0dHhRWGVBamNn?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-18",
       "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "SET TIMES FOR GRAND THEFT AUTO VI: THE FESTIVAL Doors open at 4:00 p.m. and The Store at Mana Wynwood will be stocked with special GTAVI gear: https://t.co/XRlfYFOk0H As a thank you to Miami, all proceeds from ticket sal",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TTEdabVBWQmt5cjF0VEIwVllQTXhodzlXQUM5cVhqUm9DTFVyWFU3MGszM25JTW4zMlZ6N0JNRkJOVDkzRUFBcjRtU1VlTkFVN3owY0ZFajFEM3UxUHJha3BaR2o?oc=5",
-      "publisher": "X",
-      "published": "2026-11-18",
-      "discovery": "Rockstar social"
     },
     {
       "title": "Congratulations to Rockstar Games on the incredible reviews for Grand Theft Auto VI from media around the world. Reviewers have spent the past three weeks playing the game for their reviews and consideration for nominati",
@@ -268,6 +259,13 @@
       "discovery": "Rockstar social"
     },
     {
+      "title": "As promised. The pushback on my post compelled me to do a full analysis of the GTA VI biased reviews. (Long post) First, the first sources I based my post, the written reviews of: IGN, The guardian, Gamerant, and GamesRa",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE85MVJHM3B0ZmZDQ1JNS2ltSU04TVlFdko0bU1tMGpnRHpHRnhCVGZfc0dMamlpUGZoTFBsWldqOW1NMHdQaUZGN0pFWEVxNVdydGhoMzRVa0dyXzFJaG5XTVBoWQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-18",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "GTA 6 game reviews are in: Is it worth the wait? - Esports.gg",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4MGtEekoxNmxYZ3FGZXJZUlNqb3ZHemE0VThkREdEY0lmelFLeFhOY05KZ0hRLXF5R1dubHNQYmx0ZHo2Unc0YXhidE1rLUZ0blBRZ2o5bmo1QzJKRGVJSENZVktwT05VWktxVzkwYzJEdW1uLXI5aTJITQ?oc=5",
       "publisher": "Esports.gg",
@@ -285,13 +283,6 @@
       "title": "Ocarina of Time remake takes Switch 2’s sales-speed crown, Eurogamer reports - Digg",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9UY2NSMk84TjVjZHFoYzJOOVJ6NWdWOFREQU5HNHpRZm8zTDE1dTJhZUxCakswVTRSTGtNekpSQVpHcDlmWFo4?oc=5",
       "publisher": "Digg",
-      "published": "2026-11-18",
-      "discovery": "Gaming reports"
-    },
-    {
-      "title": "GTA 6 Review Roundup: Critics Crown This The Best Game Ever! - TechJuice",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNODRiRmxqamdORWFyU3dZTDBBVXJvTVNadWhoTl84Zm45VENlYi1FTlZ3ZFB6SDVpclZaX19ILWZVc2FiSWM5LU9IVU5KbS1RaGQyUDItVkNFRDBuQXEzLXNwT3dPMVZTVi1aOWZXcmFwa2Nqb2Ixa2NiVEIzYmlmNThGNUNSVUtHNW9WMA?oc=5",
-      "publisher": "TechJuice",
       "published": "2026-11-18",
       "discovery": "Gaming reports"
     }
