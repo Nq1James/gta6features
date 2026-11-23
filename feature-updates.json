@@ -1,7 +1,25 @@
 {
-  "updated": "2026-11-22T19:10:00+00:00",
+  "updated": "2026-11-23T01:36:26+00:00",
   "mode": "source-monitoring",
   "updates": [
+    {
+      "topic": "technology",
+      "title": "Performance support - Rockstar Games",
+      "summary": "Headline reported by Rockstar Games: Performance support - Rockstar Games",
+      "status": "official",
+      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pODZmakNDdUluRldtWVUzcXRMRFV6S0pMZTdlcUU3MWk4aktJdlRtdVlxUVA0RW85SEFSdEdpUEFEcU1oQkxvM1d1SllYQTNPdnRWS2tMSm1qdmRuU0lDVERFdWZ5ZjV6cW44Q0ZXUGpCUQ?oc=5",
+      "source_title": "Rockstar Games: Performance support - Rockstar Games",
+      "published": "2026-11-23"
+    },
+    {
+      "topic": "money",
+      "title": "Take-Two: Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion",
+      "summary": "Headline reported by X: Take-Two: Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales GTA 6 launches as both the Highest Grossing Entertainment Property and Highest R",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaMVBjb1g5MWxYOWZBYkVQWDdpeF84T3FIS0syVllLVmhOd1RVTnl3RjRGVlhoNHc0Y0dlUW5FSnZWNXdral9SeGdrS28xZWxvdTE2RlppQ29lSUUtOEZ4eXNLTmQ1SEE?oc=5",
+      "source_title": "X: Take-Two: Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales GTA 6 launches as both the Highest Grossing Entertainment Property and Highest Rated Game of All Time Roc",
+      "published": "2026-11-20"
+    },
     {
       "topic": "story",
       "title": "How to Have Sex in GTA 6 – Romance and Relationships Explained - PlayDayOne",
@@ -19,15 +37,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamJWU2d4ckpIUnJ1M1pZTnpWWDRQTjhsdFA0NDYwQnNrd0NmekdtVVg3OTM0Vkp2UUZUQXg1WGpZSEdEUVpyejNSLVZiQ3V5VmkxU3NsOHdlQ1oyLUZ0VjFYUGxCT1NKTDFvR1pwZHV3b1AtZ3RYenVpV3EtMzVLaGNPMTk2elhLVkk2enZEWTQ2cGRFc3J0UkdsX2dSeUJTRkJmWkV0MndEOUtOZUpzZkwzUm9sWkZBcDBUUnhIV3E4bl850gHSAUFVX3lxTE5rWWt0YUtMT0h0eXcybmFtUTV3VXY0QldwSlJrZTVYc1JLSWs4UFZhUWw5ZU5GY0FpZFFzNU1CQmZ2MEdSTW1nVHFILWcyZUVlNVFKNmNGQTZtTlZuWE90VUc0eTZrWkRmdWNYQTM3QXNJYl8zdFdONmJBek9YbUpXMzBqTG5pMk8tQ3dHTVl0QkhsY2FJM0ZucDZHUE1QZ1BBblFZQ3daVUJyUEQzZGdzZ0lkbkFhOEV1UUc4QnJmVnVjWmhpZDdZQm1WWFpDanR3dw?oc=5",
       "source_title": "IndulgExpress: GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
       "published": "2026-11-20"
-    },
-    {
-      "topic": "money",
-      "title": "Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
-      "summary": "Headline reported by Rockstar Games: Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
-      "status": "official",
-      "source_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV29lSGZuOGJiR1NET2pyQ2tHR19WUjNLZVJDYzVtbUFqSkd1OThuWGxObUpFaWhWUEs1UHJ6cTFxOGFPLUJLTkJkR0staGlhT25sUW1iRFpCdVFLd0xHdjNrM01uN2xHdGRSSmtrYzJ2QXA1dVVGMkRSTFAwOWNQeWRXRm85WmxfaGhyVXdtT2xqemE0U083azFuRXhWVEV6OXpKTFNEQklXM1FoQkJhTXdjOGNKZ0c2NjVzZi0yV3hLN2FzWG92NEYxS05uNndi?oc=5",
-      "source_title": "Rockstar Games: Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
-      "published": "2026-11-19"
     },
     {
       "topic": "story",
@@ -95,6 +104,13 @@
   ],
   "sources": [
     {
+      "title": "Performance support - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pODZmakNDdUluRldtWVUzcXRMRFV6S0pMZTdlcUU3MWk4aktJdlRtdVlxUVA0RW85SEFSdEdpUEFEcU1oQkxvM1d1SllYQTNPdnRWS2tMSm1qdmRuU0lDVERFdWZ5ZjV6cW44Q0ZXUGpCUQ?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-23",
+      "discovery": "Rockstar official"
+    },
+    {
       "title": "WoW: Forever designer wants to ditch one-size-fits-all best-in-slot gear, PC Gamer reports - Digg",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1lb0liUVQ2R1lYTF8wa1pNRi1HNEFMeGotWnVTWXNCOWpWVXlEblRld0FQQXNoMm5XZ2lJSmQwSU5iRnlncmFz?oc=5",
       "publisher": "Digg",
@@ -109,22 +125,22 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
-      "publisher": "Rockstar Games",
+      "title": "Take-Two: Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales GTA 6 launches as both the Highest Grossing Entertainment Property and Highest Rated Game of All Time Roc",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaMVBjb1g5MWxYOWZBYkVQWDdpeF84T3FIS0syVllLVmhOd1RVTnl3RjRGVlhoNHc0Y0dlUW5FSnZWNXdral9SeGdrS28xZWxvdTE2RlppQ29lSUUtOEZ4eXNLTmQ1SEE?oc=5",
+      "publisher": "X",
       "published": "2026-11-20",
-      "discovery": "Rockstar official"
-    },
-    {
-      "title": "GTA 6 Pause Menu Music (2 Hours) - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBndHlEOVF3SFdmZWQtd1o1Q3Q3Y0VIcjhPcWdZSTJmYTRsX2RoRkFHelFJUUNYMURUdVFNX0J1SkY2U24yd0NIVDNPODBocjVaNTRNWmVR?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-20",
-      "discovery": "Rockstar YouTube"
+      "discovery": "Rockstar social"
     },
     {
       "title": "GRAND THEFT AUTO VI: THE ALBUM NOW AVAILABLE Listen now on all major music streaming services: https://t.co/rGcXE6INKA Get it on vinyl and CD at https://t.co/1pibFJjVGX and select retailers. - X",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTlBqYTl6Y3NxVkdONG0wRjdBOUxHenZacXB1Rk1IZVVrcUNQQWw1LXRPeC1vV25HSktlYnoyR2FZNHRSVERpZlRHYTdRX3hRNlFpV2g5a2JPWFJXRkNCemdsa2Q?oc=5",
+      "publisher": "X",
+      "published": "2026-11-20",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "The long-awaited and twice-delayed launch of 'Grand Theft Auto VI' has made a killing and taken over the zeitgeist. Less than 24 hours after the fictional Florida-set video game went live at midnight, 'GTA VI' has made m",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHckxYYi1qVVc4MUZTZnc5THZjNHNBYlpRWkcwbEltWlhlSTllMmIwY0h2VkJqX1BsRmZEeWpNUHg4dnFIQTh5emRMdXdrZ2Y2aHJFbWU5Q05PVFcxdkE?oc=5",
       "publisher": "X",
       "published": "2026-11-20",
       "discovery": "Rockstar social"
@@ -165,6 +181,13 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-19",
+      "discovery": "Rockstar official"
+    },
+    {
       "title": "Rockstar Games - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sSGN4TnhVUS1zQXBJVzE3T3FVS0RPcUZ3SFZ6YU9kNzRrWGwwNFotY293RWhUTkgtM25rRS13V2lEV0tESFozZmpwVHRnTlR2X2c?oc=5",
       "publisher": "Rockstar Games",
@@ -179,25 +202,11 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Cannot put any more money in my BuckMe account in Grand Theft Auto VI - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQV29lSGZuOGJiR1NET2pyQ2tHR19WUjNLZVJDYzVtbUFqSkd1OThuWGxObUpFaWhWUEs1UHJ6cTFxOGFPLUJLTkJkR0staGlhT25sUW1iRFpCdVFLd0xHdjNrM01uN2xHdGRSSmtrYzJ2QXA1dVVGMkRSTFAwOWNQeWRXRm85WmxfaGhyVXdtT2xqemE0U083azFuRXhWVEV6OXpKTFNEQklXM1FoQkJhTXdjOGNKZ0c2NjVzZi0yV3hLN2FzWG92NEYxS05uNndi?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-19",
-      "discovery": "Rockstar official"
-    },
-    {
       "title": "GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMzdEMG9JZzFMVmtVSzJvRXVjQjFLVzRFUzlSbGN3OGRPOUktX3IxdmJJSHFibE44em9VbWthNWxzTGtMeGt6aVpDMHBTc1EyVUNPRzRn?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-19",
       "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "CYBERLEEK HAS LEAKED THE XBOX BUILD OF GTA 6🚨🚨🚨 They claim the full Xbox build (~208GB) is out via torrent, with the main executable locked behind a countdown, or released early if their crypto token hits a $15M market c",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FakJZdHpFMXVBbHRiZENkZmF3N0piWXVCd1YyS0wzbTluS0d3R2VJRVBMTHZOckJzbXBMa0preXpyOV9oZXJwLXRZWEVnZzFaX1pEdktZSEZBZllhdGpQdkNuaGd6dGM?oc=5",
-      "publisher": "X",
-      "published": "2026-11-19",
-      "discovery": "Rockstar social"
     },
     {
       "title": "GTA 6 debuts at 99 on Metacritic, tying Ocarina of Time’s all-time record - GamesHub",
@@ -256,6 +265,13 @@
       "discovery": "Rockstar YouTube"
     },
     {
+      "title": "SET TIMES FOR GRAND THEFT AUTO VI: THE FESTIVAL Doors open at 4:00 p.m. and The Store at Mana Wynwood will be stocked with special GTAVI gear: https://t.co/XRlfYFOk0H As a thank you to Miami, all proceeds from ticket sal",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TTEdabVBWQmt5cjF0VEIwVllQTXhodzlXQUM5cVhqUm9DTFVyWFU3MGszM25JTW4zMlZ6N0JNRkJOVDkzRUFBcjRtU1VlTkFVN3owY0ZFajFEM3UxUHJha3BaR2o?oc=5",
+      "publisher": "X",
+      "published": "2026-11-18",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "Congratulations to Rockstar Games on the incredible reviews for Grand Theft Auto VI from media around the world. Reviewers have spent the past three weeks playing the game for their reviews and consideration for nominati",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLNnVCU2lVTVNyNnB3dS1KZmVfNFNmT1lZLTUtbDBqaktTZF96V2pORU9sMkxxQU9taVV6Sm9NVEE3REw2Y3dSSVpKdTNLaVdtT3FOanFXZktjU0pOTmJ5b2Nvc0E?oc=5",
       "publisher": "X",
@@ -265,13 +281,6 @@
     {
       "title": "Sony Interactive has issued a PS5 system software update that is required before playing Grand Theft Auto VI. Players should download this update prior to midnight on November 19 so that they’re ready to play on launch d",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QX0VaVDNxQVMwVE0wcVFTQ0hrTVM1d2oydHI0OGc3RjltLVFUdkxvWUJPRXk2R3pPMDJHek9icjlSckhIT1dnVnA4Q3UtU0hjcENpaFBZY3FJNjZfSTBqZmJpUjU?oc=5",
-      "publisher": "X",
-      "published": "2026-11-18",
-      "discovery": "Rockstar social"
-    },
-    {
-      "title": "Everyone is going crazy over this GTA 6 clip - X",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5NZUV0R0tmcGhQSzd3ODdhOWJJempMVEFTOHdUdWtJUTlTY3hjQWRhUk94bFJiY0xsUnRmM0hDekszVmFvTzVncUo5d3NhdEtkYUJ2SXJzWEhCSXFC?oc=5",
       "publisher": "X",
       "published": "2026-11-18",
       "discovery": "Rockstar social"
