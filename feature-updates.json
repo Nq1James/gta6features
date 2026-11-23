@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T07:55:38+00:00",
+  "updated": "2026-11-23T13:41:26+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -10,6 +10,15 @@
       "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pODZmakNDdUluRldtWVUzcXRMRFV6S0pMZTdlcUU3MWk4aktJdlRtdVlxUVA0RW85SEFSdEdpUEFEcU1oQkxvM1d1SllYQTNPdnRWS2tMSm1qdmRuU0lDVERFdWZ5ZjV6cW44Q0ZXUGpCUQ?oc=5",
       "source_title": "Rockstar Games: Performance support - Rockstar Games",
       "published": "2026-11-23"
+    },
+    {
+      "topic": "money",
+      "title": "Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billi",
+      "summary": "Headline reported by YouTube: Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yTEhhN0U0d05xaVRhTzVoV2Y4cXRFTGJjVDAwQjctVGxCMmtWUllnRm55Y3ZWY25Cc0lDYzVBN0twYUdGU2tOb01Ga19qOGxlNWxGRVBn?oc=5",
+      "source_title": "YouTube: Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
+      "published": "2026-11-22"
     },
     {
       "topic": "money",
@@ -27,15 +36,6 @@
       "status": "reported",
       "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPbmQ5SmVHZXRzVF9PaEhYLUR2SlBaVlBrNm1lWGVzWnJYQWlIdldRNVhwdUpyU0J0dEw4cVJDM0NfTXIteXd2YXp0WHRFVnAwajMwWXlXcDJRMnQ4NGpDOEEwVjdHQTlTeERUQWt6Rk1ldGt5RUE?oc=5",
       "source_title": "PlayDayOne: How to Have Sex in GTA 6 – Romance and Relationships Explained - PlayDayOne",
-      "published": "2026-11-20"
-    },
-    {
-      "topic": "story",
-      "title": "GTA 6 Sex, Nudity and Relationships: The Complete Guide - GTA BOOM",
-      "summary": "Headline reported by GTA BOOM: GTA 6 Sex, Nudity and Relationships: The Complete Guide - GTA BOOM",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdkhVR0JSckVvcjNIWEo5b0VhaWV2MTU1aHl4WFE5Zkh0RzVyeEZaRnNiUmJYTGpaVXhXbWhJRlVFbWZHRk5zZWNOLWJmQ0hSc3RUcmdYNGpkV0Z1OWhHeDE4MlY5aVhaU1pDeXVydm9vUXk3LVh4VHdNc2oxY2dWM3J5VkhTN3lYcnc?oc=5",
-      "source_title": "GTA BOOM: GTA 6 Sex, Nudity and Relationships: The Complete Guide - GTA BOOM",
       "published": "2026-11-20"
     },
     {
@@ -102,6 +102,20 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yTEhhN0U0d05xaVRhTzVoV2Y4cXRFTGJjVDAwQjctVGxCMmtWUllnRm55Y3ZWY25Cc0lDYzVBN0twYUdGU2tOb01Ga19qOGxlNWxGRVBn?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-22",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUTBFR05fRS1HNGlEckEwaXZVc1BxVlgtUVdFYmYtMDlkVzY3amRZV1JWSUEza0I4d0l4RkpxNmdWV1k0WEJzUVBGaWpYY0QtWExEd3RBdE5wTWJwM1hj?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-21",
+      "discovery": "Rockstar official"
+    },
+    {
       "title": "Grand Theft Auto VI: The Album Now Available - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5",
       "publisher": "Rockstar Games",
@@ -151,13 +165,6 @@
       "discovery": "Jason and Lucia"
     },
     {
-      "title": "GTA 6 Sex, Nudity and Relationships: The Complete Guide - GTA BOOM",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdkhVR0JSckVvcjNIWEo5b0VhaWV2MTU1aHl4WFE5Zkh0RzVyeEZaRnNiUmJYTGpaVXhXbWhJRlVFbWZHRk5zZWNOLWJmQ0hSc3RUcmdYNGpkV0Z1OWhHeDE4MlY5aVhaU1pDeXVydm9vUXk3LVh4VHdNc2oxY2dWM3J5VkhTN3lYcnc?oc=5",
-      "publisher": "GTA BOOM",
-      "published": "2026-11-20",
-      "discovery": "Jason and Lucia"
-    },
-    {
       "title": "GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamJWU2d4ckpIUnJ1M1pZTnpWWDRQTjhsdFA0NDYwQnNrd0NmekdtVVg3OTM0Vkp2UUZUQXg1WGpZSEdEUVpyejNSLVZiQ3V5VmkxU3NsOHdlQ1oyLUZ0VjFYUGxCT1NKTDFvR1pwZHV3b1AtZ3RYenVpV3EtMzVLaGNPMTk2elhLVkk2enZEWTQ2cGRFc3J0UkdsX2dSeUJTRkJmWkV0MndEOUtOZUpzZkwzUm9sWkZBcDBUUnhIV3E4bl850gHSAUFVX3lxTE5rWWt0YUtMT0h0eXcybmFtUTV3VXY0QldwSlJrZTVYc1JLSWs4UFZhUWw5ZU5GY0FpZFFzNU1CQmZ2MEdSTW1nVHFILWcyZUVlNVFKNmNGQTZtTlZuWE90VUc0eTZrWkRmdWNYQTM3QXNJYl8zdFdONmJBek9YbUpXMzBqTG5pMk8tQ3dHTVl0QkhsY2FJM0ZucDZHUE1QZ1BBblFZQ3daVUJyUEQzZGdzZ0lkbkFhOEV1UUc4QnJmVnVjWmhpZDdZQm1WWFpDanR3dw?oc=5",
       "publisher": "IndulgExpress",
@@ -172,15 +179,15 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Error Troubleshooting - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWDM4OG1sMF9kWkFoQ3ZzRmRMU0w0S2dtTGg1UGZPeVdIYUVWQmM0c3Nnb21uZHBpUXJqZU9IWnNjVmQ1cDJIdVF5WnVwdURETmZZUVROYnZqTXVRczN3UXBMMFBMUHkwM2VXYjJKbktZRUE?oc=5",
+      "title": "Rockstar Games - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sSGN4TnhVUS1zQXBJVzE3T3FVS0RPcUZ3SFZ6YU9kNzRrWGwwNFotY293RWhUTkgtM25rRS13V2lEV0tESFozZmpwVHRnTlR2X2c?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
     },
     {
-      "title": "Rockstar Games - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sSGN4TnhVUS1zQXBJVzE3T3FVS0RPcUZ3SFZ6YU9kNzRrWGwwNFotY293RWhUTkgtM25rRS13V2lEV0tESFozZmpwVHRnTlR2X2c?oc=5",
+      "title": "Grand Theft Auto VI Error Troubleshooting - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEtja01IMlNaR2w4RFZKemFrOEpWY2RaSkJ2RjlIcjliV3hCSGYzUXFNVC1ESWV0TkE1QWZjcjVEZ3FTeERKRTEwOWlxcVdsWXozTnIzSElldXFHVnluUDlDSUNBdnRSN2tKR2wxZDRoaDYxTmpxZDloT01wbjN6YVpCVWJtYVlhb0ZDODczVjBLUE9jMGEwWVBFQmhqNHRtQ0dfT1Z0Wktkd0k?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
@@ -191,6 +198,13 @@
       "publisher": "YouTube",
       "published": "2026-11-19",
       "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "Grand Theft Auto VI is now available for PlayStation 5 and XBOX Series X|S. https://t.co/8QXtlg7RmP - X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjYU53Wm9qVUZUVmpoTjNXRG5uaGtWRlRfQkNsWU90ckZIeWw3anlwcVphNFhjclBkU2JQUkp5RHliYWJiZ2ZPZXRoWk5GdkJhckQ3UHp3V3Y2ZWk0NkJZMG91SXQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-19",
+      "discovery": "Rockstar social"
     },
     {
       "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - The Hollywood Reporter India",
@@ -228,6 +242,13 @@
       "discovery": "Jason and Lucia"
     },
     {
+      "title": "In GTA 6, the Ultimate Male Fantasy Is Being a Good Boyfriend - Newsweek",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1BjcFNZNFRXUW1nNDlZaTMxaVJoa2RNQjZiTE96b0pBOWMtMFNCSlptUkx0MjMzeV84WUU2WVZTSjAtR2pNM0lxSjJ4X1lSM3IwLVc4R0JrS2p0SVVPWlp6TGltLXRsaGw2ZW96bm55Z1Y1RTVMLTJhM2pmOGs0dU1YVlRreUJIVVc2UmE5dTZiLURjM3c5eXdR?oc=5",
+      "publisher": "Newsweek",
+      "published": "2026-11-19",
+      "discovery": "Jason and Lucia"
+    },
+    {
       "title": "GTA 6 censors nudity for some gamers as Jason and Lucia steamy shower scene goes platinum - GAMINGbible",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEJjbGhxWURkQjVkMGFkZnpkVGtFN0pQVGhzaDhfVkUwTmtBRDVPcjNnRGM3NGc0aEJkZktQakhZWWFmTUFFdjlwS3pxY3VLRk1tVkVSb1VDZ1psOHJjdjQzRGFaRnFnaGlGUXQ1VkIwamlKVXFhM2M5WkxVVG0yUGNZSGh2TDU4UVNYWHZaZkdka0pWTHc0RW5ad0MwblhEYmlv?oc=5",
       "publisher": "GAMINGbible",
@@ -244,13 +265,6 @@
     {
       "title": "Congratulations to Rockstar Games on the incredible reviews for Grand Theft Auto VI from media around the world. Reviewers have spent the past three weeks playing the game for their reviews and consideration for nominati",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLNnVCU2lVTVNyNnB3dS1KZmVfNFNmT1lZLTUtbDBqaktTZF96V2pORU9sMkxxQU9taVV6Sm9NVEE3REw2Y3dSSVpKdTNLaVdtT3FOanFXZktjU0pOTmJ5b2Nvc0E?oc=5",
-      "publisher": "X",
-      "published": "2026-11-18",
-      "discovery": "Rockstar social"
-    },
-    {
-      "title": "SET TIMES FOR GRAND THEFT AUTO VI: THE FESTIVAL Doors open at 4:00 p.m. and The Store at Mana Wynwood will be stocked with special GTAVI gear: https://t.co/XRlfYFOk0H As a thank you to Miami, all proceeds from ticket sal",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TTEdabVBWQmt5cjF0VEIwVllQTXhodzlXQUM5cVhqUm9DTFVyWFU3MGszM25JTW4zMlZ6N0JNRkJOVDkzRUFBcjRtU1VlTkFVN3owY0ZFajFEM3UxUHJha3BaR2o?oc=5",
       "publisher": "X",
       "published": "2026-11-18",
       "discovery": "Rockstar social"
@@ -289,20 +303,6 @@
       "publisher": "TechJuice",
       "published": "2026-11-18",
       "discovery": "Gaming reports"
-    },
-    {
-      "title": "GTA VI goes live in a bit, becomes Metacritic's highest-rated game of all time - GIZGUIDE",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5nZy02djBOUnJub2RWb0k1ZXhXX0hQMl9lbkVVbmJWQXh1blY3ZkV2NG5wUlJzUHJIY0IxYW1PNjdNNHpqMzNwUGcwNFdJOFVHMUt5SmNfV2liVnplUGFKNmVEUXR1RW1vOVVKZzJZZC1pSFltcVNQZURBZTltUQ?oc=5",
-      "publisher": "GIZGUIDE",
-      "published": "2026-11-18",
-      "discovery": "Gaming reports"
-    },
-    {
-      "title": "Rockstar Explains Why GTA 6 Doesn’t Have Prostitutes - VICE",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XV3g1bVRiSGhyY3o3RmM1R2RBMG5BOGViRWtSRHppZ2o2N2U3ZHBCNlRFc3ExbTZxQlYxOXBETWNHOTh3c2Q0MW1yVlgxOVh3Q21ra095SjFZdzdQOGNHeDl4WWFjdE9ILW9YZ2VjcWxrT3l3ZHhr?oc=5",
-      "publisher": "VICE",
-      "published": "2026-11-18",
-      "discovery": "Jason and Lucia"
     }
   ],
   "notice": "Free automatic headline monitoring, not AI fact-checking. Summaries repeat source headlines; read original articles before treating a claim as confirmed."
