@@ -1,25 +1,7 @@
 {
-  "updated": "2026-11-23T13:41:26+00:00",
+  "updated": "2026-11-23T19:21:02+00:00",
   "mode": "source-monitoring",
   "updates": [
-    {
-      "topic": "technology",
-      "title": "Performance support - Rockstar Games",
-      "summary": "Headline reported by Rockstar Games: Performance support - Rockstar Games",
-      "status": "official",
-      "source_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pODZmakNDdUluRldtWVUzcXRMRFV6S0pMZTdlcUU3MWk4aktJdlRtdVlxUVA0RW85SEFSdEdpUEFEcU1oQkxvM1d1SllYQTNPdnRWS2tMSm1qdmRuU0lDVERFdWZ5ZjV6cW44Q0ZXUGpCUQ?oc=5",
-      "source_title": "Rockstar Games: Performance support - Rockstar Games",
-      "published": "2026-11-23"
-    },
-    {
-      "topic": "money",
-      "title": "Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billi",
-      "summary": "Headline reported by YouTube: Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yTEhhN0U0d05xaVRhTzVoV2Y4cXRFTGJjVDAwQjctVGxCMmtWUllnRm55Y3ZWY25Cc0lDYzVBN0twYUdGU2tOb01Ga19qOGxlNWxGRVBn?oc=5",
-      "source_title": "YouTube: Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
-      "published": "2026-11-22"
-    },
     {
       "topic": "money",
       "title": "Take-Two: Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion",
@@ -95,18 +77,25 @@
   ],
   "sources": [
     {
-      "title": "Performance support - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1pODZmakNDdUluRldtWVUzcXRMRFV6S0pMZTdlcUU3MWk4aktJdlRtdVlxUVA0RW85SEFSdEdpUEFEcU1oQkxvM1d1SllYQTNPdnRWS2tMSm1qdmRuU0lDVERFdWZ5ZjV6cW44Q0ZXUGpCUQ?oc=5",
+      "title": "Grand Theft Auto VI Launch Updates (PS5 / XBOX Series X|S) - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHlkTnpqQm9PWWxPaGVFTS1veDV1OUNUVVFPdDJ3LWtpbU1zMTZGMHFpajM2TVJYWHI2cS1xOGZnX2t5R09Ja2FuNEpDdnNpYXUxbmpSZEFCemZQR2lLNUt1NWRrT3VsRDdMSDkzZ01NSnY1bWR2R1AyU0lQQ2pDbHNIODBWci1GSENjX0lfRjRlaHRrZllKWDVQS2tCWS1XNWgtU1MyM1lFbmJHd1JjQU9JVFFqbmJXQ3pKbGg0TQ?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-23",
       "discovery": "Rockstar official"
     },
     {
-      "title": "Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yTEhhN0U0d05xaVRhTzVoV2Y4cXRFTGJjVDAwQjctVGxCMmtWUllnRm55Y3ZWY25Cc0lDYzVBN0twYUdGU2tOb01Ga19qOGxlNWxGRVBn?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-22",
-      "discovery": "Rockstar YouTube"
+      "title": "Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRemlIb2pJZ2RBdlhNRFBqYVlMenJwWEVNb0ZPVG4tTFJwUjBBXzE0Y1BhdzJJMl9LUjZoREt2N29WSlhmU1RVS3haTVg0WDJKOW1kdEJCdHlnZnNHVUdfdWZHNG1iR05XdUxrS3R6a01pMks2NkhvZFhLTmNxcUtFSHEyS0RYYlA2d2RWSDhvV0xiaEFwUVh5QTdEQQ?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-23",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "A new update is now available for Grand Theft Auto VI on PS5 and XBOX Series X|S. https://t.co/9LtwqRptFz - X",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VWk9PMUs4ZEJILUltSmNwQ2xLSzU2UURVYkVMRE5BTTVpX01WdjdQWUwxcmd2b0VhR3hMWEt1aUdkQWZOR2U2M3dKUXQ5b2NXYUhHZTkyaHJMUjZFaVhPQXhtWTFLOGc?oc=5",
+      "publisher": "X",
+      "published": "2026-11-23",
+      "discovery": "Rockstar social"
     },
     {
       "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
@@ -116,6 +105,13 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "GTA 6 User Reviews TANK as Hacker Leaks Build of the Game... - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5iMWt5cUMxUGVpZnFOb1dlS0cySTlMLTk4YzAwcVpaU3lNQmFheXRyZHFPUVpud25ZaTNLbFNyak9TTkd4OG1nUVdod2lmZXA5ZmZZdGZ3?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-21",
+      "discovery": "Rockstar YouTube"
+    },
+    {
       "title": "Grand Theft Auto VI: The Album Now Available - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5",
       "publisher": "Rockstar Games",
@@ -123,29 +119,15 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
-      "publisher": "Rockstar Games",
+      "title": "GRAND THEFT AUTO VI: THE ALBUM NOW AVAILABLE Listen now on all major music streaming services: https://t.co/rGcXE6INKA Get it on vinyl and CD at https://t.co/1pibFJjVGX and select retailers. - X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTlBqYTl6Y3NxVkdONG0wRjdBOUxHenZacXB1Rk1IZVVrcUNQQWw1LXRPeC1vV25HSktlYnoyR2FZNHRSVERpZlRHYTdRX3hRNlFpV2g5a2JPWFJXRkNCemdsa2Q?oc=5",
+      "publisher": "X",
       "published": "2026-11-20",
-      "discovery": "Rockstar official"
+      "discovery": "Rockstar social"
     },
     {
       "title": "Take-Two: Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales GTA 6 launches as both the Highest Grossing Entertainment Property and Highest Rated Game of All Time Roc",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaMVBjb1g5MWxYOWZBYkVQWDdpeF84T3FIS0syVllLVmhOd1RVTnl3RjRGVlhoNHc0Y0dlUW5FSnZWNXdral9SeGdrS28xZWxvdTE2RlppQ29lSUUtOEZ4eXNLTmQ1SEE?oc=5",
-      "publisher": "X",
-      "published": "2026-11-20",
-      "discovery": "Rockstar social"
-    },
-    {
-      "title": "The long-awaited and twice-delayed launch of 'Grand Theft Auto VI' has made a killing and taken over the zeitgeist. Less than 24 hours after the fictional Florida-set video game went live at midnight, 'GTA VI' has made m",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHckxYYi1qVVc4MUZTZnc5THZjNHNBYlpRWkcwbEltWlhlSTllMmIwY0h2VkJqX1BsRmZEeWpNUHg4dnFIQTh5emRMdXdrZ2Y2aHJFbWU5Q05PVFcxdkE?oc=5",
-      "publisher": "X",
-      "published": "2026-11-20",
-      "discovery": "Rockstar social"
-    },
-    {
-      "title": "GRAND THEFT AUTO VI: THE ALBUM NOW AVAILABLE Listen now on all major music streaming services: https://t.co/rGcXE6INKA Get it on vinyl and CD at https://t.co/1pibFJjVGX and select retailers. - X",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fTlBqYTl6Y3NxVkdONG0wRjdBOUxHenZacXB1Rk1IZVVrcUNQQWw1LXRPeC1vV25HSktlYnoyR2FZNHRSVERpZlRHYTdRX3hRNlFpV2g5a2JPWFJXRkNCemdsa2Q?oc=5",
       "publisher": "X",
       "published": "2026-11-20",
       "discovery": "Rockstar social"
@@ -174,6 +156,13 @@
     {
       "title": "Grand Theft Auto VI - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSTjFrMUExdk94ZjZ4MjlJVXZUcldOTVNnMGgxWUs4X2ZjWHE3bTQwUmhKTW15akVvVGVkaWplRzBTcF8zTV9fMDBUWUlaaUQtY2Rr?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-19",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
@@ -235,16 +224,16 @@
       "discovery": "Gaming reports"
     },
     {
-      "title": "'GTA 6' Is Triggering Men Who Are Learning How To Have A Girlfriend - Polygon.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdEN0R2RNU21qV2liQ0lZQkwyRUhQTXVDQmk1emtiblY3NWtCQktGcUJCaGpnanBJYm1yZHRIUmtzWUF5eWNmNUoweDBoLTJodC1maWFxY080ckVGY1JZanRCeVJ5bTFpXy11ZTBXbE5zZVRsXzZQclQ4U1hYRFRteFFDQjJLYU0?oc=5",
-      "publisher": "Polygon.com",
+      "title": "In GTA 6, the Ultimate Male Fantasy Is Being a Good Boyfriend - Newsweek",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1BjcFNZNFRXUW1nNDlZaTMxaVJoa2RNQjZiTE96b0pBOWMtMFNCSlptUkx0MjMzeV84WUU2WVZTSjAtR2pNM0lxSjJ4X1lSM3IwLVc4R0JrS2p0SVVPWlp6TGltLXRsaGw2ZW96bm55Z1Y1RTVMLTJhM2pmOGs0dU1YVlRreUJIVVc2UmE5dTZiLURjM3c5eXdR?oc=5",
+      "publisher": "Newsweek",
       "published": "2026-11-19",
       "discovery": "Jason and Lucia"
     },
     {
-      "title": "In GTA 6, the Ultimate Male Fantasy Is Being a Good Boyfriend - Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1BjcFNZNFRXUW1nNDlZaTMxaVJoa2RNQjZiTE96b0pBOWMtMFNCSlptUkx0MjMzeV84WUU2WVZTSjAtR2pNM0lxSjJ4X1lSM3IwLVc4R0JrS2p0SVVPWlp6TGltLXRsaGw2ZW96bm55Z1Y1RTVMLTJhM2pmOGs0dU1YVlRreUJIVVc2UmE5dTZiLURjM3c5eXdR?oc=5",
-      "publisher": "Newsweek",
+      "title": "'GTA 6' Is Triggering Men Who Are Learning How To Have A Girlfriend - Polygon.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdEN0R2RNU21qV2liQ0lZQkwyRUhQTXVDQmk1emtiblY3NWtCQktGcUJCaGpnanBJYm1yZHRIUmtzWUF5eWNmNUoweDBoLTJodC1maWFxY080ckVGY1JZanRCeVJ5bTFpXy11ZTBXbE5zZVRsXzZQclQ4U1hYRFRteFFDQjJLYU0?oc=5",
+      "publisher": "Polygon.com",
       "published": "2026-11-19",
       "discovery": "Jason and Lucia"
     },
@@ -294,13 +283,6 @@
       "title": "Ocarina of Time remake takes Switch 2’s sales-speed crown, Eurogamer reports - Digg",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9UY2NSMk84TjVjZHFoYzJOOVJ6NWdWOFREQU5HNHpRZm8zTDE1dTJhZUxCakswVTRSTGtNekpSQVpHcDlmWFo4?oc=5",
       "publisher": "Digg",
-      "published": "2026-11-18",
-      "discovery": "Gaming reports"
-    },
-    {
-      "title": "GTA 6 Review Roundup: Critics Crown This The Best Game Ever! - TechJuice",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNODRiRmxqamdORWFyU3dZTDBBVXJvTVNadWhoTl84Zm45VENlYi1FTlZ3ZFB6SDVpclZaX19ILWZVc2FiSWM5LU9IVU5KbS1RaGQyUDItVkNFRDBuQXEzLXNwT3dPMVZTVi1aOWZXcmFwa2Nqb2Ixa2NiVEIzYmlmNThGNUNSVUtHNW9WMA?oc=5",
-      "publisher": "TechJuice",
       "published": "2026-11-18",
       "discovery": "Gaming reports"
     }
