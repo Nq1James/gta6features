@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T19:20:36+00:00",
+  "updated": "2026-11-25T01:40:33+00:00",
   "mode": "source-monitoring",
   "updates": [
     {
@@ -10,6 +10,15 @@
       "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU2tQczRLWWR4Wng1empGeHBXQWZEWmx6c3JNOGlDSVVWOXRaMGFMLVNKcmEtWnBQMDlCZ3B3dUtvUmJhVVVsQmM4bE1WbEUwVW9lSVcwSUE4ZWh6bmtLRUlQdHBSRHBKMF95bmxoUm8wV01FUGluUXZ2ODhtMmxRYnlRRmp3T0JGTUl6dVZHY2tFbEhuMVB2T0lJa3pYb0drcmc?oc=5",
       "source_title": "PCMag: Players Are Roasting GTA 6's Romance. Here's Why Jason and Lucia's Love Story Won Me Over - PCMag",
       "published": "2026-11-23"
+    },
+    {
+      "topic": "money",
+      "title": "Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billi",
+      "summary": "Headline reported by YouTube: Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yTEhhN0U0d05xaVRhTzVoV2Y4cXRFTGJjVDAwQjctVGxCMmtWUllnRm55Y3ZWY25Cc0lDYzVBN0twYUdGU2tOb01Ga19qOGxlNWxGRVBn?oc=5",
+      "source_title": "YouTube: Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
+      "published": "2026-11-22"
     },
     {
       "topic": "money",
@@ -86,6 +95,13 @@
   ],
   "sources": [
     {
+      "title": "Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRemlIb2pJZ2RBdlhNRFBqYVlMenJwWEVNb0ZPVG4tTFJwUjBBXzE0Y1BhdzJJMl9LUjZoREt2N29WSlhmU1RVS3haTVg0WDJKOW1kdEJCdHlnZnNHVUdfdWZHNG1iR05XdUxrS3R6a01pMks2NkhvZFhLTmNxcUtFSHEyS0RYYlA2d2RWSDhvV0xiaEFwUVh5QTdEQQ?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-24",
+      "discovery": "Rockstar official"
+    },
+    {
       "title": "Grand Theft Auto VI official trading cards, coming soon from @PaniniAmerica and @RockstarGames. - X",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jV0w3V19ENmxXeHV1VGxuMGlVaEtObTZzVU5hWU5mQlVIbGlBU2hnUkZtRnVzcjdWaVlvVUxuc3R3bTJKR3NSTHVabmYxTzZWUzFwMFdYdnUxaHV2WDRRNUpCWDQ?oc=5",
       "publisher": "X",
@@ -100,15 +116,15 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI: The Album (Deluxe Edition) - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMy1WQ21GcGpGQTlTblpRemlIb2pJZ2RBdlhNRFBqYVlMenJwWEVNb0ZPVG4tTFJwUjBBXzE0Y1BhdzJJMl9LUjZoREt2N29WSlhmU1RVS3haTVg0WDJKOW1kdEJCdHlnZnNHVUdfdWZHNG1iR05XdUxrS3R6a01pMks2NkhvZFhLTmNxcUtFSHEyS0RYYlA2d2RWSDhvV0xiaEFwUVh5QTdEQQ?oc=5",
-      "publisher": "Rockstar Games",
-      "published": "2026-11-23",
-      "discovery": "Rockstar official"
-    },
-    {
       "title": "GTA 6 Just Got A NEW Update - EVERYTHING That Was Changed, Records Broken, Cyberleek Returns & MORE! - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00dUM4NzdBdFowVDZnOG9ZdHBFcllOMkV0cWsySVBIWHI0bnE3TmFNNzd2ZWlqN0ZzTjRsdzZPZThHTWFYNDZPV1FLZHRVbE1MQVZXN293?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-23",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "HEALTH - NIGHTMARE [from Grand Theft Auto VI: The Album (Deluxe Edition)] - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGRGZkaDFlbXdPT3JzVnB3dmpJYTBidFhOcHlzZTJHT0YxX3JtT3BtZGs4MnA3b2RhNjd6bl9yVHpLWXVyT1RDNkE5TU1sdTNDNWR2M2tB?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-23",
       "discovery": "Rockstar YouTube"
@@ -128,6 +144,34 @@
       "discovery": "Jason and Lucia"
     },
     {
+      "title": "Dirty Business Behind GTA VI | How Rockstar turned crime, chaos and controversy into billions! - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0yTEhhN0U0d05xaVRhTzVoV2Y4cXRFTGJjVDAwQjctVGxCMmtWUllnRm55Y3ZWY25Cc0lDYzVBN0twYUdGU2tOb01Ga19qOGxlNWxGRVBn?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-22",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "GTA 6 Has Exposed a BIG Problem With AAA Games - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zbFktNFExY3dBWHBrRlVuY1BJNGJ5RjVhTlNiVlF2ZDlxS1JEcGZSX2dBME4yVWEtZDdIeXM1dkd6ZUktR3pzUVFwamhZd1RMSW9nZWNn?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-22",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "GTA 6 Gameplay Walkthrough FULL GAME [4K PS5 PRO] - No Commentary - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GZ2cwSTlldkJzRGFETVU5NUtUYllfS2RsMklKemh5NGJMVElxeHVmR3FUU3RtakVQbEJ6ZTZjYUxiZUozQkZ5dW5EZkpXZkxld0JuaTdB?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-22",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "This is a nightmare for Rockstar.. - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jOHowZ0Rtdkd6SGFHX1QyZXlhZ3hMc3JrczAwUEVXTkpiZnA5a1RjR0o4VnlKSmFOalJxMFdkUTdOMkZSSV9lZTNKMGZ3X182cktFMHJ3?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-22",
+      "discovery": "Rockstar YouTube"
+    },
+    {
       "title": "Grand Theft Auto VI: The Festival - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUTBFR05fRS1HNGlEckEwaXZVc1BxVlgtUVdFYmYtMDlkVzY3amRZV1JWSUEza0I4d0l4RkpxNmdWV1k0WEJzUVBGaWpYY0QtWExEd3RBdE5wTWJwM1hj?oc=5",
       "publisher": "Rockstar Games",
@@ -135,8 +179,8 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
+      "title": "Grand Theft Auto VI: The Album Now Available - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOUdHR3lsOTUwbEM0QkdnZHZSRjJTdXFuVjhKV1lvd28xUmhBVURQamg5R3kyZ2YtX0tBX3JoQi14cHk3d18zaV9pcjlid3c3YlZFb1p3Ylc1ZTJYWm1BT2gxN3hUcWRpZ0FCd0RsQW50bEtyWTdkdzI2N1k3cFdVck5IQ2Nyb1VpTkY5Y2lOamRaTHlKUk5lSG1NOEltTHRWckgwNTFGUWs?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-20",
       "discovery": "Rockstar official"
@@ -177,8 +221,15 @@
       "discovery": "Jason and Lucia"
     },
     {
-      "title": "Grand Theft Auto VI - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSTjFrMUExdk94ZjZ4MjlJVXZUcldOTVNnMGgxWUs4X2ZjWHE3bTQwUmhKTW15akVvVGVkaWplRzBTcF8zTV9fMDBUWUlaaUQtY2Rr?oc=5",
+      "title": "Grand Theft Auto VI Error Troubleshooting - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4tWDM4OG1sMF9kWkFoQ3ZzRmRMU0w0S2dtTGg1UGZPeVdIYUVWQmM0c3Nnb21uZHBpUXJqZU9IWnNjVmQ1cDJIdVF5WnVwdURETmZZUVROYnZqTXVRczN3UXBMMFBMUHkwM2VXYjJKbktZRUE?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-19",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
@@ -191,32 +242,18 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Error Troubleshooting - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEtja01IMlNaR2w4RFZKemFrOEpWY2RaSkJ2RjlIcjliV3hCSGYzUXFNVC1ESWV0TkE1QWZjcjVEZ3FTeERKRTEwOWlxcVdsWXozTnIzSElldXFHVnluUDlDSUNBdnRSN2tKR2wxZDRoaDYxTmpxZDloT01wbjN6YVpCVWJtYVlhb0ZDODczVjBLUE9jMGEwWVBFQmhqNHRtQ0dfT1Z0Wktkd0k?oc=5",
+      "title": "Grand Theft Auto VI - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBSTjFrMUExdk94ZjZ4MjlJVXZUcldOTVNnMGgxWUs4X2ZjWHE3bTQwUmhKTW15akVvVGVkaWplRzBTcF8zTV9fMDBUWUlaaUQtY2Rr?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
     },
     {
-      "title": "GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMzdEMG9JZzFMVmtVSzJvRXVjQjFLVzRFUzlSbGN3OGRPOUktX3IxdmJJSHFibE44em9VbWthNWxzTGtMeGt6aVpDMHBTc1EyVUNPRzRn?oc=5",
-      "publisher": "YouTube",
+      "title": "Grand Theft Auto VI pre-order bonus FAQ - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPODc4NkxSOUc4SW5NdUZCOWJpNDhsX085ZXIxVXRzNGo0WWdYdkN1cGJzSjdzbHNtSlFIUUM4ejZwZFh5VWd6MWp6OEtoUWVrckNGRTNJLTdGWjRXUWlNZy1MY3YwSmJLbkJ1VktQQlhvb0t0Z1NUaFBiQ0x3ZFdMenNldXVIM2Q2NjdfbS1LQ25aMW44N0huX3BZdEd4c1AxeVJldkNsUHg?oc=5",
+      "publisher": "Rockstar Games",
       "published": "2026-11-19",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "Grand Theft Auto VI Now Available - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tbHJlRjVETk10M0hneHdKUnNXQ2J4TUpOTUthdnpuWnVNMzEtcHgzaEV6SXRfLXRKOTlCOTVOdmUtOG92Rm5GRmFlWjhVUWtBWGxxYw?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-19",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "Grand Theft Auto VI is now available for PlayStation 5 and XBOX Series X|S. https://t.co/8QXtlg7RmP - X",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjYU53Wm9qVUZUVmpoTjNXRG5uaGtWRlRfQkNsWU90ckZIeWw3anlwcVphNFhjclBkU2JQUkp5RHliYWJiZ2ZPZXRoWk5GdkJhckQ3UHp3V3Y2ZWk0NkJZMG91SXQ?oc=5",
-      "publisher": "X",
-      "published": "2026-11-19",
-      "discovery": "Rockstar social"
+      "discovery": "Rockstar official"
     },
     {
       "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - The Hollywood Reporter India",
@@ -266,34 +303,6 @@
       "publisher": "cwibc.co.id",
       "published": "2026-11-19",
       "discovery": "Jason and Lucia"
-    },
-    {
-      "title": "SET TIMES FOR GRAND THEFT AUTO VI: THE FESTIVAL Doors open at 4:00 p.m. and The Store at Mana Wynwood will be stocked with special GTAVI gear: https://t.co/XRlfYFOk0H As a thank you to Miami, all proceeds from ticket sal",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TTEdabVBWQmt5cjF0VEIwVllQTXhodzlXQUM5cVhqUm9DTFVyWFU3MGszM25JTW4zMlZ6N0JNRkJOVDkzRUFBcjRtU1VlTkFVN3owY0ZFajFEM3UxUHJha3BaR2o?oc=5",
-      "publisher": "X",
-      "published": "2026-11-18",
-      "discovery": "Rockstar social"
-    },
-    {
-      "title": "Congratulations to Rockstar Games on the incredible reviews for Grand Theft Auto VI from media around the world. Reviewers have spent the past three weeks playing the game for their reviews and consideration for nominati",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLNnVCU2lVTVNyNnB3dS1KZmVfNFNmT1lZLTUtbDBqaktTZF96V2pORU9sMkxxQU9taVV6Sm9NVEE3REw2Y3dSSVpKdTNLaVdtT3FOanFXZktjU0pOTmJ5b2Nvc0E?oc=5",
-      "publisher": "X",
-      "published": "2026-11-18",
-      "discovery": "Rockstar social"
-    },
-    {
-      "title": "GTA 6 game reviews are in: Is it worth the wait? - Esports.gg",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4MGtEekoxNmxYZ3FGZXJZUlNqb3ZHemE0VThkREdEY0lmelFLeFhOY05KZ0hRLXF5R1dubHNQYmx0ZHo2Unc0YXhidE1rLUZ0blBRZ2o5bmo1QzJKRGVJSENZVktwT05VWktxVzkwYzJEdW1uLXI5aTJITQ?oc=5",
-      "publisher": "Esports.gg",
-      "published": "2026-11-18",
-      "discovery": "Gaming reports"
-    },
-    {
-      "title": "GTA 6 Review Roundup – Grand Theft Auto VI Is Now The Highest Rated Game Of All Time - VICE",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBTdm0tWGYyUDNaTm9fYXp6QjNGN2s4UmhtMTBXZ0RROU13T2IydkZpWjYxb2lsREE1Yk91cWxjRDUxaG1xR09oQjMzRDlWUkZfZkxLcjF4S0lGdDlQSlNZTi1iaw?oc=5",
-      "publisher": "VICE",
-      "published": "2026-11-18",
-      "discovery": "Gaming reports"
     }
   ],
   "notice": "Free automatic headline monitoring, not AI fact-checking. Summaries repeat source headlines; read original articles before treating a claim as confirmed."
