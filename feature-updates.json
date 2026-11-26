@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-26T13:40:44+00:00",
+  "updated": "2026-11-26T19:22:07+00:00",
   "mode": "source-monitoring",
   "updates": [
+    {
+      "topic": "story",
+      "title": "GTA VI and relationship dynamics: the Jason and Lucia debate - nss g-club",
+      "summary": "Headline reported by nss g-club: GTA VI and relationship dynamics: the Jason and Lucia debate - nss g-club",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOFgyVVRVZEpjNGxNU0FvYXQtN0lNd1RTZnY5Q05HR0VMaEpORUZtcEo1VF9DRlA2TXcycUFmRzRCQWxCcU13YWprdGdES1pWekNZc0dValFtaFJVYlA5VTJGdlZtSzVTWTkwcUgxM2dtbnpla2hGUFMtRmN0RnB5LTFKaEtCVTc0eHAyWkxEY3hmZldzak9zS2pDYzB4LTg?oc=5",
+      "source_title": "nss g-club: GTA VI and relationship dynamics: the Jason and Lucia debate - nss g-club",
+      "published": "2026-11-26"
+    },
     {
       "topic": "world",
       "title": "‼️ Take-Two had GitHub take down an unofficial PC port of Grand Theft Auto VI and every fo",
@@ -46,15 +55,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4MGtEekoxNmxYZ3FGZXJZUlNqb3ZHemE0VThkREdEY0lmelFLeFhOY05KZ0hRLXF5R1dubHNQYmx0ZHo2Unc0YXhidE1rLUZ0blBRZ2o5bmo1QzJKRGVJSENZVktwT05VWktxVzkwYzJEdW1uLXI5aTJITQ?oc=5",
       "source_title": "Esports.gg: GTA 6 game reviews are in: Is it worth the wait? - Esports.gg",
       "published": "2026-11-18"
-    },
-    {
-      "topic": "world",
-      "title": "Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at th",
-      "summary": "Headline reported by X: Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a ",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XSTFNMzJIWGdUUTF2SUdYOGZjOFNSVklNOTdvamhIT3JIc1ZBRGJGNWNESlp1R1BfSHYwRFY2cUNaOHVGOXI4SVJJOW9CRm90Y2VDQmF1SjlzZGlTelZRLW5lRkp6Zw?oc=5",
-      "source_title": "X: Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a fictional world inspired ",
-      "published": "2026-11-16"
     }
   ],
   "sources": [
@@ -66,6 +66,13 @@
       "discovery": "Gaming reports"
     },
     {
+      "title": "GTA VI and relationship dynamics: the Jason and Lucia debate - nss g-club",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOFgyVVRVZEpjNGxNU0FvYXQtN0lNd1RTZnY5Q05HR0VMaEpORUZtcEo1VF9DRlA2TXcycUFmRzRCQWxCcU13YWprdGdES1pWekNZc0dValFtaFJVYlA5VTJGdlZtSzVTWTkwcUgxM2dtbnpla2hGUFMtRmN0RnB5LTFKaEtCVTc0eHAyWkxEY3hmZldzak9zS2pDYzB4LTg?oc=5",
+      "publisher": "nss g-club",
+      "published": "2026-11-26",
+      "discovery": "Jason and Lucia"
+    },
+    {
       "title": "Rockstar Goes DEFCON 1, Shuts Down GTA 6 PC Ports as Playable Builds Are Out... - YouTube",
       "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Dd1Y2V3NBWXA2NmZ4MG4tdTNtaHA2V0FzN2t1S0hMS1pWWnlNTmdyTTlkazdGcFhVLWw0bmhHTWMzR3RiSmVoUk1rSlB6ekJVd0prQ1N3?oc=5",
       "publisher": "YouTube",
@@ -73,8 +80,8 @@
       "discovery": "Rockstar YouTube"
     },
     {
-      "title": "GTA 6 MASS Refunds... Rockstar is Panicking - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1XekV3SzY3U2IteHlwclB6Xzl3Y2JZOXFBMWpGS2ZyZUFrR1VJb1JiSnljeG9INTZGb09QLXJZQUg1YkJHeVB3R080QnI0cTQtT3VabTR3?oc=5",
+      "title": "GTA 6 Walkthrough Gameplay Part 8 - VICKI (GRAND THEFT AUTO 6) - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9nOFpMSi1YQUNWQ2JjS0NaTTZzSlNRTVFTN2cyTVhobjlBamtRYW9lWkw0eXFOM0ZuTTRfa3dVRkhaRHI1VXFpY0hrNXkxVnRhOWFMN2lB?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-25",
       "discovery": "Rockstar YouTube"
@@ -94,6 +101,13 @@
       "discovery": "Rockstar social"
     },
     {
+      "title": "According to the Publisher License Agreement that Take-Two signed with Xbox in 2026, there is a parity clause. It states that, for hardware feature updates that are available on competing platform versions of a game, the",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0ZTFjVEdmQmFVbk0zOU9OYWJKY1diUlNNZ014OFdxTnVoWG1Tak00RzI5R29OR3JHc21GckhEaC1ZREZFbW41cFNWMHVBaXpFeE1UdDFCX1QySXNheXo3ZGtwMkQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-25",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "‼️ Take-Two had GitHub take down an unofficial PC port of Grand Theft Auto VI and every fork of it, 3,007 repositories in one sweep. The project, Leonida, called itself a native PC recompilation of the Xbox version of th",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QOV93MGM2TXBOX21ZRTEya0FkcWV3UGMtTXMzdnhBbTAteXB3NnBsZFZUTmtwRklTclNIUnBxMllYY3FTZ2hKanNoaEJsMl9PYVp6TVQxNVFWRE43dXpzVFZfZjdLUQ?oc=5",
       "publisher": "X",
@@ -101,8 +115,8 @@
       "discovery": "Rockstar social"
     },
     {
-      "title": "Grand Theft Auto 6 - The Big Console Comparison - PS5/PS5 Pro/Xbox Series X|S - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9yY3FxR3ZCUjY0NHNZclE5M1lKeGtzSjZ4NVNuN1hpOGF6MDVJdmFXV0lrMXFFSjZSMHloWFF1WEdVQTd1QVZRQnphNmd0TlI2aWN3U0ZR?oc=5",
+      "title": "GTA 6 News - The PC Port Is Playable… and Rockstar Is Coming! - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pVlFvc09pY2NnTFcxc0xJU1ljbWpzVEpyWVlhQzExZy10djlDZ0p4THBaVmFGdWx2WVVHaU1McmpzTVQzOHNYTlNCeUZwRFVldmxqN1lR?oc=5",
       "publisher": "YouTube",
       "published": "2026-11-24",
       "discovery": "Rockstar YouTube"
@@ -178,6 +192,13 @@
       "discovery": "Rockstar official"
     },
     {
+      "title": "Grand Theft Auto VI is now available for PlayStation 5 and XBOX Series X|S. https://t.co/8QXtlg7RmP - X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBjYU53Wm9qVUZUVmpoTjNXRG5uaGtWRlRfQkNsWU90ckZIeWw3anlwcVphNFhjclBkU2JQUkp5RHliYWJiZ2ZPZXRoWk5GdkJhckQ3UHp3V3Y2ZWk0NkJZMG91SXQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-19",
+      "discovery": "Rockstar social"
+    },
+    {
       "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - The Hollywood Reporter India",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVWxUakNIUjNtM2dfZ29MNjUxa3FfUm5nSXQyLVRsYzhsV05uMU44Y3ZhMzdneEZvQTZvLWx4U2hNdTFVRm1NcUdUTUNidjYwRmpHaVo3YnJEbnhwSXQ0RFlYa1VreXBtT2hVMWE2SW0yX2l0QlVzTTI2Ql83TnhIYzgydXVXYlQwZGhxMklBMWdoc3U1Q05Pdi1RN1dMS1YxLUZoQUlIQXhvaXItYnpNdWdPT3ltbFlvX1lLcUxKZXk2Tm9xRlljdlFQcGhzV2pJSzNmY296M2d6alnSAegBQVVfeXFMTUU2VGNCX0NVZmQ4b2QxdE1WcE5oRzQzcjZ4dXRFSEJob1dRWFItVTlHS3RneXdXcER3a2VoMWNwMzliOXI0V3RLbGZBdmFHdnJHS0hlMWtfdXNZMWNIOTRaWFZ0Mm9NYlNuNXRqbjVUNjBZOEJjV0t6blFnVGRMQWNtd3J5LUdDTk1iSUtEM2JRdjluNjNqeFJZTHNYd2JvZ2JLWVpCdW1fTFltNFBURnE0bjNtZWt2VFZic1FCNVhMVlkzaHNtU0dBUC14UnBlY21xcFRGOFJsVnFQeDA2cUdSa0tYMWd1Sg?oc=5",
       "publisher": "The Hollywood Reporter India",
@@ -188,13 +209,6 @@
       "title": "GTA 6 debuts at 99 on Metacritic, tying Ocarina of Time’s all-time record - GamesHub",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDluQ2FoX1ZoMFhZWi1RT0JaVnR0eUstMDZSRVIwRGF4WEFqWGNocEhlNFFzWU1PMFBQMmJwS0NPbjBNUkNUY1lGbDcwSC1jVUN2Vy1paTRsMVBHQ2RqQ2ppUU4xQU1TUFpDVmVQNWdsUW9aTl8yblJ6cEZPd25XRVE0OUctcF81VnNaZ2FhRVN1bU0?oc=5",
       "publisher": "GamesHub",
-      "published": "2026-11-19",
-      "discovery": "Gaming reports"
-    },
-    {
-      "title": "The 13-year wait is over! GTA 6 achieved a record score on its first day. - Haberler.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSy1HamZRaFIteXByUnZGaTdPR0xNSmVZS3BoX0QwZUNUQS1TQUhYdUUtamlENVJSWjlSdUh6em1DLUpmUEdoajVjT2UtNjU1Rm0zbmZJei14ODFkNjI0WnBJWks3RUpyM2Y1ekV3MFZFSFk3ZlNobVR1akI2emZhWVhuWERWUFVx?oc=5",
-      "publisher": "Haberler.com",
       "published": "2026-11-19",
       "discovery": "Gaming reports"
     },
@@ -213,25 +227,11 @@
       "discovery": "Jason and Lucia"
     },
     {
-      "title": "In GTA 6, the Ultimate Male Fantasy Is Being a Good Boyfriend - Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1BjcFNZNFRXUW1nNDlZaTMxaVJoa2RNQjZiTE96b0pBOWMtMFNCSlptUkx0MjMzeV84WUU2WVZTSjAtR2pNM0lxSjJ4X1lSM3IwLVc4R0JrS2p0SVVPWlp6TGltLXRsaGw2ZW96bm55Z1Y1RTVMLTJhM2pmOGs0dU1YVlRreUJIVVc2UmE5dTZiLURjM3c5eXdR?oc=5",
-      "publisher": "Newsweek",
-      "published": "2026-11-19",
-      "discovery": "Jason and Lucia"
-    },
-    {
       "title": "Grand Theft Auto VI Error Troubleshooting - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbEtja01IMlNaR2w4RFZKemFrOEpWY2RaSkJ2RjlIcjliV3hCSGYzUXFNVC1ESWV0TkE1QWZjcjVEZ3FTeERKRTEwOWlxcVdsWXozTnIzSElldXFHVnluUDlDSUNBdnRSN2tKR2wxZDRoaDYxTmpxZDloT01wbjN6YVpCVWJtYVlhb0ZDODczVjBLUE9jMGEwWVBFQmhqNHRtQ0dfT1Z0Wktkd0k?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-18",
       "discovery": "Rockstar official"
-    },
-    {
-      "title": "SET TIMES FOR GRAND THEFT AUTO VI: THE FESTIVAL Doors open at 4:00 p.m. and The Store at Mana Wynwood will be stocked with special GTAVI gear: https://t.co/XRlfYFOk0H As a thank you to Miami, all proceeds from ticket sal",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TTEdabVBWQmt5cjF0VEIwVllQTXhodzlXQUM5cVhqUm9DTFVyWFU3MGszM25JTW4zMlZ6N0JNRkJOVDkzRUFBcjRtU1VlTkFVN3owY0ZFajFEM3UxUHJha3BaR2o?oc=5",
-      "publisher": "X",
-      "published": "2026-11-18",
-      "discovery": "Rockstar social"
     },
     {
       "title": "GTA 6 game reviews are in: Is it worth the wait? - Esports.gg",
@@ -255,18 +255,18 @@
       "discovery": "Gaming reports"
     },
     {
-      "title": "Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a fictional world inspired ",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XSTFNMzJIWGdUUTF2SUdYOGZjOFNSVklNOTdvamhIT3JIc1ZBRGJGNWNESlp1R1BfSHYwRFY2cUNaOHVGOXI4SVJJOW9CRm90Y2VDQmF1SjlzZGlTelZRLW5lRkp6Zw?oc=5",
-      "publisher": "X",
-      "published": "2026-11-16",
-      "discovery": "Rockstar social"
-    },
-    {
       "title": "Game Activation for Grand Theft Auto VI - Rockstar Games",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjNFd2piNWdwTTlQWC1DMmpwdmpqRzJ5ZHo1ZzBwX3RMb0pubHloRTJpWDBWdUh0TzFrbUNRSWQtNUtmQ0V2SmZ3T1AtRjNUbnkwQ3Z2eTRKV0VGekxsTl9VREpkOFVyUnBkc2ZDWWUteVN4Y0RRSG5mMW9qdEs0S1EzRlZoNWtPd1R1Wm1KanljWUVhcWpJQV83OEtiOV90bjVySVE0aFg?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-10",
       "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI: Out Now - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Jb2FGUDFuVS1zNVdJZlp6TkdHZGpDLVJPWFM0bE9ERnBIYkVfX1lraEZVZWJPYlQySElXVXJkSGwzZ0ZFaXp6UzZXbkdrRkdKeTBBOEpB?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-10",
+      "discovery": "Rockstar YouTube"
     }
   ],
   "notice": "Free automatic headline monitoring, not AI fact-checking. Summaries repeat source headlines; read original articles before treating a claim as confirmed."
