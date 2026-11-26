@@ -1,7 +1,16 @@
 {
-  "updated": "2026-11-25T19:14:57+00:00",
+  "updated": "2026-11-26T01:40:31+00:00",
   "mode": "source-monitoring",
   "updates": [
+    {
+      "topic": "world",
+      "title": "‼️ Take-Two had GitHub take down an unofficial PC port of Grand Theft Auto VI and every fo",
+      "summary": "Headline reported by X: ‼️ Take-Two had GitHub take down an unofficial PC port of Grand Theft Auto VI and every fork of it, 3,007 repositories in one sweep. The project, Leonida, called itself a native PC recompilation ",
+      "status": "reported",
+      "source_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QOV93MGM2TXBOX21ZRTEya0FkcWV3UGMtTXMzdnhBbTAteXB3NnBsZFZUTmtwRklTclNIUnBxMllYY3FTZ2hKanNoaEJsMl9PYVp6TVQxNVFWRE43dXpzVFZfZjdLUQ?oc=5",
+      "source_title": "X: ‼️ Take-Two had GitHub take down an unofficial PC port of Grand Theft Auto VI and every fork of it, 3,007 repositories in one sweep. The project, Leonida, called itself a native PC recompilation of the Xbox version of th",
+      "published": "2026-11-25"
+    },
     {
       "topic": "story",
       "title": "Players Are Roasting GTA 6's Romance. Here's Why Jason and Lucia's Love Story Won Me Over ",
@@ -10,42 +19,6 @@
       "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU2tQczRLWWR4Wng1empGeHBXQWZEWmx6c3JNOGlDSVVWOXRaMGFMLVNKcmEtWnBQMDlCZ3B3dUtvUmJhVVVsQmM4bE1WbEUwVW9lSVcwSUE4ZWh6bmtLRUlQdHBSRHBKMF95bmxoUm8wV01FUGluUXZ2ODhtMmxRYnlRRmp3T0JGTUl6dVZHY2tFbEhuMVB2T0lJa3pYb0drcmc?oc=5",
       "source_title": "PCMag: Players Are Roasting GTA 6's Romance. Here's Why Jason and Lucia's Love Story Won Me Over - PCMag",
       "published": "2026-11-23"
-    },
-    {
-      "topic": "story",
-      "title": "GTA 6 Day Release: which choices add relationship hearts and which do nothing - eGamers.io",
-      "summary": "Headline reported by eGamers.io: GTA 6 Day Release: which choices add relationship hearts and which do nothing - eGamers.io",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT3dPcWN4aGRCM0pMSE94M1lPS2J0V1ZESDA5Z2VaZXhCR0lRMFQ1M1hqNmVzTThFTmc5QUN5NzVkXzlZcHB6cG8zcVFTdzVUSWg1RWtFazI5a2FrRko0UjVjR05wMnhWZXVQNjBuYTRhM1ZLUy15ZGN4LVFEZmtEenZlcmhZOFZRUFd1ZnRZNjljbGlOaVh1NlVWS0c?oc=5",
-      "source_title": "eGamers.io: GTA 6 Day Release: which choices add relationship hearts and which do nothing - eGamers.io",
-      "published": "2026-11-21"
-    },
-    {
-      "topic": "story",
-      "title": "How to Have Sex in GTA 6 – Romance and Relationships Explained - PlayDayOne",
-      "summary": "Headline reported by PlayDayOne: How to Have Sex in GTA 6 – Romance and Relationships Explained - PlayDayOne",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPbmQ5SmVHZXRzVF9PaEhYLUR2SlBaVlBrNm1lWGVzWnJYQWlIdldRNVhwdUpyU0J0dEw4cVJDM0NfTXIteXd2YXp0WHRFVnAwajMwWXlXcDJRMnQ4NGpDOEEwVjdHQTlTeERUQWt6Rk1ldGt5RUE?oc=5",
-      "source_title": "PlayDayOne: How to Have Sex in GTA 6 – Romance and Relationships Explained - PlayDayOne",
-      "published": "2026-11-20"
-    },
-    {
-      "topic": "world",
-      "title": "GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
-      "summary": "Headline reported by IndulgExpress: GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamJWU2d4ckpIUnJ1M1pZTnpWWDRQTjhsdFA0NDYwQnNrd0NmekdtVVg3OTM0Vkp2UUZUQXg1WGpZSEdEUVpyejNSLVZiQ3V5VmkxU3NsOHdlQ1oyLUZ0VjFYUGxCT1NKTDFvR1pwZHV3b1AtZ3RYenVpV3EtMzVLaGNPMTk2elhLVkk2enZEWTQ2cGRFc3J0UkdsX2dSeUJTRkJmWkV0MndEOUtOZUpzZkwzUm9sWkZBcDBUUnhIV3E4bl850gHSAUFVX3lxTE5rWWt0YUtMT0h0eXcybmFtUTV3VXY0QldwSlJrZTVYc1JLSWs4UFZhUWw5ZU5GY0FpZFFzNU1CQmZ2MEdSTW1nVHFILWcyZUVlNVFKNmNGQTZtTlZuWE90VUc0eTZrWkRmdWNYQTM3QXNJYl8zdFdONmJBek9YbUpXMzBqTG5pMk8tQ3dHTVl0QkhsY2FJM0ZucDZHUE1QZ1BBblFZQ3daVUJyUEQzZGdzZ0lkbkFhOEV1UUc4QnJmVnVjWmhpZDdZQm1WWFpDanR3dw?oc=5",
-      "source_title": "IndulgExpress: GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
-      "published": "2026-11-20"
-    },
-    {
-      "topic": "story",
-      "title": "GTA 6 censors nudity for some gamers as Jason and Lucia steamy shower scene goes platinum ",
-      "summary": "Headline reported by GAMINGbible: GTA 6 censors nudity for some gamers as Jason and Lucia steamy shower scene goes platinum - GAMINGbible",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEJjbGhxWURkQjVkMGFkZnpkVGtFN0pQVGhzaDhfVkUwTmtBRDVPcjNnRGM3NGc0aEJkZktQakhZWWFmTUFFdjlwS3pxY3VLRk1tVkVSb1VDZ1psOHJjdjQzRGFaRnFnaGlGUXQ1VkIwamlKVXFhM2M5WkxVVG0yUGNZSGh2TDU4UVNYWHZaZkdka0pWTHc0RW5ad0MwblhEYmlv?oc=5",
-      "source_title": "GAMINGbible: GTA 6 censors nudity for some gamers as Jason and Lucia steamy shower scene goes platinum - GAMINGbible",
-      "published": "2026-11-19"
     },
     {
       "topic": "story",
@@ -67,24 +40,6 @@
     },
     {
       "topic": "world",
-      "title": "GTA 6 launches with 99 on Metacritic: it’s among the most acclaimed games of all time - Ko",
-      "summary": "Headline reported by KotaWorld: GTA 6 launches with 99 on Metacritic: it’s among the most acclaimed games of all time - KotaWorld",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbGdTMlQyOWpEODZwLWZiMnMxZFBpaDJ6Qm1YQ2RwWlhsejg0UzJINXdfQVJCNjl1aGt1anJXeFdqNGxWdldabWQ0ckc1R1JuSkYzWkkxU3BwczRFa0Zkbk80SGFiTGsxazJtN2dQdUJTSFZ5UjM4ZDJSd2Z0YUk5MzhOaldUY293eGs0aUxNN2NQWHlTTDZVWklVRVlkQnZmNE12cWE4bW9nYkw1UFJCQzB6cGxfVDJZRG04QzJtWk91Zw?oc=5",
-      "source_title": "KotaWorld: GTA 6 launches with 99 on Metacritic: it’s among the most acclaimed games of all time - KotaWorld",
-      "published": "2026-11-18"
-    },
-    {
-      "topic": "world",
-      "title": "Grand Theft Auto 6 review - the most believable and unbelievable video game world ever mad",
-      "summary": "Headline reported by Eurogamer.net: Grand Theft Auto 6 review - the most believable and unbelievable video game world ever made - Eurogamer.net",
-      "status": "reported",
-      "source_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85djhnTjZXcmo2NG11UVN5V1FTTUhBS3ZKMm9DLXJfbFgzdUpCTkQ5eHBkRVhXOFFITzZaSk1fUXFETHRpVFFJS2RHc18tR2VHUnpsZjJOOF9yLUYzSjFrTg?oc=5",
-      "source_title": "Eurogamer.net: Grand Theft Auto 6 review - the most believable and unbelievable video game world ever made - Eurogamer.net",
-      "published": "2026-11-18"
-    },
-    {
-      "topic": "world",
       "title": "Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at th",
       "summary": "Headline reported by X: Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a ",
       "status": "reported",
@@ -95,18 +50,46 @@
   ],
   "sources": [
     {
+      "title": "Rockstar Goes DEFCON 1, Shuts Down GTA 6 PC Ports as Playable Builds Are Out... - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1Dd1Y2V3NBWXA2NmZ4MG4tdTNtaHA2V0FzN2t1S0hMS1pWWnlNTmdyTTlkazdGcFhVLWw0bmhHTWMzR3RiSmVoUk1rSlB6ekJVd0prQ1N3?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-25",
+      "discovery": "Rockstar YouTube"
+    },
+    {
+      "title": "ROCKSTAR GAMES and STEAM have reportedly reached a revenue-split impasse over the upcoming 'GTA 6' PC release, with Take-Two demanding an exclusive 90/10 split or threatening to keep the PC version locked exclusively to ",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5kZ3R5QnNBQ0ZUSi0zaXFnTS1VaGJGQWF2UlB3LXZYQkRYT2V3Rm5DUUJHQUJXYlc2N0lISm04dUExdDNWSTUwTVd6WmlQWDRBZF9ZNmF1UGlpbFpkTE5UOGxDOA?oc=5",
+      "publisher": "X",
+      "published": "2026-11-25",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "‼️ Take-Two had GitHub take down an unofficial PC port of Grand Theft Auto VI and every fork of it, 3,007 repositories in one sweep. The project, Leonida, called itself a native PC recompilation of the Xbox version of th",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QOV93MGM2TXBOX21ZRTEya0FkcWV3UGMtTXMzdnhBbTAteXB3NnBsZFZUTmtwRklTclNIUnBxMllYY3FTZ2hKanNoaEJsMl9PYVp6TVQxNVFWRE43dXpzVFZfZjdLUQ?oc=5",
+      "publisher": "X",
+      "published": "2026-11-25",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Grand Theft Auto VI Accessibility Features - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc0l3anRyZGRGYUlTa016VXEyTGJyM3FjVXEyQWRIRlUyS0RQWFgtLWhPTHN4RWtET1BKWF8zaDR1blBVRFB2NWdLOWtEY1Mza1IzU1JXX2Qta1oxcVB3b0xMZlpOYzJFaGZnY3ZhaWY1NjN3YmFZSHNYSFktR0V2THRUdFpmbFlFZkVSdm0yR1NXeGxoQTBOUkdkajZQeEJGX3RoNWdtRFJTM09w?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-24",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "GTA6 Has Been Hacked And Rockstar is Panicking - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50dWJHVEZqTGN1Tl85c0Nscnl6UEg4M0dkaTd6eG8tWFUxa3M0eGktdnMxcUxMUnBOaGVlVkt6S0lHcFlEQ0lDSHZtR2VvQXEzam41d2p3?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-24",
+      "discovery": "Rockstar YouTube"
+    },
+    {
       "title": "Grand Theft Auto VI official trading cards, coming soon from @PaniniAmerica and @RockstarGames. - X",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9jV0w3V19ENmxXeHV1VGxuMGlVaEtObTZzVU5hWU5mQlVIbGlBU2hnUkZtRnVzcjdWaVlvVUxuc3R3bTJKR3NSTHVabmYxTzZWUzFwMFdYdnUxaHV2WDRRNUpCWDQ?oc=5",
       "publisher": "X",
       "published": "2026-11-24",
       "discovery": "Rockstar social"
-    },
-    {
-      "title": "GTA 6 Metacritic User Score: 5.6 vs 99 Critics - shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jYTViamQzR3VvNFhxTkxjekJGX1ZadTV2eERqREJVaTJLblEtcFpDeHRvNl9WcjJGNEVKODVZYXpOWHc2d3Y0QnliclFTV0I5d1R4eTg0QjdmaFVrbzN4dVpHWlI4Q2I0Y3ZmTWpLeno5VmJZUm1fTQ?oc=5",
-      "publisher": "shattered.io",
-      "published": "2026-11-24",
-      "discovery": "Gaming reports"
     },
     {
       "title": "Grand Theft Auto VI Launch Updates (PS5 / XBOX Series X|S) - Rockstar Games",
@@ -123,11 +106,11 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "A new update is now available for Grand Theft Auto VI on PS5 and XBOX Series X|S. https://t.co/9LtwqRptFz - X",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5VWk9PMUs4ZEJILUltSmNwQ2xLSzU2UURVYkVMRE5BTTVpX01WdjdQWUwxcmd2b0VhR3hMWEt1aUdkQWZOR2U2M3dKUXQ5b2NXYUhHZTkyaHJMUjZFaVhPQXhtWTFLOGc?oc=5",
-      "publisher": "X",
+      "title": "Everything You Should Know About GTA 6's Launch Update - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAtYnN2WmFnaGl1azNZMWxISmpQVHhwVS12dlY0Wjgtbi1tTG9pd2NnUUxVLU5UaVBXa192NkJLeWhPQXllc2hiQXFvamtQSEFoUlpnYURn?oc=5",
+      "publisher": "YouTube",
       "published": "2026-11-23",
-      "discovery": "Rockstar social"
+      "discovery": "Rockstar YouTube"
     },
     {
       "title": "Players Are Roasting GTA 6's Romance. Here's Why Jason and Lucia's Love Story Won Me Over - PCMag",
@@ -144,32 +127,11 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "GTA 6 Day Release: which choices add relationship hearts and which do nothing - eGamers.io",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT3dPcWN4aGRCM0pMSE94M1lPS2J0V1ZESDA5Z2VaZXhCR0lRMFQ1M1hqNmVzTThFTmc5QUN5NzVkXzlZcHB6cG8zcVFTdzVUSWg1RWtFazI5a2FrRko0UjVjR05wMnhWZXVQNjBuYTRhM1ZLUy15ZGN4LVFEZmtEenZlcmhZOFZRUFd1ZnRZNjljbGlOaVh1NlVWS0c?oc=5",
-      "publisher": "eGamers.io",
-      "published": "2026-11-21",
-      "discovery": "Jason and Lucia"
-    },
-    {
       "title": "Grand Theft Auto VI achieved $3.79 Billion in Day One Retail Sales. The biggest entertainment launch of all time. - X",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1BeGlKdWpMaXVlZXBjNXlrZEFYb2NmUFFvSy1VaEQ5bGtSeHhyMkM1QXZ2NnRIalo1Qzhmdmd2M0RZdG00Nm8ya1BTSm9wam1RemxJQ29kVjF0X2oyLVd5OENxTlA?oc=5",
       "publisher": "X",
       "published": "2026-11-20",
       "discovery": "Rockstar social"
-    },
-    {
-      "title": "How to Have Sex in GTA 6 – Romance and Relationships Explained - PlayDayOne",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPbmQ5SmVHZXRzVF9PaEhYLUR2SlBaVlBrNm1lWGVzWnJYQWlIdldRNVhwdUpyU0J0dEw4cVJDM0NfTXIteXd2YXp0WHRFVnAwajMwWXlXcDJRMnQ4NGpDOEEwVjdHQTlTeERUQWt6Rk1ldGt5RUE?oc=5",
-      "publisher": "PlayDayOne",
-      "published": "2026-11-20",
-      "discovery": "Jason and Lucia"
-    },
-    {
-      "title": "GTA VI: 5 reasons why fans are loving Rockstar’s new open-world game - IndulgExpress",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNamJWU2d4ckpIUnJ1M1pZTnpWWDRQTjhsdFA0NDYwQnNrd0NmekdtVVg3OTM0Vkp2UUZUQXg1WGpZSEdEUVpyejNSLVZiQ3V5VmkxU3NsOHdlQ1oyLUZ0VjFYUGxCT1NKTDFvR1pwZHV3b1AtZ3RYenVpV3EtMzVLaGNPMTk2elhLVkk2enZEWTQ2cGRFc3J0UkdsX2dSeUJTRkJmWkV0MndEOUtOZUpzZkwzUm9sWkZBcDBUUnhIV3E4bl850gHSAUFVX3lxTE5rWWt0YUtMT0h0eXcybmFtUTV3VXY0QldwSlJrZTVYc1JLSWs4UFZhUWw5ZU5GY0FpZFFzNU1CQmZ2MEdSTW1nVHFILWcyZUVlNVFKNmNGQTZtTlZuWE90VUc0eTZrWkRmdWNYQTM3QXNJYl8zdFdONmJBek9YbUpXMzBqTG5pMk8tQ3dHTVl0QkhsY2FJM0ZucDZHUE1QZ1BBblFZQ3daVUJyUEQzZGdzZ0lkbkFhOEV1UUc4QnJmVnVjWmhpZDdZQm1WWFpDanR3dw?oc=5",
-      "publisher": "IndulgExpress",
-      "published": "2026-11-20",
-      "discovery": "Jason and Lucia"
     },
     {
       "title": "Grand Theft Auto VI - Rockstar Games",
@@ -179,15 +141,15 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
+      "title": "Grand Theft Auto VI: Out Now - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
     },
     {
-      "title": "Grand Theft Auto VI: Out Now - Rockstar Games",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtaFUxS2pNTHhQbEVpS1BJdWUyR0NSaU1ZSDZURVFxWVVkYmVyQjJBclNXbzVXQlNMZ1VXdHh3aW5xMUF4RU8xenk0YkxWRkVwdnc?oc=5",
+      "title": "Grand Theft Auto VI Now Available - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
       "publisher": "Rockstar Games",
       "published": "2026-11-19",
       "discovery": "Rockstar official"
@@ -207,20 +169,6 @@
       "discovery": "Rockstar official"
     },
     {
-      "title": "GTA 6 (Grand Theft Auto 6) - Official Global Launch Trailer - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GMzdEMG9JZzFMVmtVSzJvRXVjQjFLVzRFUzlSbGN3OGRPOUktX3IxdmJJSHFibE44em9VbWthNWxzTGtMeGt6aVpDMHBTc1EyVUNPRzRn?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-19",
-      "discovery": "Rockstar YouTube"
-    },
-    {
-      "title": "Grand Theft Auto VI Now Available - YouTube",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tbHJlRjVETk10M0hneHdKUnNXQ2J4TUpOTUthdnpuWnVNMzEtcHgzaEV6SXRfLXRKOTlCOTVOdmUtOG92Rm5GRmFlWjhVUWtBWGxxYw?oc=5",
-      "publisher": "YouTube",
-      "published": "2026-11-19",
-      "discovery": "Rockstar YouTube"
-    },
-    {
       "title": "rat king 🐀 (@MikeIsaac) - X",
       "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBuLWROSnRMMDNRUWZYVTZYamZVYzBia2VfUHUwSmpFb01yOU9XZ0ZCYUtoVGxJMG5hclBr?oc=5",
       "publisher": "X",
@@ -228,16 +176,16 @@
       "discovery": "Rockstar social"
     },
     {
-      "title": "GTA 6 debuts at 99 on Metacritic, tying Ocarina of Time’s all-time record - GamesHub",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDluQ2FoX1ZoMFhZWi1RT0JaVnR0eUstMDZSRVIwRGF4WEFqWGNocEhlNFFzWU1PMFBQMmJwS0NPbjBNUkNUY1lGbDcwSC1jVUN2Vy1paTRsMVBHQ2RqQ2ppUU4xQU1TUFpDVmVQNWdsUW9aTl8yblJ6cEZPd25XRVE0OUctcF81VnNaZ2FhRVN1bU0?oc=5",
-      "publisher": "GamesHub",
+      "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - The Hollywood Reporter India",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVWxUakNIUjNtM2dfZ29MNjUxa3FfUm5nSXQyLVRsYzhsV05uMU44Y3ZhMzdneEZvQTZvLWx4U2hNdTFVRm1NcUdUTUNidjYwRmpHaVo3YnJEbnhwSXQ0RFlYa1VreXBtT2hVMWE2SW0yX2l0QlVzTTI2Ql83TnhIYzgydXVXYlQwZGhxMklBMWdoc3U1Q05Pdi1RN1dMS1YxLUZoQUlIQXhvaXItYnpNdWdPT3ltbFlvX1lLcUxKZXk2Tm9xRlljdlFQcGhzV2pJSzNmY296M2d6alnSAegBQVVfeXFMTUU2VGNCX0NVZmQ4b2QxdE1WcE5oRzQzcjZ4dXRFSEJob1dRWFItVTlHS3RneXdXcER3a2VoMWNwMzliOXI0V3RLbGZBdmFHdnJHS0hlMWtfdXNZMWNIOTRaWFZ0Mm9NYlNuNXRqbjVUNjBZOEJjV0t6blFnVGRMQWNtd3J5LUdDTk1iSUtEM2JRdjluNjNqeFJZTHNYd2JvZ2JLWVpCdW1fTFltNFBURnE0bjNtZWt2VFZic1FCNVhMVlkzaHNtU0dBUC14UnBlY21xcFRGOFJsVnFQeDA2cUdSa0tYMWd1Sg?oc=5",
+      "publisher": "The Hollywood Reporter India",
       "published": "2026-11-19",
       "discovery": "Gaming reports"
     },
     {
-      "title": "'Grand Theft Auto 6' Receives Near-Universal Acclaim From Critics, Scores 99 on Metacritic - The Hollywood Reporter India",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVWxUakNIUjNtM2dfZ29MNjUxa3FfUm5nSXQyLVRsYzhsV05uMU44Y3ZhMzdneEZvQTZvLWx4U2hNdTFVRm1NcUdUTUNidjYwRmpHaVo3YnJEbnhwSXQ0RFlYa1VreXBtT2hVMWE2SW0yX2l0QlVzTTI2Ql83TnhIYzgydXVXYlQwZGhxMklBMWdoc3U1Q05Pdi1RN1dMS1YxLUZoQUlIQXhvaXItYnpNdWdPT3ltbFlvX1lLcUxKZXk2Tm9xRlljdlFQcGhzV2pJSzNmY296M2d6alnSAegBQVVfeXFMTUU2VGNCX0NVZmQ4b2QxdE1WcE5oRzQzcjZ4dXRFSEJob1dRWFItVTlHS3RneXdXcER3a2VoMWNwMzliOXI0V3RLbGZBdmFHdnJHS0hlMWtfdXNZMWNIOTRaWFZ0Mm9NYlNuNXRqbjVUNjBZOEJjV0t6blFnVGRMQWNtd3J5LUdDTk1iSUtEM2JRdjluNjNqeFJZTHNYd2JvZ2JLWVpCdW1fTFltNFBURnE0bjNtZWt2VFZic1FCNVhMVlkzaHNtU0dBUC14UnBlY21xcFRGOFJsVnFQeDA2cUdSa0tYMWd1Sg?oc=5",
-      "publisher": "The Hollywood Reporter India",
+      "title": "GTA 6 debuts at 99 on Metacritic, tying Ocarina of Time’s all-time record - GamesHub",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDluQ2FoX1ZoMFhZWi1RT0JaVnR0eUstMDZSRVIwRGF4WEFqWGNocEhlNFFzWU1PMFBQMmJwS0NPbjBNUkNUY1lGbDcwSC1jVUN2Vy1paTRsMVBHQ2RqQ2ppUU4xQU1TUFpDVmVQNWdsUW9aTl8yblJ6cEZPd25XRVE0OUctcF81VnNaZ2FhRVN1bU0?oc=5",
+      "publisher": "GamesHub",
       "published": "2026-11-19",
       "discovery": "Gaming reports"
     },
@@ -249,23 +197,16 @@
       "discovery": "Gaming reports"
     },
     {
-      "title": "'GTA 6' Is Triggering Men Who Are Learning How To Have A Girlfriend - Polygon.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdEN0R2RNU21qV2liQ0lZQkwyRUhQTXVDQmk1emtiblY3NWtCQktGcUJCaGpnanBJYm1yZHRIUmtzWUF5eWNmNUoweDBoLTJodC1maWFxY080ckVGY1JZanRCeVJ5bTFpXy11ZTBXbE5zZVRsXzZQclQ4U1hYRFRteFFDQjJLYU0?oc=5",
-      "publisher": "Polygon.com",
+      "title": "GTA VI: 5 Things Players Love and 5 Complaints They Have With Rockstar's Biggest Game Yet - Smartprix",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbVVRTXBaNDgzYkQzeUsydHh0SXhjcTZiQXNmbmV1TENpNmxHVjZiUmhFU241ZmVwcTJoNTVrbnlRdlhuM1BkX2hpYTkxVGRqN1NpenNDS2tURzFnMkNWSURURWlOaXQxYmtQcUhFTWRONm9BbEQ2bWRydTBkQjB0SmhHU09DRUpJZjFiYlJ4ajhHMzZHaDR4ZGpjWWhJM0lZcU9FeXZMN1g1TngyWDlrNkRRaExBdE92VE9IMQ?oc=5",
+      "publisher": "Smartprix",
       "published": "2026-11-19",
-      "discovery": "Jason and Lucia"
+      "discovery": "Gaming reports"
     },
     {
       "title": "In GTA 6, the Ultimate Male Fantasy Is Being a Good Boyfriend - Newsweek",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1BjcFNZNFRXUW1nNDlZaTMxaVJoa2RNQjZiTE96b0pBOWMtMFNCSlptUkx0MjMzeV84WUU2WVZTSjAtR2pNM0lxSjJ4X1lSM3IwLVc4R0JrS2p0SVVPWlp6TGltLXRsaGw2ZW96bm55Z1Y1RTVMLTJhM2pmOGs0dU1YVlRreUJIVVc2UmE5dTZiLURjM3c5eXdR?oc=5",
       "publisher": "Newsweek",
-      "published": "2026-11-19",
-      "discovery": "Jason and Lucia"
-    },
-    {
-      "title": "GTA 6 censors nudity for some gamers as Jason and Lucia steamy shower scene goes platinum - GAMINGbible",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEJjbGhxWURkQjVkMGFkZnpkVGtFN0pQVGhzaDhfVkUwTmtBRDVPcjNnRGM3NGc0aEJkZktQakhZWWFmTUFFdjlwS3pxY3VLRk1tVkVSb1VDZ1psOHJjdjQzRGFaRnFnaGlGUXQ1VkIwamlKVXFhM2M5WkxVVG0yUGNZSGh2TDU4UVNYWHZaZkdka0pWTHc0RW5ad0MwblhEYmlv?oc=5",
-      "publisher": "GAMINGbible",
       "published": "2026-11-19",
       "discovery": "Jason and Lucia"
     },
@@ -291,18 +232,32 @@
       "discovery": "Gaming reports"
     },
     {
-      "title": "'GTA 6' Sets Metacritic All-Time Record As First Reviews Finally Detail Rockstar's Masterpiece - MovieWeb",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Yb3FVNWN2N196NkxpN2ZXNDB0Xzl1MlJkS0EzRm5udmlZOEhkbU1UdTROeGh5NmUzZHRSejYyM3NaSWo2dGprM0EwZXVyOVMtdXpGRQ?oc=5",
-      "publisher": "MovieWeb",
-      "published": "2026-11-18",
-      "discovery": "Gaming reports"
-    },
-    {
       "title": "Ocarina of Time remake takes Switch 2’s sales-speed crown, Eurogamer reports - Digg",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9UY2NSMk84TjVjZHFoYzJOOVJ6NWdWOFREQU5HNHpRZm8zTDE1dTJhZUxCakswVTRSTGtNekpSQVpHcDlmWFo4?oc=5",
       "publisher": "Digg",
       "published": "2026-11-18",
       "discovery": "Gaming reports"
+    },
+    {
+      "title": "Nobody knows weather like we do. That’s why @rockstargames gave us an exclusive look at the forecast for Leonida and the dynamic weather in GTAVI. “Grand Theft Auto VI takes place in Leonida – a fictional world inspired ",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XSTFNMzJIWGdUUTF2SUdYOGZjOFNSVklNOTdvamhIT3JIc1ZBRGJGNWNESlp1R1BfSHYwRFY2cUNaOHVGOXI4SVJJOW9CRm90Y2VDQmF1SjlzZGlTelZRLW5lRkp6Zw?oc=5",
+      "publisher": "X",
+      "published": "2026-11-16",
+      "discovery": "Rockstar social"
+    },
+    {
+      "title": "Game Activation for Grand Theft Auto VI - Rockstar Games",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcjNFd2piNWdwTTlQWC1DMmpwdmpqRzJ5ZHo1ZzBwX3RMb0pubHloRTJpWDBWdUh0TzFrbUNRSWQtNUtmQ0V2SmZ3T1AtRjNUbnkwQ3Z2eTRKV0VGekxsTl9VREpkOFVyUnBkc2ZDWWUteVN4Y0RRSG5mMW9qdEs0S1EzRlZoNWtPd1R1Wm1KanljWUVhcWpJQV83OEtiOV90bjVySVE0aFg?oc=5",
+      "publisher": "Rockstar Games",
+      "published": "2026-11-10",
+      "discovery": "Rockstar official"
+    },
+    {
+      "title": "Grand Theft Auto VI: Out Now - YouTube",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9Jb2FGUDFuVS1zNVdJZlp6TkdHZGpDLVJPWFM0bE9ERnBIYkVfX1lraEZVZWJPYlQySElXVXJkSGwzZ0ZFaXp6UzZXbkdrRkdKeTBBOEpB?oc=5",
+      "publisher": "YouTube",
+      "published": "2026-11-10",
+      "discovery": "Rockstar YouTube"
     }
   ],
   "notice": "Free automatic headline monitoring, not AI fact-checking. Summaries repeat source headlines; read original articles before treating a claim as confirmed."
